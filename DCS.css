@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/*
+
+    Two color scheme
+        GR orange:  rgb(255, 102, 0)
+        light blue: rgb(192, 242, 255);
+        Navy:       rgb(0, 0, 128)
+        gray98:     rgb(250, 250, 250);
+        gray90      rgb(229, 229, 229);
+
+*/
+
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+
+/* HTML tags */
+
+body {
+  font-family: Trebuchet, Verdana, Arial, sans-serif;
+  font-size: 12pt;
+}
+
+h1 {
+font-size: 28pt;
+margin: 10px 50px 0px 380px;
+}
+
+h2 {
+  font-size: 24pt !important;
+  margin: 10px 50px 0px 300px;
+}
+
+h3 {
+font-size: 20pt;
+margin: 10px 50px 0px 300px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.space {
+  width: 24%;
+  float: left;
+}
+
+.menu {
+  width: 12%;
+  float: left;
+}
+
+.page-content {
+  width: 40%;
+  float: left;
+}
+
+.spons {
+  width: 24%;
+  float: left;
+}
+
+.u_cent {
+text-align: center;
+margin: 0px;
+}
+
+/* This clear class terminates float */
+.clear { 
+clear: both; 
+}
+
+/* ----------- Styles for the conference header ----------- */
+
+/*
+The wrapper of the whole conference page.
+*/
+.conf {
+  width: 90%;
+  border: none;
+  margin: auto;
+}
+
+/*
+Wraps around the upper part of the conference header.
+*/
+.confTitleBox {
+  color: white;
+  min-height: 90px;
+  border-top: 3px solid #234173;    /* dark blue */
+  border-bottom: 1px solid #0f4c80; /* dark blue */
+  background: #ff6600;  /* orange */
+}
+
+/*
+Sets the width of the upper part of the conference header.
+Is set to 950px and centered by default.
+*/
+.confTitle {
+  width: 950px;
+  margin-left: 200px;
+  background: #ff6600;  /* orange */
+}
+
+/*
+The box containing the logo. By the default the logo is placed
+on the left of the conference title.
+*/
+.confLogoBox {
+  float: left;
+  margin-left: 230px;
+  padding-right: 10px;
+}
+
+.confLogo {
+  width: 130px !important;
+  height: 50px !important;
+}
+
+/*
+The style for the title text.
+*/
+.conference-title-link {
+  font-size: 32pt;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+/*
+Wrapper around the bottom part of the conference header
+*/
+.confSubTitleBox {
+  background: rgb(192, 242, 255);
+  border-bottom: 1px solid #d5e4f1;
+  border-top: 1px solid #d5e4f1;
+  padding-top: 10px;
+  padding-left: 200px;
+}
+
+/*
+The content of the lower part of the header.
+*/
+.confSubTitleContent {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16pt;
+  color: black;
+  text-align: center;
+}
+
+/* ----------- Styles for the main content ----------- */
+
+/*
+The wrapper around the menu and the page content.
+By default centered with a fix width.
+*/
+#confSectionsBox {
+  width: 950px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* ----------- Styles for the menu ----------- */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Styles for all menu Items */
+
+/*
+Wrapper around the menu
+*/
+.conf_leftMenu {
+  float: left;
+  width: 200px;
+}
+
+/*
+Styles for the menu box
+*/
+#outer {
+  border: 1px solid #ccc;
+  background: #f6f6f6;
+}
+
+/*
+The menu item
+*/
+#outer li a {
+  font-family: verdana, arial, sans-serif;
+  font-size: 12pt;
+}
+
+/*
+The menu item when doing mouseover
+*/
+#outer li a:hover {
+  background: #e0e0e0;
+}
+
+/*
+A non selected menu item
+*/
+.menuConfTitle {
+  text-align: left;
+}
+
+.menuConfTitle a {
+  color: #275c86;
+  padding: 7px 12px;
+}
+
+/*
+A selected menu item
+*/
+
+.menuConfTitle.selected > a,
+.menuConfMiddleCell.selected > a {
+  color: #bd891a;
+  background: #dadada;
+  border-bottom: 1px solid #d0d0d0;
+  border-top: 1px solid #d0d0d0;
+}
+
+/*
+sub menu item
+*/
+li ul.inner li a {
+  padding: 3px 12px 3px 30px;
+  background: transparent url(/images/conf/left_menu_bullet.png) scroll no-repeat 15px center;
+}
+
+/*
+Support box
+*/
+
+.support_box {
+  background: #f6f6f6;
+  border: 1px solid #ccc;
+}
+
+.support_box > h3 {
+  color: white;
+  padding: 3px 5px 3px 5px;
+  background: navy;
+}
+
+/* ----------- Styles for the page content ----------- */
+
+/*
+Wrapper around the content
+*/
+.confBodyBox {
+  margin-left: 230px;
+}
+
