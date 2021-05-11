@@ -159,12 +159,13 @@ var ftr = document.createElement("BR");
 sa[0].appendChild(ftr);
 
 var ftr1 = document.createElement("DIV");
-ftr1.innerHTML = '<img src="https://events.gnuradio.org/images/indico_small.png" style="width:100px;height:40px;">';
-
-var ftr2 = document.createElement("SPAN");
-ftr2.innerHTML = "Powered by Indico v2.3.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Need help with GRCon? <a href=\"mailto:grcon@gnuradio.org\">Contact organisers</a> | Need help with this page? <a href=\"mailto:indico@sysmail.gnuradio.org\">Contact webmaster</a>";
-ftr1.appendChild(ftr2);
+ftr1.setAttribute("class", "u_cent");
+ftr1.innerHTML = "Need help with GRCon? <a href=\"mailto:grcon@gnuradio.org\">Contact organisers</a> | Need help with this page? <a href=\"mailto:indico@sysmail.gnuradio.org\">Contact webmaster</a>";
 sa[0].appendChild(ftr1);
+
+var ftr2 = document.createElement("DIV");
+ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v2.3.4";
+sa[0].appendChild(ftr2);
 
 var ftr = document.createElement("BR");
 sa[0].appendChild(ftr);

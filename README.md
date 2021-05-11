@@ -1,4 +1,4 @@
-# JavaScript to modify HTML pages
+# Using JavaScript to modify HTML pages
 
 This repo shows methods to modify HTML pages dynamically using JavaScript.
 
@@ -20,12 +20,30 @@ sudo apt install git
 git clone https://github.com/duggabe/js-html.git
 ```
 
-## Operation
+## Testing
 
-1. Open a terminal window.
-2. Go to the js-html folder.  
-```
-cd ~/js-html
-```
+* Open your file manager and go to the `~/js-html folder.
 
-The JavaScript for the GRCon21 Indico website is in file `sponsors.js`.
+* Open `Test3.html` in your browser to see the footer format.
+
+* Open `Test4.html` in your browser to see the Sponsor page format.
+
+## References
+
+* [HTML JavaScript](https://www.w3schools.com/html/html_scripts.asp)
+* [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
+* [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
+
+## How it works
+
+The JavaScript for the GRCon21 Indico website is in file `sponsors.js`. It performs two main functions: (a) generate the footer for every GRCon21 webpage, and (b) generate the Sponsors page. The interface to the Indico software is done using a JavaScript inserted in the basic page template. That script links to the external script located in `https://www.gnuradio.org/indico/sponsors.js`.
+
+### Generate footer
+
+### Generate Sponsors page
+
+(more to follow)
+
+
+
+
