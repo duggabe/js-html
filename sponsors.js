@@ -154,7 +154,7 @@ else
         }
     }   // end Sponsors page content
 
-/* create last line of footer */
+/* create last lines of footer */
 var ftr = document.createElement("BR");
 sa[0].appendChild(ftr);
 
