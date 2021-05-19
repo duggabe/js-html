@@ -2,22 +2,6 @@
 
 "use strict"
 
-/*
-
-get footer pointer
-store <br>
-if (window.location.href != ("https://events.gnuradio.org/event/8/page/5-sponsors"))
-    {
-    build sponsor section of footer
-    }
-else
-    {
-    build Sponsors page content
-    }
-build last line of footer
-
-*/
-
 var myObj, i, j;
 myObj = {
   "levels": [
@@ -53,14 +37,24 @@ myObj = {
   ]
 }
 
-var sa = document.getElementsByClassName("footer ");    // footer section
-sa[0].innerHTML = "<br>";   // wipe out footer
+document.body.onload = function() {myFunction()};
 
-var c_loc = window.location.href;
-if (c_loc != ("file:///home/barry/js-html/Test4.html"))      // **TEST** https://events.gnuradio.org/event/8/page/5-sponsors
+function myFunction() {
+
+var w_loc = window.location.href;
+var pos1 = w_loc.search("event/8");      // GRCon21
+var pos2 = w_loc.search("Test");         // for testing
+if ((pos1 > 0) || (pos2 > 0))
+  {             // found event/8 or Test
+  var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
+  sa[0].innerHTML = "<br>";   // wipe out footer
+  var c_loc = window.location.href;
+  var pos3 = c_loc.search("Test4");      // for testing the Sponsors page
+  if ((c_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
+      (pos3 < 0))
     {
     // build sponsor section of footer
-    sa[0].innerHTML = '<br><hr><h3 class="u_cent">Our Sponsors</h3><br>';
+    sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
     /* create table */
     var tbl = document.createElement("TABLE");
     tbl.setAttribute("class", "u_table");
@@ -107,7 +101,7 @@ if (c_loc != ("file:///home/barry/js-html/Test4.html"))      // **TEST** https:/
     /* attach table to content */
     sa[0].appendChild(tbl);
     }   // end sponsor section of footer
-else
+  else
     {
     // build Sponsors page content
     var i, j;
@@ -147,30 +141,21 @@ else
                 tbl.appendChild(t_tr);
                 /* attach table to content */
                 pc[0].appendChild(tbl);
-                var _br = document.createElement("BR");
-                pc[0].appendChild(_br);
                 }
             }
         }
     }   // end Sponsors page content
 
-/* create last lines of footer */
-var ftr = document.createElement("BR");
-sa[0].appendChild(ftr);
+  /* create last two lines of footer */
+  var ftr1 = document.createElement("DIV");
+  ftr1.setAttribute("class", "u_cent");
+  ftr1.innerHTML = "Need help with GRCon? <a href=\"mailto:grcon@gnuradio.org\">Contact organisers</a> | Need help with this page? <a href=\"mailto:indico@sysmail.gnuradio.org\">Contact webmaster</a>";
+  sa[0].appendChild(ftr1);
 
-var ftr1 = document.createElement("DIV");
-ftr1.setAttribute("class", "u_cent");
-ftr1.innerHTML = "Need help with GRCon? <a href=\"mailto:grcon@gnuradio.org\">Contact organisers</a> | Need help with this page? <a href=\"mailto:indico@sysmail.gnuradio.org\">Contact webmaster</a>";
-sa[0].appendChild(ftr1);
+  var ftr2 = document.createElement("DIV");
+  ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v2.3.4";
+  sa[0].appendChild(ftr2);
 
-var ftr2 = document.createElement("DIV");
-ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v2.3.4";
-sa[0].appendChild(ftr2);
-
-var ftr = document.createElement("BR");
-sa[0].appendChild(ftr);
-
-
-
-
+  }     // end found event/8
+}   // end myFunction()
 
