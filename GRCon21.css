@@ -57,7 +57,7 @@ The box containing the logo. By the default the logo is placed
 on the left of the conference title.
 */
 .confLogo {
-  width: 130px !important;
+  width: 50px !important;
   height: 50px !important;
 }
 
