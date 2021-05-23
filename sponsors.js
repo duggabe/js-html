@@ -1,5 +1,7 @@
 /* sponsors.js */
 
+/* 22 May 2021 - add timezone offset from UTC */
+
 "use strict"
 
 var myObj, i, j;
@@ -156,6 +158,10 @@ if ((pos1 > 0) || (pos2 > 0))
   ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v2.3.4";
   sa[0].appendChild(ftr2);
 
+  /* add timezone offset */
+  var tz = document.getElementsByClassName("timezone");
+  var t1 = document.createTextNode(" (UTC - 4)");
+  tz[0].appendChild(t1);
   }     // end found event/8
 }   // end myFunction()
 
