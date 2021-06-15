@@ -16,11 +16,21 @@ myObj = {
         /* Analog Devices */
         {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/Analog_Devices_Logo.svg",
         "url": "https://www.analog.com/",
-        "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."}
+        "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."},
+
+        /* OpenCPI */
+        {"icon": "https://images.squarespace-cdn.com/content/58d922bf86e6c087a9448c36/1490626085183-9ZDMXM17L560YQYLX592/opencpi_web_small.png",
+        "url": "https://www.opencpi.org/",
+        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), GPUs (graphics processing units) assembled into mixed systems."}
 
         ]},
 
     {"name":"GOLD", "entries":[
+
+        /* Peraton Labs */
+        {"icon": "https://events.gnuradio.org/event/8/images/10-Peraton%20Labs%20logo-full%20color.png",
+        "url": "https://www.peratonlabs.com/",
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
 
         ]},
 
