@@ -28,7 +28,7 @@ myObj = {
     {"name":"GOLD", "entries":[
 
         /* Peraton Labs */
-        {"icon": "https://events.gnuradio.org/event/8/images/10-Peraton%20Labs%20logo-full%20color.png",
+        {"icon": "https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
         "url": "https://www.peratonlabs.com/",
         "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
 
@@ -165,7 +165,7 @@ if ((pos1 > 0) || (pos2 > 0))
   sa[0].appendChild(ftr1);
 
   var ftr2 = document.createElement("DIV");
-  ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v2.3.4";
+  ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v2.3.5";
   sa[0].appendChild(ftr2);
 
   /* add timezone offset */
