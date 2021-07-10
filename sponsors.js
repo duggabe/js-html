@@ -9,6 +9,11 @@ myObj = {
   "levels": [
     {"name":"DIAMOND", "entries":[
 
+        /* NI / Ettus Research */
+        {"icon": "https://events.gnuradio.org/event/8/images/12-ettus-logo.png",
+        "url": "https://www.ettus.com/",
+        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."}
+
         ]},
 
     {"name":"PLATINUM", "entries":[
@@ -19,9 +24,9 @@ myObj = {
         "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."},
 
         /* OpenCPI */
-        {"icon": "https://images.squarespace-cdn.com/content/58d922bf86e6c087a9448c36/1490626085183-9ZDMXM17L560YQYLX592/opencpi_web_small.png",
+        {"icon": "https://events.gnuradio.org/event/8/images/13-opencpi2.png",
         "url": "https://www.opencpi.org/",
-        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), GPUs (graphics processing units) assembled into mixed systems."}
+        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), and GPUs (graphics processing units) assembled into mixed systems."}
 
         ]},
 
@@ -30,7 +35,17 @@ myObj = {
         /* Peraton Labs */
         {"icon": "https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
         "url": "https://www.peratonlabs.com/",
-        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
+
+        /* BlackLynx */
+        {"icon": "https://events.gnuradio.org/event/8/images/14-Black-Lynx-RGB-horizotal.png",
+        "url": "https://www.blacklynx.tech/",
+        "blurb":"BlackLynx has focused primarily on providing mission critical edge compute for national security customers. Whether processing data on board a platform, the data center, or cloud, BlackLynx delivers the optimal solution. The BlackLynx team consists of highly technical programmers and device experts capable of solving the most difficult mission challenges."},
+
+        /* Xilinx */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/xilinx.png",
+        "url": "https://www.xilinx.com/",
+        "blurb":"Xilinx is the inventor of the FPGA, programmable SoCs, and now, the Adaptive Compute Acceleration Platform (ACAP). Our highly-flexible programmable silicon, enabled by a suite of advanced software and tools, enables rapid innovation across a wide span of industries and technologies, including high performance Software Defined Radio applications (from Direct RF integration to real-time Signal Processing and Machine Learning)."}
 
         ]},
 
@@ -125,6 +140,7 @@ if ((pos1 > 0) || (pos2 > 0))
         if (_lel > 0)
             {
             var _h2 = document.createElement("h2");
+            _h2.setAttribute("class", "u_cent");
             _h2.innerHTML = myObj.levels[i].name;
             pc[0].appendChild(_h2);
             var _hr = document.createElement("hr");
