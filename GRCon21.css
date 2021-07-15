@@ -252,10 +252,21 @@ Wrapper around the content
   padding: 5px;
 }
 
+.u_th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
 .u_tr {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
+}
+
+.u_td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 .u_tdl {
