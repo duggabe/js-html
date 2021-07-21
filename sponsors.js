@@ -14,7 +14,14 @@ myObj = {
         "icon_w":280,
         "icon_h":103,
         "url":"https://www.ettus.com/",
-        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."}
+        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."},
+
+        /* OpenCPI */
+        {"icon":"https://events.gnuradio.org/event/8/images/13-opencpi2.png",
+        "icon_w":400,
+        "icon_h":200,
+        "url":"https://www.opencpi.org/",
+        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), and GPUs (graphics processing units) assembled into mixed systems."}
 
         ]},
 
@@ -26,13 +33,6 @@ myObj = {
         "icon_h":95,
         "url":"https://www.analog.com/",
         "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."},
-
-        /* OpenCPI */
-        {"icon":"https://events.gnuradio.org/event/8/images/13-opencpi2.png",
-        "icon_w":400,
-        "icon_h":200,
-        "url":"https://www.opencpi.org/",
-        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), and GPUs (graphics processing units) assembled into mixed systems."},
 
         /* Epiq Solutions */
         {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/epiq.png",
@@ -72,7 +72,14 @@ myObj = {
         "icon_w":216,
         "icon_h":46,
         "url":"https://www.microsoft.com/",
-        "blurb":"Our mission is to empower every person and every organization on the planet to achieve more."}
+        "blurb":"Our mission is to empower every person and every organization on the planet to achieve more."},
+
+        /* Deepwave Digital */
+        {"icon":"https://events.gnuradio.org/event/8/images/18-deepwave_trim.png",
+        "icon_w":1051,
+        "icon_h":810,
+        "url":"https://deepwavedigital.com/",
+        "blurb":"Deepwave Digital manufactures the AIR-T. AIR-T is the first software-defined radio (SDR) with an embedded NVIDIA GPU with an FPGA and an RF direct conversion receiver. The AIR-T allows for a fully autonomous SDR by giving the AI engine complete control over the hardware. It integrates three digital processors that provide the functionality needed for any signal processing application: FPGA for strict real-time operations, GPU for highly parallel processing and deep learning, and CPU for control, I/O, DSP, and software applications."}
 
         ]},
 
