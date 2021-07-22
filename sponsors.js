@@ -9,14 +9,14 @@ myObj = {
   "levels": [
     {"name":"DIAMOND", "entries":[
 
-        /* NI / Ettus Research */
+        /* NI / Ettus Research 9 */
         {"icon":"https://events.gnuradio.org/event/8/images/12-ettus-logo.png",
         "icon_w":280,
         "icon_h":103,
         "url":"https://www.ettus.com/",
         "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."},
 
-        /* OpenCPI */
+        /* OpenCPI pd 2020 */
         {"icon":"https://events.gnuradio.org/event/8/images/13-opencpi2.png",
         "icon_w":400,
         "icon_h":200,
@@ -34,7 +34,7 @@ myObj = {
         "url":"https://www.analog.com/",
         "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."},
 
-        /* Epiq Solutions */
+        /* Epiq Solutions 5 */
         {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/epiq.png",
         "icon_w":862,
         "icon_h":564,
@@ -46,14 +46,14 @@ myObj = {
 
     {"name":"GOLD", "entries":[
 
-        /* Peraton Labs */
+        /* Peraton Labs 2 */
         {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
         "icon_w":1236,
         "icon_h":619,
         "url":"https://www.peratonlabs.com/",
         "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
 
-        /* BlackLynx */
+        /* BlackLynx 4 */
         {"icon": "https://events.gnuradio.org/event/8/images/17-blacklynx_rect.png",
         "icon_w":1007,
         "icon_h":748,
@@ -67,14 +67,21 @@ myObj = {
         "url":"https://www.xilinx.com/",
         "blurb":"Xilinx is the inventor of the FPGA, programmable SoCs, and now, the Adaptive Compute Acceleration Platform (ACAP). Our highly-flexible programmable silicon, enabled by a suite of advanced software and tools, enables rapid innovation across a wide span of industries and technologies, including high performance Software Defined Radio applications (from Direct RF integration to real-time Signal Processing and Machine Learning)."},
 
-        /* Microsoft */
+        /* DeepSig 8 */
+        {"icon":"https://events.gnuradio.org/event/8/images/20-deepsig_trim.png",
+        "icon_w":996,
+        "icon_h":735,
+        "url":"https://www.deepsig.ai/",
+        "blurb":"DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig’s engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."},
+
+        /* Microsoft 3 */
         {"icon":"https://events.gnuradio.org/event/8/images/16-Microsoft.png",
         "icon_w":216,
         "icon_h":46,
         "url":"https://www.microsoft.com/",
         "blurb":"Our mission is to empower every person and every organization on the planet to achieve more."},
 
-        /* Deepwave Digital */
+        /* Deepwave Digital 7 */
         {"icon":"https://events.gnuradio.org/event/8/images/18-deepwave_trim.png",
         "icon_w":1051,
         "icon_h":810,
@@ -89,19 +96,26 @@ myObj = {
 
     {"name":"PATRON", "entries":[
 
-        /* SkySafe */
+        /* SkySafe 6 */
         {"icon":"https://www.gnuradio.org/grcon/grcon19/sponsors/skysafe.svg",
         "icon_w":766,
         "icon_h":766,
         "url":"https://www.skysafe.io/",
         "blurb":"SkySafe provides world-class drone defense and airspace control solutions. Founded in 2015 in San Diego, CA, our team consists of drone experts from MIT, UC San Diego, the Air Force Research Lab, and more. Our industry and intellectual experience includes leaders from the fields of security research, RF engineering, academia, and the military. We are a collection of diverse, capable, and hard working professionals who enjoy attacking the hardest challenges–we also have a lot of fun."},
 
-        /* Duggan Computer Systems */
+        /* Duggan Computer Systems 1 */
         {"icon": "https://events.gnuradio.org/event/8/images/6-DCS_logo.png",
         "icon_w":308,
         "icon_h":144,
         "url":"https://github.com/duggabe",
-        "blurb": "Duggan Computer Systems is a software consulting firm specializing in email security. Barry Duggan also is involved in the GNU Radio project, and is currently the Documentation Lead."}
+        "blurb":"Duggan Computer Systems is a software consulting firm specializing in email security. Barry Duggan also is involved in the GNU Radio project, and is currently the Documentation Lead."},
+
+        /* Embedded Now 9 */
+        {"icon": "https://events.gnuradio.org/event/8/images/19-embedded_now_logo.png",
+        "icon_w":412,
+        "icon_h":86,
+        "url":"https://www.embeddednow.com/",
+        "blurb":"Engineering And Design Services To Help You Launch Quickly & with Confidence. Bringing a hardware product to market is one of the toughest things to do. We've brought many products to market and know exactly how hard the struggle can be. A hardware product incorporates electrical engineering, software engineering, user design, industrial engineering, manufacturing, logistics, and some of the most strenuous regulatory hurdles in business. It's tough to have all those competencies on one team. We've created a suite of services to help you navigate the quickest path for getting a great product to market. Whether you are looking for an experienced team to complete a significant portion of the engineering or just need some advice to help with a specific problem, we are here to help."}
 
         ]}
   ]
