@@ -115,7 +115,14 @@ myObj = {
         "icon_w":412,
         "icon_h":86,
         "url":"https://www.embeddednow.com/",
-        "blurb":"Engineering And Design Services To Help You Launch Quickly & with Confidence. Bringing a hardware product to market is one of the toughest things to do. We've brought many products to market and know exactly how hard the struggle can be. A hardware product incorporates electrical engineering, software engineering, user design, industrial engineering, manufacturing, logistics, and some of the most strenuous regulatory hurdles in business. It's tough to have all those competencies on one team. We've created a suite of services to help you navigate the quickest path for getting a great product to market. Whether you are looking for an experienced team to complete a significant portion of the engineering or just need some advice to help with a specific problem, we are here to help."}
+        "blurb":"Engineering And Design Services To Help You Launch Quickly & with Confidence. Bringing a hardware product to market is one of the toughest things to do. We've brought many products to market and know exactly how hard the struggle can be. A hardware product incorporates electrical engineering, software engineering, user design, industrial engineering, manufacturing, logistics, and some of the most strenuous regulatory hurdles in business. It's tough to have all those competencies on one team. We've created a suite of services to help you navigate the quickest path for getting a great product to market. Whether you are looking for an experienced team to complete a significant portion of the engineering or just need some advice to help with a specific problem, we are here to help."},
+
+        /* Atom computing */
+        {"icon": "https://events.gnuradio.org/event/8/images/22-atom_computing.png",
+        "icon_w":574,
+        "icon_h":144,
+        "url":"https://atom-computing.com",
+        "blurb":'Atom Computing is a growing start-up company focused on one mission: Deliver scalable quantum computers that can solve some of the most daunting problems ever attempted by man or machine. Our incredible team of physicists and engineers are building quantum computers out of optically trapped neutral atoms. To find out more visit <a href="https://www.atom-computing.com/company/">atom-computing.com</a>, and follow us on <a href="https://www.linkedin.com/company/atom-computing">LinkedIn</a>, <a href="https://twitter.com/Atom_Computing">Twitter</a>, or <a href="https://www.facebook.com/atomcomputing">Facebook</a>.'}
 
         ]}
   ]
