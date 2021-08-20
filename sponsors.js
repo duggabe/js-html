@@ -1,6 +1,7 @@
 /* sponsors.js */
 
 /* 22 May 2021 - add timezone offset from UTC */
+/* 17 Aug 2021 - make separate row for Patrons */
 
 "use strict"
 
@@ -9,7 +10,7 @@ myObj = {
   "levels": [
     {"name":"DIAMOND", "entries":[
 
-        /* NI / Ettus Research 9 */
+        /* NI / Ettus Research 10 */
         {"icon":"https://events.gnuradio.org/event/8/images/12-ettus-logo.png",
         "icon_w":280,
         "icon_h":103,
@@ -60,7 +61,7 @@ myObj = {
         "url":"https://www.blacklynx.tech/",
         "blurb":"BlackLynx has focused primarily on providing mission critical edge compute for national security customers. Whether processing data on board a platform, the data center, or cloud, BlackLynx delivers the optimal solution. The BlackLynx team consists of highly technical programmers and device experts capable of solving the most difficult mission challenges."},
 
-        /* Xilinx */
+        /* Xilinx 11 */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/xilinx.png",
         "icon_w":1750,
         "icon_h":355,
@@ -86,11 +87,32 @@ myObj = {
         "icon_w":1051,
         "icon_h":810,
         "url":"https://deepwavedigital.com/",
-        "blurb":"Deepwave Digital manufactures the AIR-T. AIR-T is the first software-defined radio (SDR) with an embedded NVIDIA GPU with an FPGA and an RF direct conversion receiver. The AIR-T allows for a fully autonomous SDR by giving the AI engine complete control over the hardware. It integrates three digital processors that provide the functionality needed for any signal processing application: FPGA for strict real-time operations, GPU for highly parallel processing and deep learning, and CPU for control, I/O, DSP, and software applications."}
+        "blurb":"Deepwave Digital manufactures the AIR-T. AIR-T is the first software-defined radio (SDR) with an embedded NVIDIA GPU with an FPGA and an RF direct conversion receiver. The AIR-T allows for a fully autonomous SDR by giving the AI engine complete control over the hardware. It integrates three digital processors that provide the functionality needed for any signal processing application: FPGA for strict real-time operations, GPU for highly parallel processing and deep learning, and CPU for control, I/O, DSP, and software applications."},
+
+    /* SETI Institute */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
+        "icon_w":400,
+        "icon_h":243,
+        "url":"https://www.seti.org/",
+        "blurb":"The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501(c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond. As of 2020, the Institute manages contracts, grants, and related administration for the GNU Radio project, and engenders collaboration with the community around shared interests in science, engineering, and education."},
+
+    /* BSRC */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
+        "icon_w":750,
+        "icon_h":512,
+        "url":"https://seti.berkeley.edu/",
+        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
 
         ]},
 
     {"name":"SILVER", "entries":[
+
+        /* Vesperix 12 */
+        {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
+        "icon_w":1039,
+        "icon_h":362,
+        "url":"http://vesperix.com/",
+        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."}
 
         ]},
 
@@ -117,7 +139,7 @@ myObj = {
         "url":"https://www.embeddednow.com/",
         "blurb":"Engineering And Design Services To Help You Launch Quickly & with Confidence. Bringing a hardware product to market is one of the toughest things to do. We've brought many products to market and know exactly how hard the struggle can be. A hardware product incorporates electrical engineering, software engineering, user design, industrial engineering, manufacturing, logistics, and some of the most strenuous regulatory hurdles in business. It's tough to have all those competencies on one team. We've created a suite of services to help you navigate the quickest path for getting a great product to market. Whether you are looking for an experienced team to complete a significant portion of the engineering or just need some advice to help with a specific problem, we are here to help."},
 
-        /* Atom computing */
+        /* Atom Computing */
         {"icon": "https://events.gnuradio.org/event/8/images/22-atom_computing.png",
         "icon_w":574,
         "icon_h":144,
@@ -146,14 +168,16 @@ if ((pos1 > 0) || (pos2 > 0))
     {
     // build sponsor section of footer
     sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
+
     /* create table */
     var tbl = document.createElement("TABLE");
     tbl.setAttribute("class", "u_table");
     /* create header row */
     var t_tr = document.createElement("TR");
     t_tr.setAttribute("class", "u_tr");
+    var _num_levels = myObj.levels.length;
     /* for each entry */
-    for (i in myObj.levels) 
+    for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
         {
         var _lel = myObj.levels[i].entries.length;  // how many entries
         if (_lel > 0)
@@ -172,7 +196,7 @@ if ((pos1 > 0) || (pos2 > 0))
     /* create data row */
     var t_tr = document.createElement("TR");
     /* for each entry */
-    for (i in myObj.levels) 
+    for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
         {
         for (j in myObj.levels[i].entries) 
             {
@@ -194,6 +218,45 @@ if ((pos1 > 0) || (pos2 > 0))
     tbl.appendChild(t_tr);
     /* attach table to content */
     sa[0].appendChild(tbl);
+
+//    var _br = document.createElement("br");
+//    sa[0].appendChild(_br);
+
+    var _Ptitle = document.createElement("H5");             // header for Patrons
+    _Ptitle.setAttribute("class", "u_cent");
+    _Ptitle.innerHTML = "PATRONS";
+    sa[0].appendChild(_Ptitle);
+
+    /* create table */
+    var tbl = document.createElement("TABLE");
+    tbl.setAttribute("class", "u_table");
+    /* create data row */
+    var t_tr = document.createElement("TR");
+    t_tr.setAttribute("class", "u_trp");
+    /* for each entry */
+    for (let i = (_num_levels-1); i < _num_levels; i++)       // do Patrons 
+        {
+        for (j in myObj.levels[i].entries) 
+            {
+            /* create data element */
+            var t_td = document.createElement("TD");
+            t_td.setAttribute("class", "u_tdp");
+            var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+            var _td_h = 66 / aspect;
+            var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                "\" style=\"width:66px;height:" + _td_h + "px;\"></a>";
+            // console.log (anchor);
+            t_td.innerHTML = anchor;
+            t_tr.appendChild(t_td);
+            tbl.appendChild(t_tr);
+            }
+        }
+        /* attach row to table */
+    tbl.appendChild(t_tr);
+    /* attach table to content */
+    sa[0].appendChild(tbl);
+
     }   // end sponsor section of footer
   else
     {
@@ -206,6 +269,10 @@ if ((pos1 > 0) || (pos2 > 0))
         var _lel = myObj.levels[i].entries.length;  // how many entries
         if (_lel > 0)
             {
+            var _br = document.createElement("br");
+            pc[0].appendChild(_br);
+            var _hr = document.createElement("hr");
+            pc[0].appendChild(_hr);
             var _h2 = document.createElement("h2");
             _h2.setAttribute("class", "u_cent");
             _h2.innerHTML = myObj.levels[i].name;

@@ -6,6 +6,7 @@
 
     25 April 2021
     23 May 2021 - add confLogoBox
+    18 Aug 2021 - add .u_trp
 
     Two color scheme
         GR orange:  rgb(255, 102, 0)
@@ -264,9 +265,21 @@ Wrapper around the content
   padding: 5px;
 }
 
+.u_trp {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+
 .u_td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+.u_tdp {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
 }
 
 .u_tdl {
