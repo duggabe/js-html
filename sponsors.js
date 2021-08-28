@@ -2,8 +2,12 @@
 
 /* 22 May 2021 - add timezone offset from UTC */
 /* 17 Aug 2021 - make separate row for Patrons */
+/* 27 Aug 2021 */
 
 "use strict"
+
+const DIAMOND = 0;
+const student = 3;
 
 var myObj, i, j;
 myObj = {
@@ -11,9 +15,9 @@ myObj = {
     {"name":"DIAMOND", "entries":[
 
         /* NI / Ettus Research 10 */
-        {"icon":"https://events.gnuradio.org/event/8/images/12-ettus-logo.png",
-        "icon_w":280,
-        "icon_h":103,
+        {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
+        "icon_w":1042,
+        "icon_h":472,
         "url":"https://www.ettus.com/",
         "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."},
 
@@ -22,13 +26,20 @@ myObj = {
         "icon_w":400,
         "icon_h":200,
         "url":"https://www.opencpi.org/",
-        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), and GPUs (graphics processing units) assembled into mixed systems."}
+        "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), and GPUs (graphics processing units) assembled into mixed systems."},
+
+        /* Radio Resilience 13 */
+        {"icon":"https://events.gnuradio.org/event/8/images/27-rrc-icon.png",
+        "icon_w":375,
+        "icon_h":225,
+        "url":"https://radioresilience.com/",
+        "blurb":"Radio Resilience LLC aims to set a new standard of wireless efficiency and durability. The Radio Resilience Competition (RRC) is inspired by and endeavors to build on the legacy of other radio competitions like DARPA’s Spectrum Challenges (though RRC bears no affiliation with DARPA or these events)."}
 
         ]},
 
     {"name":"PLATINUM", "entries":[
 
-        /* Analog Devices */
+        /* Analog Devices 14 */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/Analog_Devices_Logo.svg",
         "icon_w":236,
         "icon_h":95,
@@ -40,8 +51,14 @@ myObj = {
         "icon_w":862,
         "icon_h":564,
         "url":"https://epiqsolutions.com/",
-        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."},
 
+        /* Rampart Communications */
+        {"icon": "https://events.gnuradio.org/event/8/images/25-Comm-Logo-RGB.jpg",
+        "icon_w":1600,
+        "icon_h":1300,
+        "url":"https://rampartcommunications.com/",
+        "blurb":"Rampart Communications, Inc. is based in Hanover, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."}
 
         ]},
 
@@ -89,14 +106,14 @@ myObj = {
         "url":"https://deepwavedigital.com/",
         "blurb":"Deepwave Digital manufactures the AIR-T. AIR-T is the first software-defined radio (SDR) with an embedded NVIDIA GPU with an FPGA and an RF direct conversion receiver. The AIR-T allows for a fully autonomous SDR by giving the AI engine complete control over the hardware. It integrates three digital processors that provide the functionality needed for any signal processing application: FPGA for strict real-time operations, GPU for highly parallel processing and deep learning, and CPU for control, I/O, DSP, and software applications."},
 
-    /* SETI Institute */
+        /* SETI Institute */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
         "icon_w":400,
         "icon_h":243,
         "url":"https://www.seti.org/",
         "blurb":"The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501(c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond. As of 2020, the Institute manages contracts, grants, and related administration for the GNU Radio project, and engenders collaboration with the community around shared interests in science, engineering, and education."},
 
-    /* BSRC */
+        /* BSRC */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
         "icon_w":750,
         "icon_h":512,
@@ -139,12 +156,26 @@ myObj = {
         "url":"https://www.embeddednow.com/",
         "blurb":"Engineering And Design Services To Help You Launch Quickly & with Confidence. Bringing a hardware product to market is one of the toughest things to do. We've brought many products to market and know exactly how hard the struggle can be. A hardware product incorporates electrical engineering, software engineering, user design, industrial engineering, manufacturing, logistics, and some of the most strenuous regulatory hurdles in business. It's tough to have all those competencies on one team. We've created a suite of services to help you navigate the quickest path for getting a great product to market. Whether you are looking for an experienced team to complete a significant portion of the engineering or just need some advice to help with a specific problem, we are here to help."},
 
-        /* Atom Computing */
+        /* Atom Computing 15 */
         {"icon": "https://events.gnuradio.org/event/8/images/22-atom_computing.png",
         "icon_w":574,
         "icon_h":144,
         "url":"https://atom-computing.com",
-        "blurb":'Atom Computing is a growing start-up company focused on one mission: Deliver scalable quantum computers that can solve some of the most daunting problems ever attempted by man or machine. Our incredible team of physicists and engineers are building quantum computers out of optically trapped neutral atoms. To find out more visit <a href="https://www.atom-computing.com/company/">atom-computing.com</a>, and follow us on <a href="https://www.linkedin.com/company/atom-computing">LinkedIn</a>, <a href="https://twitter.com/Atom_Computing">Twitter</a>, or <a href="https://www.facebook.com/atomcomputing">Facebook</a>.'}
+        "blurb":'Atom Computing is a growing start-up company focused on one mission: Deliver scalable quantum computers that can solve some of the most daunting problems ever attempted by man or machine. Our incredible team of physicists and engineers are building quantum computers out of optically trapped neutral atoms. To find out more visit <a href="https://www.atom-computing.com/company/">atom-computing.com</a>, and follow us on <a href="https://www.linkedin.com/company/atom-computing">LinkedIn</a>, <a href="https://twitter.com/Atom_Computing">Twitter</a>, or <a href="https://www.facebook.com/atomcomputing">Facebook</a>.'},
+
+        /* RL Marlow 16 */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/rlmconsulting.png",
+        "icon_w":485,
+        "icon_h":203,
+        "url":"https://rynmrlw.github.io/rlmarlow.com/",
+        "blurb":"RL Marlow Consulting LLC provides FPGA, GNU Radio, and USRP design expertise out of Durham, NC. Founded in 2017, Ryan Marlow has worked directly with Ettus Research, their customers, and other groups working with custom SDR applications. Some examples of work Ryan has done for his clients: wrapped proprietary IP cores into the RFNoC framework to run on a USRP device, developed custom RFNoC blocks that meet customers’ needs,  MIMO USRP applications, integrated SDR frontends with custom GNU Radio blocks, and more. Outside of the USRP space, Ryan has worked on other FPGA projects in the SDR space and beyond, including custom EDA tools for FPGA that has given him a deep understanding of the inner workings of FPGA."},
+
+        /* Sandia National Labs 17 */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/sandiaNL.png",
+        "icon_w":688,
+        "icon_h":265,
+        "url":"http://www.sandia.gov/",
+        "blurb":"Sandia National Laboratories is a multimission laboratory operated by National Technology and Engineering Solutions of Sandia LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration. Sandia Labs has major research and development responsibilities in nuclear deterrence, global security, defense, energy technologies and economic competitiveness, with main facilities in Albuquerque, New Mexico, and Livermore, California."}
 
         ]}
   ]
