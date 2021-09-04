@@ -7,7 +7,7 @@
 "use strict"
 
 const DIAMOND = 0;
-const student = 3;
+const student = 3;      // not used right now
 
 var myObj, i, j;
 myObj = {
@@ -29,9 +29,9 @@ myObj = {
         "blurb":"Open Component Portability Infrastructure (OpenCPI) is an open source software (OSS) framework for developing and executing component-based applications on heterogeneous embedded systems. As a framework for development and execution, OpenCPI supports defining, implementing, building and testing components, as well as executing applications based on those components in the targeted embedded systems.  By targeting heterogeneous systems, the framework supports development and execution across diverse processing technologies including GPPs (general purpose processors), FPGA (field programmable gate arrays), and GPUs (graphics processing units) assembled into mixed systems."},
 
         /* Radio Resilience 13 */
-        {"icon":"https://events.gnuradio.org/event/8/images/27-rrc-icon.png",
-        "icon_w":375,
-        "icon_h":225,
+        {"icon":"https://events.gnuradio.org/event/8/images/28-RadioResilience_Monogram_wText.png",
+        "icon_w":1234,
+        "icon_h":500,
         "url":"https://radioresilience.com/",
         "blurb":"Radio Resilience LLC aims to set a new standard of wireless efficiency and durability. The Radio Resilience Competition (RRC) is inspired by and endeavors to build on the legacy of other radio competitions like DARPA’s Spectrum Challenges (though RRC bears no affiliation with DARPA or these events)."}
 
@@ -118,7 +118,14 @@ myObj = {
         "icon_w":750,
         "icon_h":512,
         "url":"https://seti.berkeley.edu/",
-        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
+        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."},
+
+        /* ARDC 18 */
+        {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
+        "icon_w":300,
+        "icon_h":144,
+        "url":"https://www.ampr.org/",
+        "blurb":"The mission of Amateur Radio Digital Communications (ARDC) is to support, promote, and enhance digital communication and broader communication science and technology, to promote Amateur Radio, scientific research, experimentation, education, development, open access, and innovation in information and communication technology."}
 
         ]},
 
