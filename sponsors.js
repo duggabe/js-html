@@ -125,7 +125,7 @@ myObj = {
         "icon_w":300,
         "icon_h":144,
         "url":"https://www.ampr.org/",
-        "blurb":"The mission of Amateur Radio Digital Communications (ARDC) is to support, promote, and enhance digital communication and broader communication science and technology, to promote Amateur Radio, scientific research, experimentation, education, development, open access, and innovation in information and communication technology."}
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."}
 
         ]},
 
