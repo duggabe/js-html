@@ -136,7 +136,14 @@ myObj = {
         "icon_w":1039,
         "icon_h":362,
         "url":"http://vesperix.com/",
-        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."}
+        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."},
+
+/*      Red Wire Technology */
+        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
+        "icon_w":636,
+        "icon_h":183,
+        "url":"https://www.redwiretechnology.com/",
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, custom RF circuits, digital signal processing, and FPGA solutions for both turn-key and developer focused applications."}
 
         ]},
 
