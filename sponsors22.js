@@ -1,11 +1,12 @@
 /* sponsors.js */
 
-/* 19 March 2022  GRCon22 version */
+/* 19 Mar 2022  GRCon22 version */
+/* 20 Mar 2022  don't show "Our Sponsors" if there aren't any */
 
 "use strict"
 
 const DIAMOND = 0;
-const student = 3;      // not used right now
+const PATRON = 4;
 
 var myObj, i, j;
 myObj = {
@@ -41,6 +42,7 @@ var pos1 = w_loc.search("event/18");      // GRCon22
 var pos2 = w_loc.search("Test");         // for testing
 if ((pos1 > 0) || (pos2 > 0))
   {             // found event/18 or Test
+  var _num_levels = myObj.levels.length;
   var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
   sa[0].innerHTML = "<br>";   // wipe out footer
   var c_loc = window.location.href;
@@ -48,100 +50,103 @@ if ((pos1 > 0) || (pos2 > 0))
   if ((c_loc != ("https://events.gnuradio.org/event/18/page/49-sponsorship-opportunities")) &&
       (pos3 < 0))
     {
-    // build sponsor section of footer
-    sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
+    var _num_sponsors = 0;
+    for (let i = 0; i < _num_levels; i++)
+        {
+        _num_sponsors += myObj.levels[i].entries.length;  // how many entries
+        }
+    if (_num_sponsors > 0)
+        {
+        // build sponsor section of footer
+        sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
 
-    /* create table */
-    var tbl = document.createElement("TABLE");
-    tbl.setAttribute("class", "u_table");
-    /* create header row */
-    var t_tr = document.createElement("TR");
-    t_tr.setAttribute("class", "u_tr");
-    var _num_levels = myObj.levels.length;
-    /* for each entry */
-    for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
-        {
-        var _lel = myObj.levels[i].entries.length;  // how many entries
-        if (_lel > 0)
+        /* create table */
+        var tbl = document.createElement("TABLE");
+        tbl.setAttribute("class", "u_table");
+        /* create header row */
+        var t_tr = document.createElement("TR");
+        t_tr.setAttribute("class", "u_tr");
+        /* for each entry */
+        for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
             {
-            var t_th = document.createElement("TH");
-            t_th.setAttribute("class", "u_th");
-            if (_lel > 1)
-                t_th.setAttribute("colspan", _lel);
-            /* create data row */
-            t_th.innerHTML = myObj.levels[i].name;
-            /* attach data to row */
-            t_tr.appendChild(t_th);
+            var _lel = myObj.levels[i].entries.length;  // how many entries
+            if (_lel > 0)
+                {
+                var t_th = document.createElement("TH");
+                t_th.setAttribute("class", "u_th");
+                if (_lel > 1)
+                    t_th.setAttribute("colspan", _lel);
+                /* create data row */
+                t_th.innerHTML = myObj.levels[i].name;
+                /* attach data to row */
+                t_tr.appendChild(t_th);
+                }
             }
-        }
-    tbl.appendChild(t_tr);
-    /* create data row */
-    var t_tr = document.createElement("TR");
-    /* for each entry */
-    for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
-        {
-        for (j in myObj.levels[i].entries) 
+        tbl.appendChild(t_tr);
+        /* create data row */
+        var t_tr = document.createElement("TR");
+        /* for each entry */
+        for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
             {
-            /* create data element */
-            var t_td = document.createElement("TD");
-            t_td.setAttribute("class", "u_td");
-            var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-            var _td_h = 88 / aspect;
-            var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                "\" style=\"width:88px;height:" + _td_h + "px;\"></a>";
-            // console.log (anchor);
-            t_td.innerHTML = anchor;
-            t_tr.appendChild(t_td);
-            tbl.appendChild(t_tr);
+            for (j in myObj.levels[i].entries) 
+                {
+                /* create data element */
+                var t_td = document.createElement("TD");
+                t_td.setAttribute("class", "u_td");
+                var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+                var _td_h = 88 / aspect;
+                var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                    "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                    "\" style=\"width:88px;height:" + _td_h + "px;\"></a>";
+                // console.log (anchor);
+                t_td.innerHTML = anchor;
+                t_tr.appendChild(t_td);
+                tbl.appendChild(t_tr);
+                }
             }
-        }
         /* attach row to table */
-    tbl.appendChild(t_tr);
-    /* attach table to content */
-    sa[0].appendChild(tbl);
+        tbl.appendChild(t_tr);
+        /* attach table to content */
+        sa[0].appendChild(tbl);
 
-//    var _br = document.createElement("br");
-//    sa[0].appendChild(_br);
-
-    if ((myObj.levels[_num_levels-1].entries.length) > 0)
-        {
-        var _Ptitle = document.createElement("H5");             // header for Patrons
-        _Ptitle.setAttribute("class", "u_cent");
-        _Ptitle.innerHTML = "PATRONS";
-        sa[0].appendChild(_Ptitle);
-        }
-
-    /* create table */
-    var tbl = document.createElement("TABLE");
-    tbl.setAttribute("class", "u_table");
-    /* create data row */
-    var t_tr = document.createElement("TR");
-    t_tr.setAttribute("class", "u_trp");
-    /* for each entry */
-    for (let i = (_num_levels-1); i < _num_levels; i++)       // do Patrons 
-        {
-        for (j in myObj.levels[i].entries) 
+        if ((myObj.levels[_num_levels-1].entries.length) > 0)
             {
-            /* create data element */
-            var t_td = document.createElement("TD");
-            t_td.setAttribute("class", "u_tdp");
-            var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-            var _td_h = 66 / aspect;
-            var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                "\" style=\"width:66px;height:" + _td_h + "px;\"></a>";
-            // console.log (anchor);
-            t_td.innerHTML = anchor;
-            t_tr.appendChild(t_td);
-            tbl.appendChild(t_tr);
+            var _Ptitle = document.createElement("H5");             // header for Patrons
+            _Ptitle.setAttribute("class", "u_cent");
+            _Ptitle.innerHTML = "PATRONS";
+            sa[0].appendChild(_Ptitle);
             }
-        }
-        /* attach row to table */
-    tbl.appendChild(t_tr);
-    /* attach table to content */
-    sa[0].appendChild(tbl);
 
+        /* create table */
+        var tbl = document.createElement("TABLE");
+        tbl.setAttribute("class", "u_table");
+        /* create data row */
+        var t_tr = document.createElement("TR");
+        t_tr.setAttribute("class", "u_trp");
+        /* for each entry */
+        for (let i = (_num_levels-1); i < _num_levels; i++)       // do Patrons 
+            {
+            for (j in myObj.levels[i].entries) 
+                {
+                /* create data element */
+                var t_td = document.createElement("TD");
+                t_td.setAttribute("class", "u_tdp");
+                var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+                var _td_h = 66 / aspect;
+                var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                    "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                    "\" style=\"width:66px;height:" + _td_h + "px;\"></a>";
+                // console.log (anchor);
+                t_td.innerHTML = anchor;
+                t_tr.appendChild(t_td);
+                tbl.appendChild(t_tr);
+                }
+            }
+        /* attach row to table */
+        tbl.appendChild(t_tr);
+        /* attach table to content */
+        sa[0].appendChild(tbl);
+        }   // end if sponsors
     }   // end sponsor section of footer
   else
     {
