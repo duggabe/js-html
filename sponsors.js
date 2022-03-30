@@ -207,23 +207,9 @@ var spons22 = {
 
     {"name":"SILVER", "entries":[
 
-/*      Red Wire Technology */
-        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
-        "icon_w":636,
-        "icon_h":183,
-        "url":"https://www.redwiretechnology.com/",
-        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, custom RF circuits, digital signal processing, and FPGA solutions for both turn-key and developer focused applications."}
-
         ]},
 
     {"name":"PATRON", "entries":[
-
-        /* Duggan Computer Systems 1 */
-        {"icon": "https://events.gnuradio.org/event/8/images/6-DCS_logo.png",
-        "icon_w":308,
-        "icon_h":144,
-        "url":"https://github.com/duggabe",
-        "blurb":"Duggan Computer Systems is a software consulting firm specializing in email security. Barry Duggan also is involved in the GNU Radio project, and is currently the Documentation Lead."}
 
         ]}
   ]
