@@ -207,9 +207,23 @@ var spons22 = {
 
     {"name":"SILVER", "entries":[
 
+/*      Red Wire Technology */
+        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
+        "icon_w":636,
+        "icon_h":183,
+        "url":"https://www.redwiretechnology.com/",
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, custom RF circuits, digital signal processing, and FPGA solutions for both turn-key and developer focused applications."}
+
         ]},
 
     {"name":"PATRON", "entries":[
+
+        /* Duggan Computer Systems 1 */
+        {"icon": "https://events.gnuradio.org/event/8/images/6-DCS_logo.png",
+        "icon_w":308,
+        "icon_h":144,
+        "url":"https://github.com/duggabe",
+        "blurb":"Duggan Computer Systems is a software consulting firm specializing in email security. Barry Duggan also is involved in the GNU Radio project, and is currently the Documentation Lead."}
 
         ]}
   ]
@@ -224,12 +238,12 @@ function myFunction()
     var pos1 = w_loc.search("event/18");     // GRCon22
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
-    if ((pos1 > 0) || (pos2 > 0))
+    if (pos1 > 0)
         {
         console.log ("GRCon 22");
         sponsors22 (spons22);    // GRCon 22
         }
-    else if (pos3 > 0)
+    else if ((pos3 > 0) || (pos2 > 0))
         {
         console.log ("GRCon 21");
         sponsors22 (spons21);    // GRCon 21
@@ -240,12 +254,15 @@ function sponsors22 (myObj)
     {
     console.log ("sponsors22");
     var _num_levels = myObj.levels.length;
+    const DIAMOND = 0;
+    const PLATINUM = 1;
+    const PATRON = _num_levels-1;
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
     sa[0].innerHTML = "<br>";   // wipe out footer
-    var c_loc = window.location.href;
-    var pos4 = c_loc.search("Test4");      // for testing the Sponsors page
-    if ((c_loc != ("https://events.gnuradio.org/event/18/page/49-sponsorship-opportunities")) &&
-        (c_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
+    var w_loc = window.location.href;
+    var pos4 = w_loc.search("Test4");      // for testing the Sponsors page
+    if ((w_loc != ("https://events.gnuradio.org/event/18/page/49-sponsorship-opportunities")) &&
+        (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
         (pos4 < 0))
         {   // not Sponsors page
         var _num_sponsors = 0;
@@ -258,6 +275,7 @@ function sponsors22 (myObj)
             {
             // build sponsor section of footer
             sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
+
             /* create table */
             var tbl = document.createElement("TABLE");
             tbl.setAttribute("class", "u_table");
@@ -265,7 +283,7 @@ function sponsors22 (myObj)
             var t_tr = document.createElement("TR");
             t_tr.setAttribute("class", "u_tr");
             /* for each entry */
-            for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
+            for (let i = DIAMOND; i < PLATINUM; i++)
                 {
                 var _lel = myObj.levels[i].entries.length;  // how many entries
                 if (_lel > 0)
@@ -284,7 +302,59 @@ function sponsors22 (myObj)
             /* create data row */
             var t_tr = document.createElement("TR");
             /* for each entry */
-            for (let i = 0; i < (_num_levels-1); i++)       // do all except Patrons 
+            for (let i = DIAMOND; i < PLATINUM; i++)
+                {
+                for (j in myObj.levels[i].entries) 
+                    {
+                    /* create data element */
+                    var t_td = document.createElement("TD");
+                    t_td.setAttribute("class", "u_td");
+                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+                    var _td_h = 120 / aspect;
+                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                        "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                        "\" style=\"width:120px;height:" + _td_h + "px;\"></a>";
+                    // console.log (anchor);
+                    t_td.innerHTML = anchor;
+                    t_tr.appendChild(t_td);
+                    tbl.appendChild(t_tr);
+                    }
+                }
+            /* attach row to table */
+            tbl.appendChild(t_tr);
+            /* attach table to content */
+            sa[0].appendChild(tbl);
+
+            var _br = document.createElement("br");
+            sa[0].appendChild(_br);
+
+            /* create table */
+            var tbl = document.createElement("TABLE");
+            tbl.setAttribute("class", "u_table");
+            /* create header row */
+            var t_tr = document.createElement("TR");
+            t_tr.setAttribute("class", "u_tr");
+            /* for each entry */
+            for (let i = PLATINUM; i < PATRON; i++)       // do all except Patrons 
+                {
+                var _lel = myObj.levels[i].entries.length;  // how many entries
+                if (_lel > 0)
+                    {
+                    var t_th = document.createElement("TH");
+                    t_th.setAttribute("class", "u_th");
+                    if (_lel > 1)
+                        t_th.setAttribute("colspan", _lel);
+                    /* create data row */
+                    t_th.innerHTML = myObj.levels[i].name;
+                    /* attach data to row */
+                    t_tr.appendChild(t_th);
+                    }
+                }
+            tbl.appendChild(t_tr);
+            /* create data row */
+            var t_tr = document.createElement("TR");
+            /* for each entry */
+            for (let i = PLATINUM; i < PATRON; i++)
                 {
                 for (j in myObj.levels[i].entries) 
                     {
@@ -307,45 +377,9 @@ function sponsors22 (myObj)
             /* attach table to content */
             sa[0].appendChild(tbl);
 
-            if ((myObj.levels[_num_levels-1].entries.length) > 0)
-                {
-                var _Ptitle = document.createElement("H5");             // header for Patrons
-                _Ptitle.setAttribute("class", "u_cent");
-                _Ptitle.innerHTML = "PATRONS";
-                sa[0].appendChild(_Ptitle);
-                }
-
-            /* create table */
-            var tbl = document.createElement("TABLE");
-            tbl.setAttribute("class", "u_table");
-            /* create data row */
-            var t_tr = document.createElement("TR");
-            t_tr.setAttribute("class", "u_trp");
-            /* for each entry */
-            for (let i = (_num_levels-1); i < _num_levels; i++)       // do Patrons 
-                {
-                for (j in myObj.levels[i].entries) 
-                    {
-                    /* create data element */
-                    var t_td = document.createElement("TD");
-                    t_td.setAttribute("class", "u_tdp");
-                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 66 / aspect;
-                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                        "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:66px;height:" + _td_h + "px;\"></a>";
-                    // console.log (anchor);
-                    t_td.innerHTML = anchor;
-                    t_tr.appendChild(t_td);
-                    tbl.appendChild(t_tr);
-                    }
-                }
-            /* attach row to table */
-            tbl.appendChild(t_tr);
-            /* attach table to content */
-            sa[0].appendChild(tbl);
             var _br = document.createElement("br");
             sa[0].appendChild(_br);
+
             }   // end if sponsors
         }   // end not Sponsors page
     else
