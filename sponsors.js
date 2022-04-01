@@ -203,9 +203,23 @@ var spons22 = {
 
     {"name":"GOLD", "entries":[
 
+        /* Peraton Labs 2 */
+        {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
+        "icon_w":1236,
+        "icon_h":619,
+        "url":"https://www.peratonlabs.com/",
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
+
         ]},
 
     {"name":"SILVER", "entries":[
+
+/*      Red Wire Technology 3 */
+        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
+        "icon_w":636,
+        "icon_h":183,
+        "url":"https://www.redwiretechnology.com/",
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, custom RF circuits, digital signal processing, and FPGA solutions for both turn-key and developer focused applications."}
 
         ]},
 
@@ -224,12 +238,12 @@ function myFunction()
     var pos1 = w_loc.search("event/18");     // GRCon22
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
-    if (pos1 > 0)
+    if ((pos1 > 0) || (pos2 > 0))
         {
         console.log ("GRCon 22");
         sponsors22 (spons22);    // GRCon 22
         }
-    else if ((pos3 > 0) || (pos2 > 0))
+    else if (pos3 > 0)
         {
         console.log ("GRCon 21");
         sponsors22 (spons21);    // GRCon 21
