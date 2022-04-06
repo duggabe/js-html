@@ -203,6 +203,13 @@ var spons22 = {
 
     {"name":"GOLD", "entries":[
 
+        /* Aaronia 1 */
+        {"icon":"https://events.gnuradio.org/event/18/images/97-aaronia.png",
+        "icon_w":300,
+        "icon_h":141,
+        "url":"https://aaronia.com/",
+        "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."},
+
         /* Peraton Labs 2 */
         {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
         "icon_w":1236,
