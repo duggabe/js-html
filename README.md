@@ -48,7 +48,7 @@ where 'myFunction()' wraps the rest of the script.
 Since the same script must support multiple events, determination of individual Sponsor pages is performed in the code. Those Sponsor pages are:
 
     GRCon21 - https://events.gnuradio.org/event/8/page/5-sponsors  
-    GRCon22 - https://events.gnuradio.org/event/18/page/49-sponsorship-opportunities  
+    GRCon22 - https://events.gnuradio.org/event/18/page/60-our-sponsors  
 
 ### Generate footer
 

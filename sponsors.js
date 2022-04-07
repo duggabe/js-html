@@ -3,6 +3,7 @@
 /* 19 Mar 2022  GRCon22 version */
 /* 20 Mar 2022  don't show "Our Sponsors" if there aren't any */
 /* 24 Mar 2022  major restructuring to handle GRCon21 and GRCon22 */
+/* 07 Apr 2022  changed sponsors page */
 
 "use strict"
 
@@ -268,7 +269,7 @@ function sponsors22 (myObj)
     sa[0].innerHTML = "<br>";   // wipe out footer
     var w_loc = window.location.href;
     var pos4 = w_loc.search("Test4");      // for testing the Sponsors page
-    if ((w_loc != ("https://events.gnuradio.org/event/18/page/49-sponsorship-opportunities")) &&
+    if ((w_loc != ("https://events.gnuradio.org/event/18/page/60-our-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
         (pos4 < 0))
         {   // not Sponsors page
