@@ -200,6 +200,13 @@ var spons22 = {
 
     {"name":"PLATINUM", "entries":[
 
+        /* Epiq Solutions 4 */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/epiq.png",
+        "icon_w":862,
+        "icon_h":564,
+        "url":"https://epiqsolutions.com/",
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
+
         ]},
 
     {"name":"GOLD", "entries":[
