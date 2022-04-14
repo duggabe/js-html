@@ -211,19 +211,26 @@ var spons22 = {
 
     {"name":"GOLD", "entries":[
 
-        /* Aaronia 1 */
+        /* Peraton Labs 1 */
+        {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
+        "icon_w":1236,
+        "icon_h":619,
+        "url":"https://www.peratonlabs.com/",
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
+
+        /* Aaronia 2 */
         {"icon":"https://events.gnuradio.org/event/18/images/97-aaronia.png",
         "icon_w":300,
         "icon_h":141,
         "url":"https://aaronia.com/",
         "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."},
 
-        /* Peraton Labs 2 */
-        {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
-        "icon_w":1236,
-        "icon_h":619,
-        "url":"https://www.peratonlabs.com/",
-        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
+        /* ARDC 5 */
+        {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
+        "icon_w":300,
+        "icon_h":144,
+        "url":"https://www.ampr.org/",
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."}
 
         ]},
 
