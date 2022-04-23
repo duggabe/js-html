@@ -8,8 +8,9 @@
     23 May 2021 - add confLogoBox
     18 Aug 2021 - add .u_trp
     11 Feb 2022 - revise colors
+    23 Apr 2022 - major revisions
 
-    Two color scheme
+    Some colors
         GR orange:  #ff6905;
         light blue: rgb(192, 242, 255);
         Navy:       rgb(0, 0, 128)
@@ -40,9 +41,9 @@ Wraps around the upper part of the conference header.
 .confTitleBox {
   color: white;
   min-height: 90px;
-  border-top: 3px solid Navy;
-  border-bottom: 1px solid Navy;
-  background: #ff6905;  /* GR orange */
+  border-top: 3px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  background: #ffffff;
 }
 
 /*
@@ -52,83 +53,80 @@ Is set to 950px and centered by default.
 .confTitle {
   width: 950px;
   margin: 0 auto;
-  background: #ff6905;  /* GR orange */
 }
 
 /*
-The box containing the logo. By the default the logo is placed
-on the left of the conference title.
+The box containing the logo. 
 */
 .confLogoBox {
-  float: left;
-  padding: 0px 10px 20px 0px;
+  float: center;
 }
 
 /*
 Sets the size of the logo
 */
 .confLogo {
-  width: 50px !important;
-  height: 50px !important;
+  max-width: 90%;
+  height: auto;
 }
 
 /*
-The style for the title text.
+The style for the title text. No longer wanted for this layout.
 */
 .conference-title-link {
-  font-size: 32pt;
-  font-weight: bold;
-  display: block;
-  padding: 30px 0px 25px 0px;
-  color: white;
-  text-shadow: 2px 2px black;
+  padding: 0px 0px 0px 0px;
 }
 
 /*
 Wrapper around the bottom part of the conference header
 */
 .confSubTitleBox {
-  background: rgb(192, 242, 255);
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding-top: 10px;
-  padding-left: 230px;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  /* padding: 0.5rem 0; */
 }
 
 /*
 The content of the lower part of the header. Is by default
-centered and has a fixed width.
+centered and has a fixed width. REMOVED
 */
-.confSubTitleContent {
-  width: 950px;
-  margin: 0 auto;
-  font-size: 16pt !important;
-  color: black;
-}
+/* .confSubTitleContent {
+} */
 
 /*
-Styles for the date and place information.
+Styles for the date and place information. 
 */
-div.datePlace {
-  font-size: 16pt !important;
-  color: black !important;
-}
 
-.label {
-  font-size: 16pt !important;
-  color: black !important;
-}
+/* div.datePlace {
+  REMOVED is in logo
+} */
+
 
 div.timezone {
-  font-size: 16pt !important;
+  font-size: 12pt !important;
   color: black !important;
 }
 
 .action-box {
   font-size: 16pt !important;
-  color: black !important;
-  background: rgb(192, 242, 255) !important;
 }
+
+
+/*
+Style for Announcement shown under the conference header (if enabled)
+*/
+.simpleTextAnnouncement {
+  background: #d3e7f8;
+  border-top: 1px solid #ffffff;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 10pt;
+  text-align: center;
+  color: #0f283d;
+  padding: 8px 0;
+}
+
 
 /* ----------- Styles for the main content ----------- */
 
@@ -137,7 +135,7 @@ The wrapper around the menu and the page content.
 By default centered with a fix width.
 */
 #confSectionsBox {
-  width: 950px;
+  width: 90%;
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -151,7 +149,7 @@ Wrapper around the menu
 */
 .conf_leftMenu {
   float: left;
-  width: 200px;
+  width: 300px;
 }
 
 /*
@@ -167,7 +165,7 @@ The menu item
 */
 #outer li a {
   font-family: verdana, arial, sans-serif;
-  font-size: 12pt;
+  font-size: 13pt;
 }
 
 /*
@@ -206,7 +204,7 @@ sub menu item
 */
 li ul.inner li a {
   padding: 3px 12px 3px 30px;
-  background: transparent url(/images/conf/left_menu_bullet.png) scroll no-repeat 15px center;
+  background: transparent scroll no-repeat 15px center;
 }
 
 /*
@@ -229,24 +227,26 @@ Support box
 Wrapper around the content
 */
 .confBodyBox {
-  margin-left: 230px;
+  margin-left: 330px;
 }
 
-/* ----------- Styles for GRCon21 ----------- */
+/* ----------- Styles for GRCon22 ----------- */
 
 .u_cent {
   text-align: center;
   margin: 0px;
 }
 
+/* Sponsor Footer Table */
 .u_table {
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
 }
 
+/* Sponsor Page Table */
 .u_table2 {
   border: 1px white;
   margin-left: auto;
