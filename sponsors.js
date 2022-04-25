@@ -230,9 +230,16 @@ var spons22 = {
         "icon_w":300,
         "icon_h":144,
         "url":"https://www.ampr.org/",
-        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."}
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."},
 
-        ]},
+         /* DeepSig 6 */
+        {"icon":"https://events.gnuradio.org/event/8/images/20-deepsig_trim.png",
+        "icon_w":996,
+        "icon_h":735,
+        "url":"https://www.deepsig.ai/",
+        "blurb":"DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig’s engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."}
+
+       ]},
 
     {"name":"SILVER", "entries":[
 
