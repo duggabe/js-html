@@ -278,6 +278,7 @@ Wrapper around the content
 .u_td {
   border: 0px;
   border-collapse: collapse;
+  text-align: center;
 }
 
 .u_tdp {
