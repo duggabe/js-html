@@ -4,6 +4,7 @@
 /* 20 Mar 2022  don't show "Our Sponsors" if there aren't any */
 /* 24 Mar 2022  major restructuring to handle GRCon21 and GRCon22 */
 /* 07 Apr 2022  changed sponsors page */
+/* 06 May 2022  Marc modified the style of the table in the footer */
 
 "use strict"
 
@@ -303,7 +304,7 @@ function sponsors22 (myObj)
         if (_num_sponsors > 0)
             {
             // build sponsor section of footer
-            sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
+            sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2><br>';
 
             /* create table */
             var tbl = document.createElement("TABLE");
@@ -339,10 +340,10 @@ function sponsors22 (myObj)
                     var t_td = document.createElement("TD");
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 120 / aspect;
+                    var _td_h = 200 / aspect;
                     var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
                         "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:120px;height:" + _td_h + "px;\"></a>";
+                        "\" style=\"width:200px;height:" + _td_h + "px;\"></a>";
                     // console.log (anchor);
                     t_td.innerHTML = anchor;
                     t_tr.appendChild(t_td);
@@ -353,9 +354,6 @@ function sponsors22 (myObj)
             tbl.appendChild(t_tr);
             /* attach table to content */
             sa[0].appendChild(tbl);
-
-            var _br = document.createElement("br");
-            sa[0].appendChild(_br);
 
             /* create table */
             var tbl = document.createElement("TABLE");

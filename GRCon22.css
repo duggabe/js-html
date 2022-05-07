@@ -9,6 +9,7 @@
     18 Aug 2021 - add .u_trp
     11 Feb 2022 - revise colors
     23 Apr 2022 - major revisions
+    06 May 2022  Marc modified the style of the table in the footer
 
     Some colors
         GR orange:  #ff6905;
@@ -239,11 +240,12 @@ Wrapper around the content
 
 /* Sponsor Footer Table */
 .u_table {
-  border: 1px solid white;
-  border-collapse: collapse;
+  border: 0px;
+  border-collapse: separate;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
+  border-spacing: 20px 0;
 }
 
 /* Sponsor Page Table */
@@ -255,7 +257,8 @@ Wrapper around the content
 }
 
 .u_th {
-  border: 1px solid black;
+  border: 0px;
+  border-bottom: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
 }
@@ -273,7 +276,7 @@ Wrapper around the content
 }
 
 .u_td {
-  border: 1px solid black;
+  border: 0px;
   border-collapse: collapse;
 }
 
