@@ -214,8 +214,8 @@ var spons22 = {
 
         /* Peraton Labs 1 */
         {"icon":"https://events.gnuradio.org/event/8/images/98-Peraton%20Labs%20logo-trimmed-extra.png",
-        "icon_w":1236,
-        "icon_h":619,
+        "icon_w":1332,
+        "icon_h":303,
         "url":"https://www.peratonlabs.com/",
         "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
 
