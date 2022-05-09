@@ -213,7 +213,7 @@ var spons22 = {
     {"name":"GOLD", "entries":[
 
         /* Peraton Labs 1 */
-        {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
+        {"icon":"https://events.gnuradio.org/event/8/images/98-Peraton%20Labs%20logo-trimmed-extra.png",
         "icon_w":1236,
         "icon_h":619,
         "url":"https://www.peratonlabs.com/",
