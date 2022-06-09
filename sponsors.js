@@ -197,6 +197,13 @@ var spons22 = {
   "levels": [
     {"name":"DIAMOND", "entries":[
 
+        /* NI / Ettus Research 10 */
+        {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
+        "icon_w":1042,
+        "icon_h":472,
+        "url":"https://www.ettus.com/",
+        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."}
+
         ]},
 
     {"name":"PLATINUM", "entries":[
