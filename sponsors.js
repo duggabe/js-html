@@ -245,7 +245,28 @@ var spons22 = {
         "icon_w":996,
         "icon_h":735,
         "url":"https://www.deepsig.ai/",
-        "blurb":"DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig’s engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."}
+        "blurb":"DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig’s engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."},
+
+        /* Oak Ridge National Labs 8 */
+        {"icon":"https://events.gnuradio.org/event/18/images/99-ORNL%20Two-line_color.png",
+        "icon_w":2032,
+        "icon_h":489,
+        "url":"https://www.ornl.gov/",
+        "blurb":"As the US Department of Energy’s largest multi-disciplinary laboratory, Oak Ridge National Laboratory applies a remarkable portfolio of scientific and technological expertise and world-class facilities to develop solutions for the complex challenges facing our nation. These challenges include adapting to and mitigating the impacts of climate change, improving human health, and enhancing US competitiveness by encouraging innovation."},
+
+        /* SkySafe 9 */
+        {"icon":"https://www.gnuradio.org/grcon/grcon19/sponsors/skysafe.svg",
+        "icon_w":766,
+        "icon_h":766,
+        "url":"https://www.skysafe.io/",
+        "blurb":"SkySafe provides world-class drone defense and airspace control solutions. Founded in 2015 in San Diego, CA, our team consists of drone experts from MIT, UC San Diego, the Air Force Research Lab, and more. Our industry and intellectual experience includes leaders from the fields of security research, RF engineering, academia, and the military. We are a collection of diverse, capable, and hard working professionals who enjoy attacking the hardest challenges–we also have a lot of fun."},
+
+        /* Rampart Communications 10 */
+        {"icon": "https://events.gnuradio.org/event/8/images/25-Comm-Logo-RGB.jpg",
+        "icon_w":1600,
+        "icon_h":1300,
+        "url":"https://rampartcommunications.com/",
+        "blurb":"Rampart Communications, Inc. is based in Hanover, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."}
 
        ]},
 
@@ -311,7 +332,7 @@ function sponsors22 (myObj)
         if (_num_sponsors > 0)
             {
             // build sponsor section of footer
-            sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2><br>';
+            sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
 
             /* create table */
             var tbl = document.createElement("TABLE");
