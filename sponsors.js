@@ -266,7 +266,14 @@ var spons22 = {
         "icon_w":1600,
         "icon_h":1300,
         "url":"https://rampartcommunications.com/",
-        "blurb":"Rampart Communications, Inc. is based in Hanover, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."}
+        "blurb":"Rampart Communications, Inc. is based in Hanover, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."},
+
+        /* Aldec 11 */
+        {"icon": "https://events.gnuradio.org/event/18/images/100-Aldec_Crescent_rgb_sm.png",
+        "icon_w":833,
+        "icon_h":313,
+        "url":"http://www.aldec.com/",
+        "blurb":"Established in 1984, Aldec is an industry leader in electronic design verification and a leading provider of advanced verification tools and solutions for FPGAs and SoC FPGAs, including mixed-HDL simulation, static linting, CDC analysis, functional coverage, code coverage, FPGA development boards and hardware-assisted verification."}
 
        ]},
 
