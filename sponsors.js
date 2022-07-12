@@ -259,7 +259,7 @@ var spons22 = {
         "icon_w":2032,
         "icon_h":489,
         "url":"https://www.ornl.gov/",
-        "blurb":"As the US Department of Energy’s largest multi-disciplinary laboratory, Oak Ridge National Laboratory applies a remarkable portfolio of scientific and technological expertise and world-class facilities to develop solutions for the complex challenges facing our nation. These challenges include adapting to and mitigating the impacts of climate change, improving human health, and enhancing US competitiveness by encouraging innovation."},
+        "blurb":"ORNL uses artificial intelligence and machine learning to develop solutions in near real time that optimize communications in complex RF environments with no prior training knowledge. We also have teams working on protocol development and RF over fiber that provide a wide range of research opportunities. The Lab has recently installed a ground station for long-range and space-to-ground communication development solutions. Utilizing ORNL’s expertise as the home of the fastest supercomputer in the world, we are creating complex simulations of 5G environments on HPC supercomputers."},
 
         /* SkySafe 9 */
         {"icon":"https://www.gnuradio.org/grcon/grcon19/sponsors/skysafe.svg",
