@@ -297,6 +297,13 @@ var spons22 = {
 
     {"name":"PATRON", "entries":[
 
+/*      Cambridge Radio Instruments */
+        {"icon":"https://events.gnuradio.org/event/18/images/113-CRI_logo.png",
+        "icon_w":2459,
+        "icon_h":354,
+        "url":"https://www.cr-instruments.co.uk/",
+        "blurb":"Cambridge Radio Instruments offers a wide range of consultancy services including the design and fabrication of RF and microwave technologies. Our services include antenna design, RF device modeling and PCB layout as well as digital design services for real-time signal processing systems based around FPGA, GPU, and CPU processing platforms.<br><br>We are involved in developing ultra wideband transceivers based on Xilinx System-on-Chip architectures for use in a variety of applications including software-defined radio. Our latest offering, codenamed &quot;Sparrow&quot; is a tunable dual-input baseband receiver with up to 400MHz bandwidth employing onboard White Rabbit technology for sub-nanosecond synchronisation of data packets. We look forward to taking on new projects, working from conceptual design all the way to fabrication and testing. Contact email: nimarazavi@gmail.com"}
+
         ]}
   ]
 }
