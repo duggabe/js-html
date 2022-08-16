@@ -145,6 +145,10 @@ var spons21 = {
 
         ]},
 
+    {"name":"PARTNERS", "entries":[
+
+        ]},
+
     {"name":"PATRON", "entries":[
 
         /* SkySafe 6 */
@@ -208,19 +212,19 @@ var spons22 = {
 
     {"name":"PLATINUM", "entries":[
 
-        /* Epiq Solutions 4 */
-        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/epiq.png",
-        "icon_w":862,
-        "icon_h":564,
-        "url":"https://epiqsolutions.com/",
-        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."},
-
         /* Analog Devices 12 */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/Analog_Devices_Logo.svg",
         "icon_w":236,
         "icon_h":95,
         "url":"https://www.analog.com/",
-        "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."}
+        "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."},
+
+        /* Epiq Solutions 4 */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/epiq.png",
+        "icon_w":862,
+        "icon_h":564,
+        "url":"https://epiqsolutions.com/",
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
 
         ]},
 
@@ -305,7 +309,32 @@ var spons22 = {
         "icon_w":1051,
         "icon_h":810,
         "url":"https://deepwavedigital.com/",
-        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for mostl AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."}
+        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for mostl AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."},
+
+        /* shift5 15 */
+        {"icon":"https://events.gnuradio.org/event/18/images/118-shift5-og.jpg",
+        "icon_w":300,
+        "icon_h":169,
+        "url":"https://www.shift5.io/",
+        "blurb":"Shift5 is a transportation data company whose customers run smarter, safer, and more efficiently by unlocking their fleet’s data. Fleets generate massive amounts of data every day, and fleet owners deserve technology solutions that turn this data into real business value. Our data-driven solutions integrate directly onto existing platforms, collecting and enriching data from all their electronic components. Shift5 customers employ this data to automate menial tasks, improve reliability and safety, and make smarter business decisions. The US Military and commercial fleet operators alike trust Shift5 with their most critical assets."}
+
+        ]},
+
+    {"name":"PARTNERS", "entries":[
+
+        /* SETI Institute */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
+        "icon_w":400,
+        "icon_h":243,
+        "url":"https://www.seti.org/",
+        "blurb":"The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501(c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond. As of 2020, the Institute manages contracts, grants, and related administration for the GNU Radio project, and engenders collaboration with the community around shared interests in science, engineering, and education."},
+
+        /* BSRC */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
+        "icon_w":750,
+        "icon_h":512,
+        "url":"https://seti.berkeley.edu/",
+        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
 
         ]},
 
@@ -349,6 +378,8 @@ function sponsors22 (myObj)
     var _num_levels = myObj.levels.length;
     const DIAMOND = 0;
     const PLATINUM = 1;
+    const GOLD = 2;
+    const PARTNERS = 4;
     const PATRON = _num_levels-1;
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
     sa[0].innerHTML = "<br>";   // wipe out footer
@@ -369,14 +400,14 @@ function sponsors22 (myObj)
             // build sponsor section of footer
             sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
 
-            /* create table */
+            /* create table Row 1 */
             var tbl = document.createElement("TABLE");
             tbl.setAttribute("class", "u_table");
             /* create header row */
             var t_tr = document.createElement("TR");
             t_tr.setAttribute("class", "u_tr");
             /* for each entry */
-            for (let i = DIAMOND; i < PLATINUM; i++)
+            for (let i = DIAMOND; i < GOLD; i++)
                 {
                 var _lel = myObj.levels[i].entries.length;  // how many entries
                 if (_lel > 0)
@@ -395,7 +426,7 @@ function sponsors22 (myObj)
             /* create data row */
             var t_tr = document.createElement("TR");
             /* for each entry */
-            for (let i = DIAMOND; i < PLATINUM; i++)
+            for (let i = DIAMOND; i < GOLD; i++)
                 {
                 for (j in myObj.levels[i].entries) 
                     {
@@ -403,10 +434,10 @@ function sponsors22 (myObj)
                     var t_td = document.createElement("TD");
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 200 / aspect;
+                    var _td_h = 120 / aspect;
                     var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
                         "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:200px;height:" + _td_h + "px;\"></a>";
+                        "\" style=\"width:120px;height:" + _td_h + "px;\"></a>";
                     // console.log (anchor);
                     t_td.innerHTML = anchor;
                     t_tr.appendChild(t_td);
@@ -418,14 +449,14 @@ function sponsors22 (myObj)
             /* attach table to content */
             sa[0].appendChild(tbl);
 
-            /* create table */
+            /* create table Row 2 */
             var tbl = document.createElement("TABLE");
             tbl.setAttribute("class", "u_table");
             /* create header row */
             var t_tr = document.createElement("TR");
             t_tr.setAttribute("class", "u_tr");
             /* for each entry */
-            for (let i = PLATINUM; i < PATRON; i++)       // do all except Patrons 
+            for (let i = GOLD; i < PARTNERS; i++)       // do all except Patrons 
                 {
                 var _lel = myObj.levels[i].entries.length;  // how many entries
                 if (_lel > 0)
@@ -444,7 +475,60 @@ function sponsors22 (myObj)
             /* create data row */
             var t_tr = document.createElement("TR");
             /* for each entry */
-            for (let i = PLATINUM; i < PATRON; i++)
+            for (let i = GOLD; i < PARTNERS; i++)
+                {
+                for (j in myObj.levels[i].entries) 
+                    {
+                    /* create data element */
+                    var t_td = document.createElement("TD");
+                    t_td.setAttribute("class", "u_td");
+                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+                    var _td_h = 88 / aspect;
+                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                        "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                        "\" style=\"width:88px;height:" + _td_h + "px;\"></a>";
+                    // console.log (anchor);
+                    t_td.innerHTML = anchor;
+                    t_tr.appendChild(t_td);
+                    tbl.appendChild(t_tr);
+                    }
+                }
+            /* attach row to table */
+            tbl.appendChild(t_tr);
+            /* attach table to content */
+            sa[0].appendChild(tbl);
+
+            var ftr3 = document.createElement("DIV");
+            ftr3.innerHTML = '<h2 class="u_cent">Our Partners</h2>';
+            sa[0].appendChild(ftr3);
+
+            /* create table Row 3 */
+            var tbl = document.createElement("TABLE");
+            tbl.setAttribute("class", "u_table");
+            /* create header row */
+            var t_tr = document.createElement("TR");
+            t_tr.setAttribute("class", "u_tr");
+            /* for each entry */
+            for (let i = PARTNERS; i < PATRON; i++)       // do all except Patrons 
+                {
+                var _lel = myObj.levels[i].entries.length;  // how many entries
+                if (_lel > 0)
+                    {
+                    var t_th = document.createElement("TH");
+                    t_th.setAttribute("class", "u_th");
+                    if (_lel > 1)
+                        t_th.setAttribute("colspan", _lel);
+                    /* create data row */
+                    t_th.innerHTML = " ";
+                    /* attach data to row */
+                    t_tr.appendChild(t_th);
+                    }
+                }
+            tbl.appendChild(t_tr);
+            /* create data row */
+            var t_tr = document.createElement("TR");
+            /* for each entry */
+            for (let i = PARTNERS; i < PATRON; i++)
                 {
                 for (j in myObj.levels[i].entries) 
                     {
