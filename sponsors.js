@@ -309,7 +309,7 @@ var spons22 = {
         "icon_w":1051,
         "icon_h":810,
         "url":"https://deepwavedigital.com/",
-        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for mostl AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."},
+        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for most AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."},
 
         /* shift5 15 */
         {"icon":"https://events.gnuradio.org/event/18/images/118-shift5-og.jpg",
@@ -345,7 +345,21 @@ var spons22 = {
         "icon_w":2459,
         "icon_h":354,
         "url":"https://www.cr-instruments.co.uk/",
-        "blurb":"Cambridge Radio Instruments offers a wide range of consultancy services including the design and fabrication of RF and microwave technologies. Our services include antenna design, RF device modeling and PCB layout as well as digital design services for real-time signal processing systems based around FPGA, GPU, and CPU processing platforms.<br><br>We are involved in developing ultra wideband transceivers based on Xilinx System-on-Chip architectures for use in a variety of applications including software-defined radio. Our latest offering, codenamed &quot;Sparrow&quot; is a tunable dual-input baseband receiver with up to 400MHz bandwidth employing onboard White Rabbit technology for sub-nanosecond synchronisation of data packets. We look forward to taking on new projects, working from conceptual design all the way to fabrication and testing. Contact email: nimarazavi@gmail.com"}
+        "blurb":"Cambridge Radio Instruments offers a wide range of consultancy services including the design and fabrication of RF and microwave technologies. Our services include antenna design, RF device modeling and PCB layout as well as digital design services for real-time signal processing systems based around FPGA, GPU, and CPU processing platforms.<br><br>We are involved in developing ultra wideband transceivers based on Xilinx System-on-Chip architectures for use in a variety of applications including software-defined radio. Our latest offering, codenamed &quot;Sparrow&quot; is a tunable dual-input baseband receiver with up to 400MHz bandwidth employing onboard White Rabbit technology for sub-nanosecond synchronisation of data packets. We look forward to taking on new projects, working from conceptual design all the way to fabrication and testing. Contact email: nimarazavi@gmail.com"},
+
+        /* Verus Technology */
+        {"icon": "https://events.gnuradio.org/event/18/images/120-verus.png",
+        "icon_w":1730,
+        "icon_h":490,
+        "url":"https://www.verustechnologygroup.com/",
+        "blurb":"Verus Technology specializes in Counter UAS Systems for Drone Detection. Human life, strategic interests, and commercial endeavors are under increasing threat due to the intrinsic versatility and stealth of a drone. Counter drone and UAS technology successfully minimizes safety risks in the airspace."},
+
+        /* RL Marlow */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/rlmconsulting.png",
+        "icon_w":485,
+        "icon_h":203,
+        "url":"https://rynmrlw.github.io/rlmarlow.com/",
+        "blurb":"RL Marlow Consulting LLC provides FPGA and USRP design services and expertise. Founded in 2017 by Ryan Marlow and now based out of his home office in Durham, NC. Ryan has worked directly with Ettus Research/NI and their customers. Some examples of this work: wrapped proprietary ip cores into the RFNoC framework to run on a USRP device, developed custom RFNoC blocks that meet customers' needs, devised multi-USRP schemes to control multiple devices for MIMO tasks, and porting a custom SDR platform into the UHD environment to send/receive commands and data samples to/from GNU Radio. Ryan has directly contributed to the UHD github codebase. Some applications of his DSP work include: MIMO radar system, beamforming algorithm development and implementation, and signal detection using high speed FFT and frequency sweeping. In addition to DSP related work, Ryan has worked in hardware-level cybersecurity and custom EDA tools that have given him a deeper understanding of low level FPGA architecture."}
 
         ]}
   ]
