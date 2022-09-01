@@ -359,7 +359,14 @@ var spons22 = {
         "icon_w":485,
         "icon_h":203,
         "url":"https://rynmrlw.github.io/rlmarlow.com/",
-        "blurb":"RL Marlow Consulting LLC provides FPGA and USRP design services and expertise. Founded in 2017 by Ryan Marlow and now based out of his home office in Durham, NC. Ryan has worked directly with Ettus Research/NI and their customers. Some examples of this work: wrapped proprietary ip cores into the RFNoC framework to run on a USRP device, developed custom RFNoC blocks that meet customers' needs, devised multi-USRP schemes to control multiple devices for MIMO tasks, and porting a custom SDR platform into the UHD environment to send/receive commands and data samples to/from GNU Radio. Ryan has directly contributed to the UHD github codebase. Some applications of his DSP work include: MIMO radar system, beamforming algorithm development and implementation, and signal detection using high speed FFT and frequency sweeping. In addition to DSP related work, Ryan has worked in hardware-level cybersecurity and custom EDA tools that have given him a deeper understanding of low level FPGA architecture."}
+        "blurb":"RL Marlow Consulting LLC provides FPGA and USRP design services and expertise. Founded in 2017 by Ryan Marlow and now based out of his home office in Durham, NC. Ryan has worked directly with Ettus Research/NI and their customers. Some examples of this work: wrapped proprietary ip cores into the RFNoC framework to run on a USRP device, developed custom RFNoC blocks that meet customers' needs, devised multi-USRP schemes to control multiple devices for MIMO tasks, and porting a custom SDR platform into the UHD environment to send/receive commands and data samples to/from GNU Radio. Ryan has directly contributed to the UHD github codebase. Some applications of his DSP work include: MIMO radar system, beamforming algorithm development and implementation, and signal detection using high speed FFT and frequency sweeping. In addition to DSP related work, Ryan has worked in hardware-level cybersecurity and custom EDA tools that have given him a deeper understanding of low level FPGA architecture."},
+
+        /* AirIn Technologies */
+        {"icon": "https://events.gnuradio.org/event/18/images/123-airin.jpg",
+        "icon_w":914,
+        "icon_h":300,
+        "url":"https://www.airintech.com/",
+        "blurb":"AirIn Technologies provides advisory and consulting services throughout the entire satellite payload life cycle. We facilitate initial R&D, discuss and match requirements, and enable testing. We also complete anomaly resolution and work with operations. Our areas of expertise include digital communications, advanced DSP, phased array and array processing, geo-location, RF receiver design, antenna modeling and design, electromagnetic propagation, computational electromagnetics, and machine learning."}
 
         ]}
   ]
