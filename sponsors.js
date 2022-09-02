@@ -284,7 +284,14 @@ var spons22 = {
         "icon_w":833,
         "icon_h":313,
         "url":"http://www.aldec.com/",
-        "blurb":"Established in 1984, Aldec is an industry leader in electronic design verification and a leading provider of advanced verification tools and solutions for FPGAs and SoC FPGAs, including mixed-HDL simulation, static linting, CDC analysis, functional coverage, code coverage, FPGA development boards and hardware-assisted verification."}
+        "blurb":"Established in 1984, Aldec is an industry leader in electronic design verification and a leading provider of advanced verification tools and solutions for FPGAs and SoC FPGAs, including mixed-HDL simulation, static linting, CDC analysis, functional coverage, code coverage, FPGA development boards and hardware-assisted verification."},
+
+        /* Microsoft */
+        {"icon":"https://events.gnuradio.org/event/8/images/16-Microsoft.png",
+        "icon_w":216,
+        "icon_h":46,
+        "url":"https://www.microsoft.com/",
+        "blurb":"Microsoft is driving the intersection of satellite and terrestrial communications with the cloud, making these technologies more accessible, affordable, and widely available through our Azure Orbital product family. Open Source is a cornerstone of Microsoft’s strategy and execution, and Microsoft represents one of the largest OSS contributors on the planet."}
 
        ]},
 
