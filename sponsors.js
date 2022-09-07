@@ -266,9 +266,9 @@ var spons22 = {
         "blurb":"ORNL uses artificial intelligence and machine learning to develop solutions in near real time that optimize communications in complex RF environments with no prior training knowledge. We also have teams working on protocol development and RF over fiber that provide a wide range of research opportunities. The Lab has recently installed a ground station for long-range and space-to-ground communication development solutions. Utilizing ORNL’s expertise as the home of the fastest supercomputer in the world, we are creating complex simulations of 5G environments on HPC supercomputers."},
 
         /* SkySafe 9 */
-        {"icon":"https://www.gnuradio.org/grcon/grcon19/sponsors/skysafe.svg",
-        "icon_w":766,
-        "icon_h":766,
+        {"icon":"https://events.gnuradio.org/event/18/images/124-skysafe.png",
+        "icon_w":991,
+        "icon_h":634,
         "url":"https://www.skysafe.io/",
         "blurb":"SkySafe provides world-class drone defense and airspace control solutions. Founded in 2015 in San Diego, CA, our team consists of drone experts from MIT, UC San Diego, the Air Force Research Lab, and more. Our industry and intellectual experience includes leaders from the fields of security research, RF engineering, academia, and the military. We are a collection of diverse, capable, and hard working professionals who enjoy attacking the hardest challenges–we also have a lot of fun."},
 
@@ -504,7 +504,7 @@ function sponsors22 (myObj)
                 if (_lel > 0)
                     {
                     var t_th = document.createElement("TH");
-                    t_th.setAttribute("class", "u_th");
+                    t_th.setAttribute("class", "th");
                     if (_lel > 1)
                         t_th.setAttribute("colspan", _lel);
                     /* create data row */
