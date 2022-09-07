@@ -290,7 +290,7 @@ var spons22 = {
         {"icon":"https://events.gnuradio.org/event/8/images/16-Microsoft.png",
         "icon_w":216,
         "icon_h":46,
-        "url":"https://www.microsoft.com/",
+        "url":"https://azure.microsoft.com/en-us/services/orbital/",
         "blurb":"Microsoft is driving the intersection of satellite and terrestrial communications with the cloud, making these technologies more accessible, affordable, and widely available through our Azure Orbital product family. Open Source is a cornerstone of Microsoft’s strategy and execution, and Microsoft represents one of the largest OSS contributors on the planet."}
 
        ]},
@@ -428,18 +428,20 @@ function sponsors22 (myObj)
             // build sponsor section of footer
             sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
 
-            /* create table Row 1 */
-            var tbl = document.createElement("TABLE");
-            tbl.setAttribute("class", "u_table");
-            /* create header row */
-            var t_tr = document.createElement("TR");
-            t_tr.setAttribute("class", "u_tr");
-            /* for each entry */
-            for (let i = DIAMOND; i < GOLD; i++)
-                {
+
+            for (let i = DIAMOND; i < PARTNERS; i++)
+            {
+                /* create table Row 1 */
+                var tbl = document.createElement("TABLE");
+                tbl.setAttribute("class", "u_table");
+                /* create header row */
+                var t_tr = document.createElement("TR");
+                t_tr.setAttribute("class", "u_tr");
+                /* for each entry */
+            
                 var _lel = myObj.levels[i].entries.length;  // how many entries
                 if (_lel > 0)
-                    {
+                {
                     var t_th = document.createElement("TH");
                     t_th.setAttribute("class", "u_th");
                     if (_lel > 1)
@@ -448,86 +450,45 @@ function sponsors22 (myObj)
                     t_th.innerHTML = myObj.levels[i].name;
                     /* attach data to row */
                     t_tr.appendChild(t_th);
-                    }
                 }
-            tbl.appendChild(t_tr);
-            /* create data row */
-            var t_tr = document.createElement("TR");
-            /* for each entry */
-            for (let i = DIAMOND; i < GOLD; i++)
-                {
+                
+                tbl.appendChild(t_tr);
+                /* create data row */
+                var t_tr = document.createElement("TR");
+                /* for each entry */
+                
                 for (j in myObj.levels[i].entries) 
-                    {
+                {
                     /* create data element */
                     var t_td = document.createElement("TD");
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
                     var _td_h = 120 / aspect;
-                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                        "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:120px;height:" + _td_h + "px;\"></a>";
+                    if (i == DIAMOND) {
+                        var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                            "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                            "\" style=\"width:240px;height:" + _td_h*2 + "px;\"></a>";
+                    }
+                    else {
+                        var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                                "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                                "\" style=\"width:120px;height:" + _td_h + "px;\"></a>";
+                    }
                     // console.log (anchor);
                     t_td.innerHTML = anchor;
                     t_tr.appendChild(t_td);
                     tbl.appendChild(t_tr);
-                    }
                 }
-            /* attach row to table */
-            tbl.appendChild(t_tr);
-            /* attach table to content */
-            sa[0].appendChild(tbl);
+                
+                /* attach row to table */
+                tbl.appendChild(t_tr);
+                /* attach table to content */
+                sa[0].appendChild(tbl);
+            }
 
-            /* create table Row 2 */
-            var tbl = document.createElement("TABLE");
-            tbl.setAttribute("class", "u_table");
-            /* create header row */
-            var t_tr = document.createElement("TR");
-            t_tr.setAttribute("class", "u_tr");
-            /* for each entry */
-            for (let i = GOLD; i < PARTNERS; i++)       // do all except Patrons 
-                {
-                var _lel = myObj.levels[i].entries.length;  // how many entries
-                if (_lel > 0)
-                    {
-                    var t_th = document.createElement("TH");
-                    t_th.setAttribute("class", "u_th");
-                    if (_lel > 1)
-                        t_th.setAttribute("colspan", _lel);
-                    /* create data row */
-                    t_th.innerHTML = myObj.levels[i].name;
-                    /* attach data to row */
-                    t_tr.appendChild(t_th);
-                    }
-                }
-            tbl.appendChild(t_tr);
-            /* create data row */
-            var t_tr = document.createElement("TR");
-            /* for each entry */
-            for (let i = GOLD; i < PARTNERS; i++)
-                {
-                for (j in myObj.levels[i].entries) 
-                    {
-                    /* create data element */
-                    var t_td = document.createElement("TD");
-                    t_td.setAttribute("class", "u_td");
-                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 88 / aspect;
-                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                        "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:88px;height:" + _td_h + "px;\"></a>";
-                    // console.log (anchor);
-                    t_td.innerHTML = anchor;
-                    t_tr.appendChild(t_td);
-                    tbl.appendChild(t_tr);
-                    }
-                }
-            /* attach row to table */
-            tbl.appendChild(t_tr);
-            /* attach table to content */
-            sa[0].appendChild(tbl);
-
+                        
             var ftr3 = document.createElement("DIV");
-            ftr3.innerHTML = '<h2 class="u_cent">Our Partners</h2>';
+            ftr3.innerHTML = '<p></p><h2 class="u_cent">Our Partners</h2>';
             sa[0].appendChild(ftr3);
 
             /* create table Row 3 */
