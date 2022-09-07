@@ -528,7 +528,7 @@ function sponsors22 (myObj)
                     var _td_h = 88 / aspect;
                     var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
                         "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:88px;height:" + _td_h + "px;\"></a>";
+                        "\" style=\"width:132px;height:" + _td_h*1.5 + "px;\"></a>";
                     // console.log (anchor);
                     t_td.innerHTML = anchor;
                     t_tr.appendChild(t_td);
