@@ -224,7 +224,14 @@ var spons22 = {
         "icon_w":1354,
         "icon_h":677,
         "url":"https://epiqsolutions.com/",
-        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."},
+
+        /* Elbit Systems 17 */
+        {"icon": "https://events.gnuradio.org/event/18/images/128-Elbit%20C4i%20and%20Cyber%20logo.jpg",
+        "icon_w":1539,
+        "icon_h":560,
+        "url":"https://elbitsystems.com/",
+        "blurb":"Elbit Systems Ltd. is an international high technology company engaged in a wide range of defense, homeland security and commercial programs throughout the world. The Company, which includes Elbit Systems and its subsidiaries, operates in the areas of aerospace, land, and naval systems, command, control, communications, computers, intelligence surveillance and reconnaissance (\"C4ISR\"), unmanned aircraft systems, advanced electro-optics, electro-optic space systems, EW suites, signal intelligence systems, data links and communications systems, radios and cyber-based systems and munitions. The Company also focuses on the upgrading of existing platforms, developing new technologies for defense, homeland security and commercial applications and providing a range of support services, including training and simulation systems.<br><br>For additional information visit: <a href=\"https://elbitsystems.com/\">elbitsystems.com</a>, follow us on: <a href=\"https://twitter.com/ElbitSystemsLtd\">Twitter</a>, <a href=\"https://www.linkedin.com/company/elbitsystems/\">LinkedIn,</a>, <a href=\"https://www.facebook.com/elbitsystemsltd/\">Facebook</a> or visit our official <a href=\"https://www.youtube.com/c/elbitsystems\">YouTube</a> Channel."}
 
         ]},
 
