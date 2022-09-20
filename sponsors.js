@@ -309,7 +309,7 @@ var spons22 = {
         "icon_w":636,
         "icon_h":183,
         "url":"https://www.redwiretechnology.com/",
-        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, custom RF circuits, digital signal processing, and FPGA solutions for both turn-key and developer focused applications."},
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."},
 
 /*      BCubed 13 */
         {"icon":"https://events.gnuradio.org/event/18/images/117-BCubed_1.png",
