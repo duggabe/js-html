@@ -387,7 +387,14 @@ var spons22 = {
         "icon_w":914,
         "icon_h":300,
         "url":"https://www.airintech.com/",
-        "blurb":"AirIn Technologies provides advisory and consulting services throughout the entire satellite payload life cycle. We facilitate initial R&D, discuss and match requirements, and enable testing. We also complete anomaly resolution and work with operations. Our areas of expertise include digital communications, advanced DSP, phased array and array processing, geo-location, RF receiver design, antenna modeling and design, electromagnetic propagation, computational electromagnetics, and machine learning."}
+        "blurb":"AirIn Technologies provides advisory and consulting services throughout the entire satellite payload life cycle. We facilitate initial R&D, discuss and match requirements, and enable testing. We also complete anomaly resolution and work with operations. Our areas of expertise include digital communications, advanced DSP, phased array and array processing, geo-location, RF receiver design, antenna modeling and design, electromagnetic propagation, computational electromagnetics, and machine learning."},
+
+        /* USDR */
+        {"icon": "https://events.gnuradio.org/event/18/images/130-GRCON22-VJ9JN-1-wsdr_lightblue.png",
+        "icon_w":6894,
+        "icon_h":1960,
+        "url":"https://usdr.pro/",
+        "blurb":"USDR is a project that aims to eliminate the drawbacks of using SDR by web approach. No special software, drivers, version incompatibilities, configuration files, just a web browser that makes everything work easy and time-wise. All signal processing can be done directly in the browser tab, thus enabling global collaboration in decoding and signal processing worldwide."}
 
         ]}
   ]
