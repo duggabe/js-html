@@ -5,12 +5,13 @@
 /* 24 Mar 2022  major restructuring to handle GRCon21 and GRCon22 */
 /* 07 Apr 2022  changed sponsors page */
 /* 06 May 2022  Marc modified the style of the table in the footer */
+/* 24 Dec 2022  add icon level size */
 
 "use strict"
 
 var spons21 = {
   "levels": [
-    {"name":"DIAMOND", "entries":[
+    {"name":"DIAMOND", "lvl_size":240, "entries":[
 
         /* NI / Ettus Research 10 */
         {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
@@ -35,7 +36,7 @@ var spons21 = {
 
         ]},
 
-    {"name":"PLATINUM", "entries":[
+    {"name":"PLATINUM", "lvl_size":120, "entries":[
 
         /* Analog Devices 14 */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/Analog_Devices_Logo.svg",
@@ -60,7 +61,7 @@ var spons21 = {
 
         ]},
 
-    {"name":"GOLD", "entries":[
+    {"name":"GOLD", "lvl_size":120, "entries":[
 
         /* Peraton Labs 2 */
         {"icon":"https://events.gnuradio.org/event/8/images/11-Peraton%20Labs%20logo-trimmed.png",
@@ -95,7 +96,7 @@ var spons21 = {
         "icon_w":216,
         "icon_h":46,
         "url":"https://www.microsoft.com/",
-        "blurb":"Our mission is to empower every person and every organization on the planet to achieve more."},
+        "blurb":"Microsoft is driving the intersection of satellite and terrestrial communications with the cloud, making these technologies more accessible, affordable, and widely available through our Azure Orbital product family. Open Source is a cornerstone of Microsoft’s strategy and execution, and Microsoft represents one of the largest OSS contributors on the planet."},
 
         /* Deepwave Digital 7 */
         {"icon":"https://events.gnuradio.org/event/8/images/18-deepwave_trim.png",
@@ -103,20 +104,6 @@ var spons21 = {
         "icon_h":810,
         "url":"https://deepwavedigital.com/",
         "blurb":"Deepwave Digital manufactures the AIR-T. AIR-T is the first software-defined radio (SDR) with an embedded NVIDIA GPU with an FPGA and an RF direct conversion receiver. The AIR-T allows for a fully autonomous SDR by giving the AI engine complete control over the hardware. It integrates three digital processors that provide the functionality needed for any signal processing application: FPGA for strict real-time operations, GPU for highly parallel processing and deep learning, and CPU for control, I/O, DSP, and software applications."},
-
-        /* SETI Institute */
-        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
-        "icon_w":400,
-        "icon_h":243,
-        "url":"https://www.seti.org/",
-        "blurb":"The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501(c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond. As of 2020, the Institute manages contracts, grants, and related administration for the GNU Radio project, and engenders collaboration with the community around shared interests in science, engineering, and education."},
-
-        /* BSRC */
-        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
-        "icon_w":750,
-        "icon_h":512,
-        "url":"https://seti.berkeley.edu/",
-        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."},
 
         /* ARDC 18 */
         {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
@@ -127,7 +114,7 @@ var spons21 = {
 
         ]},
 
-    {"name":"SILVER", "entries":[
+    {"name":"SILVER", "lvl_size":120, "entries":[
 
         /* Vesperix 12 */
         {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
@@ -145,11 +132,25 @@ var spons21 = {
 
         ]},
 
-    {"name":"PARTNERS", "entries":[
+    {"name":"PARTNERS", "lvl_size":132, "entries":[
+
+        /* SETI Institute */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
+        "icon_w":400,
+        "icon_h":243,
+        "url":"https://www.seti.org/",
+        "blurb":"The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501(c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond. As of 2020, the Institute manages contracts, grants, and related administration for the GNU Radio project, and engenders collaboration with the community around shared interests in science, engineering, and education."},
+
+        /* BSRC */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
+        "icon_w":750,
+        "icon_h":512,
+        "url":"https://seti.berkeley.edu/",
+        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
 
         ]},
 
-    {"name":"PATRON", "entries":[
+    {"name":"PATRON", "lvl_size":88, "entries":[
 
         /* SkySafe 6 */
         {"icon":"https://www.gnuradio.org/grcon/grcon19/sponsors/skysafe.svg",
@@ -199,7 +200,7 @@ var spons21 = {
 
 var spons22 = {
   "levels": [
-    {"name":"DIAMOND", "entries":[
+    {"name":"DIAMOND", "lvl_size":240, "entries":[
 
         /* NI / Ettus Research 10 */
         {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
@@ -210,7 +211,7 @@ var spons22 = {
 
         ]},
 
-    {"name":"PLATINUM", "entries":[
+    {"name":"PLATINUM", "lvl_size":160, "entries":[
 
         /* Analog Devices 12 */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/Analog_Devices_Logo.svg",
@@ -235,7 +236,7 @@ var spons22 = {
 
         ]},
 
-    {"name":"GOLD", "entries":[
+    {"name":"GOLD", "lvl_size":132, "entries":[
 
         /* Peraton Labs 1 */
         {"icon":"https://events.gnuradio.org/event/8/images/98-Peraton%20Labs%20logo-trimmed-extra.png",
@@ -302,7 +303,7 @@ var spons22 = {
 
        ]},
 
-    {"name":"SILVER", "entries":[
+    {"name":"SILVER", "lvl_size":120, "entries":[
 
 /*      Red Wire Technology 3 */
         {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
@@ -341,7 +342,7 @@ var spons22 = {
 
         ]},
 
-    {"name":"PARTNERS", "entries":[
+    {"name":"PARTNERS", "lvl_size":132, "entries":[
 
         /* SETI Institute */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
@@ -359,7 +360,7 @@ var spons22 = {
 
         ]},
 
-    {"name":"PATRON", "entries":[
+    {"name":"PATRON", "lvl_size":88, "entries":[
 
 /*      Cambridge Radio Instruments */
         {"icon":"https://events.gnuradio.org/event/18/images/113-CRI_logo.png",
@@ -428,6 +429,7 @@ function sponsors22 (myObj)
     const DIAMOND = 0;
     const PLATINUM = 1;
     const GOLD = 2;
+    const SILVER = 3;
     const PARTNERS = 4;
     const PATRON = _num_levels-1;
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
@@ -449,9 +451,10 @@ function sponsors22 (myObj)
             // build sponsor section of footer
             sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
 
+/*  DIAMOND to SILVER */
 
             for (let i = DIAMOND; i < PARTNERS; i++)
-            {
+                {
                 /* create table Row 1 */
                 var tbl = document.createElement("TABLE");
                 tbl.setAttribute("class", "u_table");
@@ -462,7 +465,7 @@ function sponsors22 (myObj)
             
                 var _lel = myObj.levels[i].entries.length;  // how many entries
                 if (_lel > 0)
-                {
+                    {
                     var t_th = document.createElement("TH");
                     t_th.setAttribute("class", "u_th");
                     if (_lel > 1)
@@ -471,7 +474,7 @@ function sponsors22 (myObj)
                     t_th.innerHTML = myObj.levels[i].name;
                     /* attach data to row */
                     t_tr.appendChild(t_th);
-                }
+                    }
                 
                 tbl.appendChild(t_tr);
                 /* create data row */
@@ -479,35 +482,28 @@ function sponsors22 (myObj)
                 /* for each entry */
                 
                 for (j in myObj.levels[i].entries) 
-                {
+                    {
                     /* create data element */
                     var t_td = document.createElement("TD");
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 120 / aspect;
-                    if (i == DIAMOND) {
-                        var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                            "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                            "\" style=\"width:240px;height:" + _td_h*2 + "px;\"></a>";
-                    }
-                    else {
-                        var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                                "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                                "\" style=\"width:120px;height:" + _td_h + "px;\"></a>";
-                    }
+                    var _td_w = myObj.levels[i].lvl_size;
+                    var _td_h = _td_w / aspect;
+                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                        "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                        "\" style=\"width:" + _td_w + "px;height:" + _td_h + "px;\"></a>";
                     // console.log (anchor);
                     t_td.innerHTML = anchor;
                     t_tr.appendChild(t_td);
                     tbl.appendChild(t_tr);
-                }
+                    }
                 
                 /* attach row to table */
                 tbl.appendChild(t_tr);
                 /* attach table to content */
                 sa[0].appendChild(tbl);
-            }
+                }       // end DIAMOND to SILVER
 
-                        
             var ftr3 = document.createElement("DIV");
             ftr3.innerHTML = '<p></p><h2 class="u_cent">Our Partners</h2>';
             sa[0].appendChild(ftr3);
@@ -546,10 +542,11 @@ function sponsors22 (myObj)
                     var t_td = document.createElement("TD");
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 88 / aspect;
+                    var _td_w = myObj.levels[i].lvl_size;
+                    var _td_h = _td_w / aspect;
                     var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
                         "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                        "\" style=\"width:132px;height:" + _td_h*1.5 + "px;\"></a>";
+                        "\" style=\"width:" + _td_w + "px;height:" + _td_h + "px;\"></a>";
                     // console.log (anchor);
                     t_td.innerHTML = anchor;
                     t_tr.appendChild(t_td);
