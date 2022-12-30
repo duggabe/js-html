@@ -6,6 +6,7 @@
 /* 07 Apr 2022  changed sponsors page */
 /* 06 May 2022  Marc modified the style of the table in the footer */
 /* 24 Dec 2022  add icon level size */
+/* 27 Dec 2022  add spons23 object */
 
 "use strict"
 
@@ -401,6 +402,44 @@ var spons22 = {
   ]
 }
 
+var spons23 = {
+  "levels": [
+    {"name":"DIAMOND", "lvl_size":240, "entries":[
+        ]},
+
+    {"name":"PLATINUM", "lvl_size":160, "entries":[
+        ]},
+
+    {"name":"GOLD", "lvl_size":132, "entries":[
+        ]},
+
+    {"name":"SILVER", "lvl_size":120, "entries":[
+        ]},
+
+    {"name":"PARTNERS", "lvl_size":132, "entries":[
+
+        /* SETI Institute */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
+        "icon_w":400,
+        "icon_h":243,
+        "url":"https://www.seti.org/",
+        "blurb":"The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501(c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond. As of 2020, the Institute manages contracts, grants, and related administration for the GNU Radio project, and engenders collaboration with the community around shared interests in science, engineering, and education."},
+
+        /* BSRC */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
+        "icon_w":750,
+        "icon_h":512,
+        "url":"https://seti.berkeley.edu/",
+        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
+
+        ]},
+
+    {"name":"PATRON", "lvl_size":88, "entries":[
+        ]}
+  ]
+}
+
+
 document.body.onload = function() {myFunction()};
 
 function myFunction()
@@ -410,7 +449,13 @@ function myFunction()
     var pos1 = w_loc.search("event/18");     // GRCon22
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
-    if ((pos1 > 0) || (pos2 > 0))
+    var pos4 = w_loc.search("event/21");     // GRCon23
+    if ((pos2 > 0) || (pos4 > 0))
+        {
+        console.log ("GRCon 23");
+        sponsors22 (spons23);    // GRCon 23
+        }
+    else if (pos1 > 0)
         {
         console.log ("GRCon 22");
         sponsors22 (spons22);    // GRCon 22
@@ -435,10 +480,11 @@ function sponsors22 (myObj)
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
     sa[0].innerHTML = "<br>";   // wipe out footer
     var w_loc = window.location.href;
-    var pos4 = w_loc.search("Test4");      // for testing the Sponsors page
+    var pos5 = w_loc.search("Test4");      // for testing the Sponsors page
     if ((w_loc != ("https://events.gnuradio.org/event/18/page/60-our-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
-        (pos4 < 0))
+        (w_loc != ("https://events.gnuradio.org/event/21/page/94-our-sponsors")) &&
+        (pos5 < 0))
         {   // not Sponsors page
         var _num_sponsors = 0;
         for (let i = 0; i < _num_levels; i++)
@@ -625,12 +671,20 @@ function sponsors22 (myObj)
     sa[0].appendChild(ftr1);
 
     var ftr2 = document.createElement("DIV");
-    ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v3.0.3";
+    ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v3.2.2";
     sa[0].appendChild(ftr2);
 
     /* add timezone offset */
     var tz = document.getElementsByClassName("timezone");
-    var t1 = document.createTextNode(" (UTC - 4)");
+    var w_loc = window.location.href;
+    var pos1 = w_loc.search("event/18");     // GRCon22
+    var pos2 = w_loc.search("Test");         // for testing
+    var pos3 = w_loc.search("event/8");      // GRCon21
+    var pos4 = w_loc.search("event/21");     // GRCon23
+    if ((pos1 > 0) || (pos3 > 0))
+        var t1 = document.createTextNode(" (UTC - 4)");
+    else if ((pos2 > 0) || (pos4 > 0))
+        var t1 = document.createTextNode(" (UTC - 7)");
     tz[0].appendChild(t1);
     }   // end sponsors22()
 
