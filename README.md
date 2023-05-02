@@ -49,6 +49,7 @@ Since the same script must support multiple events, determination of individual 
 
     GRCon21 - https://events.gnuradio.org/event/8/page/5-sponsors  
     GRCon22 - https://events.gnuradio.org/event/18/page/60-our-sponsors  
+    GRCon23 - https://events.gnuradio.org/event/21/page/94-our-sponsors  
 
 ### Generate footer
 
