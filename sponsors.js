@@ -7,6 +7,7 @@
 /* 06 May 2022  Marc modified the style of the table in the footer */
 /* 24 Dec 2022  add icon level size */
 /* 27 Dec 2022  add spons23 object */
+/* 26 Apr 2023  add HOSTS level */
 
 "use strict"
 
@@ -131,6 +132,9 @@ var spons21 = {
         "url":"https://www.redwiretechnology.com/",
         "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, custom RF circuits, digital signal processing, and FPGA solutions for both turn-key and developer focused applications."}
 
+        ]},
+
+    {"name":"HOSTS", "lvl_size":132, "entries":[
         ]},
 
     {"name":"PARTNERS", "lvl_size":132, "entries":[
@@ -343,6 +347,10 @@ var spons22 = {
 
         ]},
 
+    {"name":"HOSTS", "lvl_size":132, "entries":[
+
+        ]},
+
     {"name":"PARTNERS", "lvl_size":132, "entries":[
 
         /* SETI Institute */
@@ -404,19 +412,30 @@ var spons22 = {
 
 var spons23 = {
   "levels": [
-    {"name":"DIAMOND", "lvl_size":240, "entries":[
+    {"name":"DIAMOND", "lvl_size":120, "entries":[
         ]},
 
-    {"name":"PLATINUM", "lvl_size":160, "entries":[
+    {"name":"PLATINUM", "lvl_size":80, "entries":[
         ]},
 
-    {"name":"GOLD", "lvl_size":132, "entries":[
+    {"name":"GOLD", "lvl_size":66, "entries":[
         ]},
 
-    {"name":"SILVER", "lvl_size":120, "entries":[
+    {"name":"SILVER", "lvl_size":60, "entries":[
         ]},
 
-    {"name":"PARTNERS", "lvl_size":132, "entries":[
+    {"name":"Hosted by", "lvl_size":66, "entries":[
+
+        /* WISCA */
+        {"icon":"https://events.gnuradio.org/event/21/images/131-wiscaRefRoundV2.jpg",
+        "icon_w":1192,
+        "icon_h":1193,
+        "url":"https://wisca.engineering.asu.edu/",
+        "blurb":"The Center for Wireless Information Systems and Computational Architectures (WISCA) places Arizona State University at the research and development nexus of the next wireless revolution.<br><br>To address future wireless communications and sensing for personal, machine, and IoT systems, we need access to more sophisticated, more flexible, and more efficient protocols and computational engines. Current communications approaches are efficient and inflexible or flexible and inefficient. By codeveloping advanced fluid protocols and mixed software define radios with hardware accelerators, we can solve both problems simultaneously. Furthermore, current protocols were developed under the assumption that communications links cannot operate in the presence of interference. This assumption introduces a significant limitation on potential performance. With our new radio architectures, we can break this rigid limitation."}
+
+        ]},
+
+    {"name":"Our Partners", "lvl_size":66, "entries":[
 
         /* SETI Institute */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
@@ -475,7 +494,8 @@ function sponsors22 (myObj)
     const PLATINUM = 1;
     const GOLD = 2;
     const SILVER = 3;
-    const PARTNERS = 4;
+    const HOSTS = 4;
+    const PARTNERS = 5;
     const PATRON = _num_levels-1;
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
     sa[0].innerHTML = "<br>";   // wipe out footer
@@ -487,21 +507,21 @@ function sponsors22 (myObj)
         (pos5 < 0))
         {   // not Sponsors page
         var _num_sponsors = 0;
-        for (let i = 0; i < _num_levels; i++)
+        for (let i = DIAMOND; i <= SILVER; i++)
             {
             _num_sponsors += myObj.levels[i].entries.length;  // how many entries
             }
         console.log ("num sponsors = ", _num_sponsors);
+
+/*  DIAMOND to SILVER */
+
         if (_num_sponsors > 0)
             {
             // build sponsor section of footer
             sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
-
-/*  DIAMOND to SILVER */
-
-            for (let i = DIAMOND; i < PARTNERS; i++)
+            for (let i = DIAMOND; i <= SILVER; i++)
                 {
-                /* create table Row 1 */
+                /* create table row */
                 var tbl = document.createElement("TABLE");
                 tbl.setAttribute("class", "u_table");
                 /* create header row */
@@ -521,12 +541,10 @@ function sponsors22 (myObj)
                     /* attach data to row */
                     t_tr.appendChild(t_th);
                     }
-                
                 tbl.appendChild(t_tr);
                 /* create data row */
                 var t_tr = document.createElement("TR");
                 /* for each entry */
-                
                 for (j in myObj.levels[i].entries) 
                     {
                     /* create data element */
@@ -543,35 +561,41 @@ function sponsors22 (myObj)
                     t_tr.appendChild(t_td);
                     tbl.appendChild(t_tr);
                     }
-                
                 /* attach row to table */
                 tbl.appendChild(t_tr);
                 /* attach table to content */
                 sa[0].appendChild(tbl);
                 }       // end DIAMOND to SILVER
+            }   // end if sponsors
 
-            var ftr3 = document.createElement("DIV");
-            ftr3.innerHTML = '<p></p><h2 class="u_cent">Our Partners</h2>';
-            sa[0].appendChild(ftr3);
+/*  HOSTS and PARTNERS */
 
-            /* create table Row 3 */
+        var _num_sponsors = 0;
+        for (let i = HOSTS; i <= PATRON; i++)
+            {
+            _num_sponsors += myObj.levels[i].entries.length;  // how many entries
+            }
+        console.log ("Hosts and Sponsors = ", _num_sponsors);
+        if (_num_sponsors > 0)
+            {
+            /* create table row */
             var tbl = document.createElement("TABLE");
             tbl.setAttribute("class", "u_table");
             /* create header row */
             var t_tr = document.createElement("TR");
             t_tr.setAttribute("class", "u_tr");
             /* for each entry */
-            for (let i = PARTNERS; i < PATRON; i++)       // do all except Patrons 
+            for (let i = HOSTS; i < PATRON; i++)
                 {
                 var _lel = myObj.levels[i].entries.length;  // how many entries
                 if (_lel > 0)
                     {
                     var t_th = document.createElement("TH");
-                    t_th.setAttribute("class", "th");
+                    t_th.setAttribute("class", "u_th");
                     if (_lel > 1)
                         t_th.setAttribute("colspan", _lel);
                     /* create data row */
-                    t_th.innerHTML = " ";
+                    t_th.innerHTML = myObj.levels[i].name;
                     /* attach data to row */
                     t_tr.appendChild(t_th);
                     }
@@ -580,7 +604,7 @@ function sponsors22 (myObj)
             /* create data row */
             var t_tr = document.createElement("TR");
             /* for each entry */
-            for (let i = PARTNERS; i < PATRON; i++)
+            for (let i = HOSTS; i < PATRON; i++)
                 {
                 for (j in myObj.levels[i].entries) 
                     {
@@ -603,11 +627,10 @@ function sponsors22 (myObj)
             tbl.appendChild(t_tr);
             /* attach table to content */
             sa[0].appendChild(tbl);
-
             var _br = document.createElement("br");
             sa[0].appendChild(_br);
+            }   // end HOSTS and PARTNERS
 
-            }   // end if sponsors
         }   // end not Sponsors page
     else
         {
