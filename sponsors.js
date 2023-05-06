@@ -412,19 +412,35 @@ var spons22 = {
 
 var spons23 = {
   "levels": [
-    {"name":"DIAMOND", "lvl_size":120, "entries":[
+    {"name":"DIAMOND", "lvl_size":180, "entries":[
         ]},
 
-    {"name":"PLATINUM", "lvl_size":80, "entries":[
+    {"name":"PLATINUM", "lvl_size":120, "entries":[
         ]},
 
-    {"name":"GOLD", "lvl_size":66, "entries":[
+    {"name":"GOLD", "lvl_size":100, "entries":[
+
+        /* ARDC 5 */
+        {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
+        "icon_w":300,
+        "icon_h":144,
+        "url":"https://www.ampr.org/",
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."}
+
         ]},
 
-    {"name":"SILVER", "lvl_size":60, "entries":[
+    {"name":"SILVER", "lvl_size":90, "entries":[
+
+/*      Red Wire Technology 3 */
+        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
+        "icon_w":636,
+        "icon_h":183,
+        "url":"https://www.redwiretechnology.com/",
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."}
+
         ]},
 
-    {"name":"Hosted by", "lvl_size":66, "entries":[
+    {"name":"Hosted by", "lvl_size":100, "entries":[
 
         /* WISCA */
         {"icon":"https://events.gnuradio.org/event/21/images/131-wiscaRefRoundV2.jpg",
@@ -435,7 +451,7 @@ var spons23 = {
 
         ]},
 
-    {"name":"Our Partners", "lvl_size":66, "entries":[
+    {"name":"Our Partners", "lvl_size":100, "entries":[
 
         /* SETI Institute */
         {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
@@ -552,6 +568,7 @@ function sponsors22 (myObj)
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
                     var _td_w = myObj.levels[i].lvl_size;
+                    // console.log (_td_w);
                     var _td_h = _td_w / aspect;
                     var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
                         "<img src=\"" + myObj.levels[i].entries[j].icon  +
@@ -571,7 +588,7 @@ function sponsors22 (myObj)
 /*  HOSTS and PARTNERS */
 
         var _num_sponsors = 0;
-        for (let i = HOSTS; i <= PATRON; i++)
+        for (let i = HOSTS; i < PATRON; i++)
             {
             _num_sponsors += myObj.levels[i].entries.length;  // how many entries
             }
@@ -613,6 +630,7 @@ function sponsors22 (myObj)
                     t_td.setAttribute("class", "u_td");
                     var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
                     var _td_w = myObj.levels[i].lvl_size;
+                    // console.log (_td_w);
                     var _td_h = _td_w / aspect;
                     var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
                         "<img src=\"" + myObj.levels[i].entries[j].icon  +
