@@ -420,18 +420,25 @@ var spons23 = {
 
     {"name":"GOLD", "lvl_size":100, "entries":[
 
-        /* ARDC 5 */
+        /* ARDC 1002 */
         {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
         "icon_w":300,
         "icon_h":144,
         "url":"https://www.ampr.org/",
-        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."}
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."},
+
+        /* Epiq Solutions 4 */
+        {"icon": "https://events.gnuradio.org/event/18/images/122-epiq.png",
+        "icon_w":1354,
+        "icon_h":677,
+        "url":"https://epiqsolutions.com/",
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
 
         ]},
 
     {"name":"SILVER", "lvl_size":90, "entries":[
 
-/*      Red Wire Technology 3 */
+/*      Red Wire Technology 1001 */
         {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
         "icon_w":636,
         "icon_h":183,
