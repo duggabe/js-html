@@ -413,6 +413,14 @@ var spons22 = {
 var spons23 = {
   "levels": [
     {"name":"DIAMOND", "lvl_size":180, "entries":[
+
+        /* NI / Ettus Research 1006 */
+        {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
+        "icon_w":1042,
+        "icon_h":472,
+        "url":"https://www.ettus.com/",
+        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."}
+
         ]},
 
     {"name":"PLATINUM", "lvl_size":120, "entries":[
@@ -484,6 +492,14 @@ var spons23 = {
         ]},
 
     {"name":"PATRON", "lvl_size":88, "entries":[
+
+        /* Duggan Computer Systems 1007 */
+        {"icon": "https://events.gnuradio.org/event/8/images/6-DCS_logo.png",
+        "icon_w":308,
+        "icon_h":144,
+        "url":"https://github.com/duggabe",
+        "blurb":"Duggan Computer Systems is a software consulting firm specializing in data communication systems and email security. Barry Duggan has been an amateur radio operator since 1953, and now devotes most of his time to the GNU Radio project doing documentation, and development of amateur radio applications. He is a member of the GRCon23 Organizing Committee."}
+
         ]}
   ]
 }
