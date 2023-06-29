@@ -447,7 +447,21 @@ var spons23 = {
         "icon_w":996,
         "icon_h":735,
         "url":"https://www.deepsig.ai/",
-        "blurb":"DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig’s engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."}
+        "blurb":"DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig’s engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."},
+
+        /* Peraton Labs 1008 */
+        {"icon":"https://events.gnuradio.org/event/8/images/98-Peraton%20Labs%20logo-trimmed-extra.png",
+        "icon_w":1332,
+        "icon_h":303,
+        "url":"https://www.peratonlabs.com/",
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
+
+        /* Rampart Communications 1009 */
+        {"icon": "https://events.gnuradio.org/event/8/images/25-Comm-Logo-RGB.jpg",
+        "icon_w":1600,
+        "icon_h":1300,
+        "url":"https://rampartcommunications.com/",
+        "blurb":"Rampart Communications, Inc. is based in Linthicum Heights, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."}
 
         ]},
 
@@ -458,7 +472,14 @@ var spons23 = {
         "icon_w":636,
         "icon_h":183,
         "url":"https://www.redwiretechnology.com/",
-        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."}
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."},
+
+/*      Johns Hopkins Applied Physics Lab */
+        {"icon":"https://events.gnuradio.org/event/21/images/134-JHUAPL-logo.png",
+        "icon_w":1330,
+        "icon_h":870,
+        "url":"https://www.jhuapl.edu/",
+        "blurb":"Since 1942, APL has served as an indispensable resource to the government and the nation’s defense and security. As the Lab embarks on this latest chapter, its commitment to providing previously unimaginable solutions to the nation’s most complex national security and space exploration challenges remains steadfast."}
 
         ]},
 
@@ -498,7 +519,7 @@ var spons23 = {
         "icon_w":308,
         "icon_h":144,
         "url":"https://github.com/duggabe",
-        "blurb":"Duggan Computer Systems is a software consulting firm specializing in data communication systems and email security. Barry Duggan has been an amateur radio operator since 1953, and now devotes most of his time to the GNU Radio project doing documentation, and development of amateur radio applications. He is a member of the GRCon23 Organizing Committee."}
+        "blurb":"Duggan Computer Systems is a software consulting firm specializing in data communication systems and email security. Barry Duggan has been an amateur radio operator since 1953, and now devotes most of his time to the GNU Radio project doing Wiki documentation as well as development of applications using GNU Radio. He is a member of the GRCon23 Organizing Committee."}
 
         ]}
   ]
