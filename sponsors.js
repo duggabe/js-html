@@ -482,12 +482,12 @@ var spons23 = {
         "url":"https://www.redwiretechnology.com/",
         "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."},
 
-/*      Johns Hopkins Applied Physics Lab */
-        {"icon":"https://events.gnuradio.org/event/21/images/134-JHUAPL-logo.png",
-        "icon_w":1330,
-        "icon_h":870,
+/*      Johns Hopkins Applied Physics Lab 1005 */
+        {"icon":"https://events.gnuradio.org/event/21/images/135-apl_small_horiz_blue_trim.png",
+        "icon_w":1234,
+        "icon_h":295,
         "url":"https://www.jhuapl.edu/",
-        "blurb":"Since 1942, APL has served as an indispensable resource to the government and the nation’s defense and security. As the Lab embarks on this latest chapter, its commitment to providing previously unimaginable solutions to the nation’s most complex national security and space exploration challenges remains steadfast."}
+        "blurb":"The Johns Hopkins Applied Physics Laboratory is a not-for-profit university affiliated research center (UARC) that solves complex research, engineering, and analytical problems that present critical challenges to our nation. Our scientists, engineers, and analysts serve as trusted advisors and technical experts to the government, ensuring the reliability of complex technologies that safeguard our nation’s security and advance the frontiers of space. We also maintain independent research and development programs that pioneer and explore emerging technologies and concepts to address future national priorities."}
 
         ]},
 
