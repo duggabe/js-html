@@ -771,7 +771,7 @@ function sponsors22 (myObj)
     sa[0].appendChild(ftr1);
 
     var ftr2 = document.createElement("DIV");
-    ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v3.2.2";
+    ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v3.2.6";
     sa[0].appendChild(ftr2);
 
     /* add timezone offset */
