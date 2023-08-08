@@ -475,19 +475,26 @@ var spons23 = {
 
     {"name":"SILVER", "lvl_size":90, "entries":[
 
-/*      Red Wire Technology 1001 */
+        /* Red Wire Technology 1001 */
         {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
         "icon_w":636,
         "icon_h":183,
         "url":"https://www.redwiretechnology.com/",
         "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."},
 
-/*      Johns Hopkins Applied Physics Lab 1005 */
+        /* Johns Hopkins Applied Physics Lab 1005 */
         {"icon":"https://events.gnuradio.org/event/21/images/135-apl_small_horiz_blue_trim.png",
         "icon_w":1234,
         "icon_h":295,
         "url":"https://www.jhuapl.edu/",
-        "blurb":"The Johns Hopkins Applied Physics Laboratory is a not-for-profit university affiliated research center (UARC) that solves complex research, engineering, and analytical problems that present critical challenges to our nation. Our scientists, engineers, and analysts serve as trusted advisors and technical experts to the government, ensuring the reliability of complex technologies that safeguard our nation’s security and advance the frontiers of space. We also maintain independent research and development programs that pioneer and explore emerging technologies and concepts to address future national priorities."}
+        "blurb":"The Johns Hopkins Applied Physics Laboratory is a not-for-profit university affiliated research center (UARC) that solves complex research, engineering, and analytical problems that present critical challenges to our nation. Our scientists, engineers, and analysts serve as trusted advisors and technical experts to the government, ensuring the reliability of complex technologies that safeguard our nation’s security and advance the frontiers of space. We also maintain independent research and development programs that pioneer and explore emerging technologies and concepts to address future national priorities."},
+
+        /* ANDRO 1012 */
+        {"icon":"https://events.gnuradio.org/event/21/images/142-ANDRO_Logo.png",
+        "icon_w":2410,
+        "icon_h":609,
+        "url":"https://www.androcs.com/",
+        "blurb":"ANDRO Computational Solutions, LLC utilizes software defined radios in several key areas: software-based waveform development, AI/ML wireless applications, dynamic spectrum access (DSA), and 5G spectrum planning, managing and coordination. ANDRO’s <a href='https://www.androcs.com/wp/tech/waveform-development/'>software-based waveform development</a> leverages customized libraries, efficient multi-threading, and AVX2 optimization to achieve high symbol-rate waveform implementations in GPP.  ANDRO’s modular waveform library enables rapid development of new waveforms or modification to legacy waveforms."}
 
         ]},
 
@@ -527,7 +534,14 @@ var spons23 = {
         "icon_w":308,
         "icon_h":144,
         "url":"https://github.com/duggabe",
-        "blurb":"Duggan Computer Systems is a software consulting firm specializing in data communication systems and email security. Barry Duggan has been an amateur radio operator since 1953, and now devotes most of his time to the GNU Radio project doing Wiki documentation as well as development of applications using GNU Radio. He is a member of the GRCon23 Organizing Committee."}
+        "blurb":"Duggan Computer Systems is a software consulting firm specializing in data communication systems and email security. Barry Duggan has been an amateur radio operator since 1953, and now devotes most of his time to the GNU Radio project doing Wiki documentation as well as development of applications using GNU Radio. He is a member of the GRCon23 Organizing Committee."},
+
+        /* Qoherent 1011 */
+        {"icon": "https://events.gnuradio.org/event/21/images/143-clogo-black.png",
+        "icon_w":1324,
+        "icon_h":295,
+        "url":"https://www.qoherent.ai/",
+        "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defence sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."}
 
         ]}
   ]
