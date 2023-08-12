@@ -8,6 +8,7 @@
 /* 24 Dec 2022  add icon level size */
 /* 27 Dec 2022  add spons23 object */
 /* 26 Apr 2023  add HOSTS level */
+/* 11 Aug 2023  build Keynotes page */
 
 "use strict"
 
@@ -199,7 +200,14 @@ var spons21 = {
         "url":"http://www.sandia.gov/",
         "blurb":"Sandia National Laboratories is a multimission laboratory operated by National Technology and Engineering Solutions of Sandia LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration. Sandia Labs has major research and development responsibilities in nuclear deterrence, global security, defense, energy technologies and economic competitiveness, with main facilities in Albuquerque, New Mexico, and Livermore, California."}
 
+        ]},
+
+    {"name":"Keynotes", "lvl_size":200, "entries":[
+        ]},
+
+    {"name":"Invited Speakers", "lvl_size":200, "entries":[
         ]}
+
   ]
 }
 
@@ -406,7 +414,14 @@ var spons22 = {
         "url":"https://usdr.pro/",
         "blurb":"USDR is a project that aims to eliminate the drawbacks of using SDR by web approach. No special software, drivers, version incompatibilities, configuration files, just a web browser that makes everything work easy and time-wise. All signal processing can be done directly in the browser tab, thus enabling global collaboration in decoding and signal processing worldwide."}
 
+        ]},
+
+    {"name":"Keynotes", "lvl_size":200, "entries":[
+        ]},
+
+    {"name":"Invited Speakers", "lvl_size":200, "entries":[
         ]}
+
   ]
 }
 
@@ -489,7 +504,7 @@ var spons23 = {
         "url":"https://www.jhuapl.edu/",
         "blurb":"The Johns Hopkins Applied Physics Laboratory is a not-for-profit university affiliated research center (UARC) that solves complex research, engineering, and analytical problems that present critical challenges to our nation. Our scientists, engineers, and analysts serve as trusted advisors and technical experts to the government, ensuring the reliability of complex technologies that safeguard our nation’s security and advance the frontiers of space. We also maintain independent research and development programs that pioneer and explore emerging technologies and concepts to address future national priorities."},
 
-        /* ANDRO 1012 */
+        /* ANDRO no invoice */
         {"icon":"https://events.gnuradio.org/event/21/images/142-ANDRO_Logo.png",
         "icon_w":2410,
         "icon_h":609,
@@ -543,6 +558,42 @@ var spons23 = {
         "url":"https://www.qoherent.ai/",
         "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defence sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."}
 
+        ]},
+
+    {"name":"Keynotes", "lvl_size":200, "entries":[
+
+        /* Lindy Elkins-Tanton */
+        {"icon": "https://events.gnuradio.org/event/21/attachments/106/231/LindyElkinsTanton.png",
+        "icon_w":480,
+        "icon_h":480,
+        "url":"https://search.asu.edu/profile/2437950",
+        "blurb":"Lindy Elkins-Tanton is a planetary scientist, the Principal Investigator of the NASA Psyche mission, and Arizona State University Vice President of the Interplanetary Initiative. Her research concerns the formation and subsequent evolution of rocky planets, and processes of education for the future of society. She has led four field expeditions in Siberia.&nbsp;<br><br>Asteroid (8252) Elkins-Tanton is named for her, as is the mineral elkinstantonite. In 2018 she was elected to the American Academy of Arts &amp; Sciences, in 2021 she was elected to the National Academy of Sciences, and in 2022 William Morrow published her memoir, <i>A Portrait of the Scientist as a Young Woman</i>. Elkins-Tanton received her B.S., M.S., and Ph.D. from MIT."},
+
+        /* Eric Blossom */
+        {"icon": "https://events.gnuradio.org/event/21/images/133-eric-blossom.jpeg",
+        "icon_w":334,
+        "icon_h":373,
+        "url":"https://en.wikipedia.org/wiki/Eric_Blossom",
+        "blurb":"Eric Blossom founded the GNU Radio project in 2001 and ran it as a full-time undertaking through 2010. Eric was responsible for the original architecture and implementation of GNU Radio, including the fundamental concepts of blocks, streaming data, the buffering system, and the first two generations of schedulers. If there's something about GNU Radio that bugs you, there is a good chance that Eric is to blame.<br><br>He is deeply grateful for all of the people who have used and supported GNU Radio over the years and particularly to those who have worked to evolve it into a more powerful and useful tool. Eric has spent the last 6 years at Planet Labs, one of the leading &quot;new space&quot; companies, building a family of high speed radios used to downlink imagery of earth from Planet's constellation of satellites. These satellites are in a 500km orbit, and the radios downlink imagery at &gt; 1.5Gb/s, totaling terabytes of data per day across the constellation."}
+
+        ]},
+
+    {"name":"Invited Speakers", "lvl_size":200, "entries":[
+
+        /* Constantine Balanis */
+        {"icon": "https://events.gnuradio.org/event/21/images/141-cbalanis.png",
+        "icon_w":480,
+        "icon_h":480,
+        "url":"https://search.asu.edu/profile/21741",
+        "blurb":"Constantine Balanis is a member of the Emeritus College and had been with ASU's School of Electrial, Computer and Energy Engineering (formerly Department of Electrical Engineering) since 1983, where he was a Regents Professor. His research interests are in computational electromagnetics, smart antennas, antennas, microwaves, and multipath propagation.<br><br>He received in 2004 an Honorary Doctorate from the Aristotle University of Thessaloniki, the 2005 Chen-To Tai Distinguished Educator Award from the IEEE AP Society, the 2000 IEEE Millennium Award, the 1996 Graduate Mentor Award, Arizona State University; the 1992 Special Professionalism Award from the IEEE Phoenix Section, the 1989 IEEE Region 6 Individual Achievement Award, and the 1987-1988 Graduate Teaching Excellence Award, School of Engineering, ASU. Balanis is a Life Fellow of the IEEE, Distinguished Lecturer for the IEEE Antennas and Propagation Society, and editor for the Morgan & Claypool Publishers series on &quot;Computational Electromagnetics&quot; and on &quot;Antennas and Propagation&quot;."},
+
+        /* Ralph Steinhagen */
+        {"icon": "https://events.gnuradio.org/event/21/images/144-Ralph_Steinhagen.png",
+        "icon_w":480,
+        "icon_h":321,
+        "url":"https://www.linkedin.com/in/ralphsteinhagen/",
+        "blurb":"Dr. Ralph J. Steinhagen, a senior scientist at FAIR (Facility for Anti-Proton and Ion Research), has worked in the fields of accelerator physics and technology for over 25 years. Drawing parallels between large-scale scientific research and team sports, he cherishes having &quot;scored critical goals for the team&quot;, especially with his contributions to feedback control and high-frequency beam RF instrumentation at CERN’s LHC, instrumental in the discovery of the Higgs Boson.<br><br>Recognised by institutions such as the Swiss Confederation, IEEE, and APS, he enjoys a hands-on approach to science and technical leadership in fostering global collaborations.<br><br>Dr. Steinhagen leads feedback design and system integration activities at FAIR, where his team is deeply committed to GNU Radio. He ardently supports the transformative journey of GNU Radio 4.0 on a technical level, aiming to position it at the forefront of software-defined radio (SDR) applications."}
+
         ]}
   ]
 }
@@ -577,24 +628,29 @@ function myFunction()
 
 function sponsors22 (myObj)
     {
-    console.log ("sponsors22");
     var _num_levels = myObj.levels.length;
+    console.log ("_num_levels", _num_levels);
     const DIAMOND = 0;
     const PLATINUM = 1;
     const GOLD = 2;
     const SILVER = 3;
     const HOSTS = 4;
     const PARTNERS = 5;
-    const PATRON = _num_levels-1;
+    const PATRON = 6;
+    const KEYNOTE = 7;
+    const SPEAKER = 8;
+
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
     sa[0].innerHTML = "<br>";   // wipe out footer
     var w_loc = window.location.href;
     var pos5 = w_loc.search("Test4");      // for testing the Sponsors page
+    var pos6 = w_loc.search("Test5");      // for testing the Keynotes page
     if ((w_loc != ("https://events.gnuradio.org/event/18/page/60-our-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/21/page/94-our-sponsors")) &&
-        (pos5 < 0))
-        {   // not Sponsors page
+        (w_loc != ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) &&
+        (pos5 < 0) && (pos6 < 0))
+        {   // not Sponsors or Keynotes page
         var _num_sponsors = 0;
         for (let i = DIAMOND; i <= SILVER; i++)
             {
@@ -722,7 +778,62 @@ function sponsors22 (myObj)
             sa[0].appendChild(_br);
             }   // end HOSTS and PARTNERS
 
-        }   // end not Sponsors page
+        }   // end not Sponsors or Keynotes page
+    else if ((w_loc == ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) ||
+            (pos6 > 0))
+        {
+        // build Keynote page content
+        var i;
+        var j;
+        var pc = document.getElementsByClassName("page-content");    // page-content
+        pc[0].innerHTML = "";   // wipe out page content
+        for (let i = KEYNOTE; i <= SPEAKER; i++)
+            {
+            var _lel = myObj.levels[i].entries.length;  // how many entries
+            if (_lel > 0)
+                {
+                var _br = document.createElement("br");
+                pc[0].appendChild(_br);
+                var _hr = document.createElement("hr");
+                pc[0].appendChild(_hr);
+                var _h2 = document.createElement("h2");
+                _h2.setAttribute("class", "u_cent");
+                _h2.innerHTML = myObj.levels[i].name;
+                pc[0].appendChild(_h2);
+                var _hr = document.createElement("hr");
+                pc[0].appendChild(_hr);
+                var _br = document.createElement("br");
+                pc[0].appendChild(_br);
+                for (j in myObj.levels[i].entries) 
+                    {
+                    /* create table */
+                    var tbl = document.createElement("TABLE");
+                    tbl.setAttribute("class", "u_table2");
+                    /* create data row */
+                    var t_tr = document.createElement("TR");
+                    /* create data element */
+                    var t_td = document.createElement("TD");    // icon
+                    t_td.setAttribute("class", "u_tdl");
+                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+                    var _td_h = 350 / aspect;
+                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                    "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                    "\" style=\"width:350px;height:" + _td_h + "px;\"></a>";
+                    // console.log (anchor);
+                    t_td.innerHTML = anchor;
+                    t_tr.appendChild(t_td);
+                    var t_td = document.createElement("TD");    // blurb
+                    t_td.setAttribute("class", "u_tdr");
+                    t_td.innerHTML = myObj.levels[i].entries[j].blurb;
+                    t_tr.appendChild(t_td);
+                    /* attach row to table */
+                    tbl.appendChild(t_tr);
+                    /* attach table to content */
+                    pc[0].appendChild(tbl);
+                    }
+                }
+            }
+        }   // end Keynote page content
     else
         {
         // build Sponsors page content
@@ -730,7 +841,7 @@ function sponsors22 (myObj)
         var j;
         var pc = document.getElementsByClassName("page-content");    // page-content
         var txt = pc[0].innerHTML;      // get the existing content
-        for (i in myObj.levels) 
+        for (let i = DIAMOND; i <= PATRON; i++)
             {
             var _lel = myObj.levels[i].entries.length;  // how many entries
             if (_lel > 0)
