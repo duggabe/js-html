@@ -504,12 +504,19 @@ var spons23 = {
         "url":"https://www.jhuapl.edu/",
         "blurb":"The Johns Hopkins Applied Physics Laboratory is a not-for-profit university affiliated research center (UARC) that solves complex research, engineering, and analytical problems that present critical challenges to our nation. Our scientists, engineers, and analysts serve as trusted advisors and technical experts to the government, ensuring the reliability of complex technologies that safeguard our nation’s security and advance the frontiers of space. We also maintain independent research and development programs that pioneer and explore emerging technologies and concepts to address future national priorities."},
 
-        /* ANDRO no invoice */
+        /* ANDRO no invoice (credit card) */
         {"icon":"https://events.gnuradio.org/event/21/images/142-ANDRO_Logo.png",
         "icon_w":2410,
         "icon_h":609,
         "url":"https://www.androcs.com/",
-        "blurb":"ANDRO Computational Solutions, LLC utilizes software defined radios in several key areas: software-based waveform development, AI/ML wireless applications, dynamic spectrum access (DSA), and 5G spectrum planning, managing and coordination. ANDRO’s <a href='https://www.androcs.com/wp/tech/waveform-development/'>software-based waveform development</a> leverages customized libraries, efficient multi-threading, and AVX2 optimization to achieve high symbol-rate waveform implementations in GPP.  ANDRO’s modular waveform library enables rapid development of new waveforms or modification to legacy waveforms."}
+        "blurb":"ANDRO Computational Solutions, LLC utilizes software defined radios in several key areas: software-based waveform development, AI/ML wireless applications, dynamic spectrum access (DSA), and 5G spectrum planning, managing and coordination. ANDRO’s <a href='https://www.androcs.com/wp/tech/waveform-development/'>software-based waveform development</a> leverages customized libraries, efficient multi-threading, and AVX2 optimization to achieve high symbol-rate waveform implementations in GPP.  ANDRO’s modular waveform library enables rapid development of new waveforms or modification to legacy waveforms."},
+
+        /* Vesperix 1012 */
+        {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
+        "icon_w":1039,
+        "icon_h":362,
+        "url":"http://vesperix.com/",
+        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."}
 
         ]},
 
