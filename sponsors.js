@@ -484,7 +484,14 @@ var spons23 = {
         "icon_w":1600,
         "icon_h":1300,
         "url":"https://rampartcommunications.com/",
-        "blurb":"Rampart Communications, Inc. is based in Linthicum Heights, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."}
+        "blurb":"Rampart Communications, Inc. is based in Linthicum Heights, Maryland. The founders are physicists, mathematicians, RF engineers, and computer scientists with deep experience building, defending, and attacking wireless communication systems. Our vision is to revolutionize the science of wireless communications and make fundamental advances in digital security by offering the world’s only fundamentally secure means of wireless communication. Rampart's patented technology (implemented in SDR, FPGA, 5G, and Wifi) makes it impossible to intercept, reverse engineer, or exploit a wireless network."},
+
+        /* Vesperix 1012 */
+        {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
+        "icon_w":1039,
+        "icon_h":362,
+        "url":"http://vesperix.com/",
+        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."}
 
         ]},
 
@@ -511,12 +518,19 @@ var spons23 = {
         "url":"https://www.androcs.com/",
         "blurb":"ANDRO Computational Solutions, LLC utilizes software defined radios in several key areas: software-based waveform development, AI/ML wireless applications, dynamic spectrum access (DSA), and 5G spectrum planning, managing and coordination. ANDRO’s <a href='https://www.androcs.com/wp/tech/waveform-development/'>software-based waveform development</a> leverages customized libraries, efficient multi-threading, and AVX2 optimization to achieve high symbol-rate waveform implementations in GPP.  ANDRO’s modular waveform library enables rapid development of new waveforms or modification to legacy waveforms."},
 
-        /* Vesperix 1012 */
-        {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
-        "icon_w":1039,
-        "icon_h":362,
-        "url":"http://vesperix.com/",
-        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."}
+        /* RFNM 1013 */
+        {"icon":"https://events.gnuradio.org/event/21/images/145-RFNM.jpg",
+        "icon_w":400,
+        "icon_h":400,
+        "url":"https://rfnm.io/",
+        "blurb":"RFNM is a new concept for a modular innovation platform that uses brand new silicon to make previously inaccessible designs affordable to everyone."},
+
+        /* BCubed 1014 */
+        {"icon":"https://events.gnuradio.org/event/18/images/117-BCubed_1.png",
+        "icon_w":624,
+        "icon_h":226,
+        "url":"https://bcubed-corp.com/",
+        "blurb":"BCubed Engineering Corporation is an advanced software and engineering company, focused on delivering innovative solutions to address rapidly evolving needs across the DoD, IC, and commercial sector. Our team's expertise in Digital Signals Processing, Machine Learning, and Cloud/On-Premises Computing, combined with cutting-edge GOTS / COTS technologies, allows us to deliver low-cost, reliable solutions that empower end users."}
 
         ]},
 
@@ -564,6 +578,8 @@ var spons23 = {
         "icon_h":295,
         "url":"https://www.qoherent.ai/",
         "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defence sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."}
+
+        /* TMYTEK 1015 */
 
         ]},
 
