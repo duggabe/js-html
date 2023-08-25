@@ -63,6 +63,10 @@ The data row also is derived from `myObj`. For each entry, a `<td>` item is crea
 
 For the Sponsors page, the existing paragraphs are preserved, since they can be edited by the event administator. Below that, `sponsors.js` creates a vertical listing of sponsor levels, with each entry displaying a clickable icon linking to the sponsors web site on the left portion of the screen, and a short synopsis of what the company does on the right side.
 
+### Generate Keynote Speakers page
+
+For GRCon23, code is added to generate the Keynote Speakers page which includes not only the Keynote speakers but also those labeled as Invited Speakers. For each speaker, `sponsors.js` creates a vertical listing with each entry displaying a clickable photo linking to the speaker's web site on the left portion of the screen, and a short bio on the right side.
+
 ### Footer last two lines
 
 The original last line of the Indico page has the Indico icon, version number, a "Help" link, and a "Contact" link. The `sponsors.js` script makes two lines out of this. The first is a revised help / contact portion which is centered on the page. The second line has the Indico icon and version number on the left.

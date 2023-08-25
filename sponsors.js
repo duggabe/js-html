@@ -577,9 +577,14 @@ var spons23 = {
         "icon_w":1324,
         "icon_h":295,
         "url":"https://www.qoherent.ai/",
-        "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defence sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."}
+        "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defence sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."},
 
         /* TMYTEK 1015 */
+        {"icon": "https://events.gnuradio.org/event/21/images/146-TMY-logo_C.png",
+        "icon_w":1773,
+        "icon_h":414,
+        "url":"https://tmytek.com/",
+        "blurb":"TMY Technology, Inc. (TMYTEK) delivers breakthrough mmWave solutions for 5G/B5G and satellite communication applications. As a leading technology developer, TMYTEK transforms mmWave RF frontends with innovative devices implementing phased arrays with modern Antenna-in-Package (AiP) technologies and redefining OTA testing methodologies. Together with our global partners, TMYTEK enables industrial innovation to reduce the time from prototyping to production of communication applications for improved connectivity and the benefit of users."}
 
         ]},
 
