@@ -123,7 +123,7 @@ var spons21 = {
         {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
         "icon_w":1039,
         "icon_h":362,
-        "url":"http://vesperix.com/",
+        "url":"https://www.vesperix.com/",
         "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."},
 
 /*      Red Wire Technology */
@@ -490,8 +490,8 @@ var spons23 = {
         {"icon":"https://events.gnuradio.org/event/8/images/24-Vesperix-300.png",
         "icon_w":1039,
         "icon_h":362,
-        "url":"http://vesperix.com/",
-        "blurb":"Vesperix Corporation is a small business dedicated to innovative research and development for government and corporate customers. Our research focuses on novel methods for communication, sensing, and navigation."}
+        "url":"http://vxsdr.vesperix.io/",
+        "blurb":"Vesperix Corporation is a small business performing research and development for government and corporate customers. Our VXSDR software defined radios cover the 5-20 GHz frequency band."}
 
         ]},
 
