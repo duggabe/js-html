@@ -530,7 +530,14 @@ var spons23 = {
         "icon_w":624,
         "icon_h":226,
         "url":"https://bcubed-corp.com/",
-        "blurb":"BCubed Engineering Corporation is an advanced software and engineering company, focused on delivering innovative solutions to address rapidly evolving needs across the DoD, IC, and commercial sector. Our team's expertise in Digital Signals Processing, Machine Learning, and Cloud/On-Premises Computing, combined with cutting-edge GOTS / COTS technologies, allows us to deliver low-cost, reliable solutions that empower end users."}
+        "blurb":"BCubed Engineering Corporation is an advanced software and engineering company, focused on delivering innovative solutions to address rapidly evolving needs across the DoD, IC, and commercial sector. Our team's expertise in Digital Signals Processing, Machine Learning, and Cloud/On-Premises Computing, combined with cutting-edge GOTS / COTS technologies, allows us to deliver low-cost, reliable solutions that empower end users."},
+
+        /* AnySignal 1017 */
+        {"icon":"https://events.gnuradio.org/event/21/images/148-AnySignal_logo_blue.png",
+        "icon_w":1240,
+        "icon_h":1240,
+        "url":"https://www.anysignal.com/",
+        "blurb":"AnySignal develops the next-generation of communications and RF intelligence solutions for aerospace and military customers, with current applications including spacecraft, advanced aircraft, military vehicles, and manpack radios. The team is founded by SpaceX veterans and those with deep ties into the GNURadio community. If you're interested in joining us for our mission, visit us at <a href='https://www.anysignal.com/'>AnySignal.com</a>"}
 
         ]},
 
