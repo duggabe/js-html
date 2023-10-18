@@ -9,6 +9,7 @@
 /* 27 Dec 2022  add spons23 object */
 /* 26 Apr 2023  add HOSTS level */
 /* 11 Aug 2023  build Keynotes page */
+/* 18 Oct 2023  create spons24 */
 
 "use strict"
 
@@ -633,8 +634,86 @@ var spons23 = {
   ]
 }
 
+var spons24 = {
+  "levels": [
+    {"name":"DIAMOND", "lvl_size":180, "entries":[
+        ]},
+
+    {"name":"PLATINUM", "lvl_size":120, "entries":[
+        ]},
+
+    {"name":"GOLD", "lvl_size":100, "entries":[
+        ]},
+
+    {"name":"SILVER", "lvl_size":90, "entries":[
+        ]},
+
+    {"name":"HOSTS", "lvl_size":132, "entries":[
+        ]},
+
+    {"name":"PARTNERS", "lvl_size":132, "entries":[
+
+        /* SETI Institute */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
+        "icon_w":400,
+        "icon_h":243,
+        "url":"https://www.seti.org/",
+        "blurb":"Founded in 1984, the SETI Institute is a nonprofit, multidisciplinary research and education organization whose mission is to lead humanity’s quest to understand the origins and prevalence of life and intelligence in the universe and share that knowledge with the world. Research at the SETI Institute encompasses the physical and biological sciences and leverages expertise in data analytics, machine learning and advanced signal detection technologies. The SETI Institute is a distinguished research partner for industry, academia and government agencies, including NASA and NSF.<br><br>Three centers anchor work at the SETI Institute: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory.<br><br>As of 2020, the SETI Institute manages contracts, grants, and related administration for the GNU Radio project and engenders collaboration with the community around shared interests in science, engineering, and education."},
+
+        /* BSRC */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
+        "icon_w":750,
+        "icon_h":512,
+        "url":"https://seti.berkeley.edu/",
+        "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
+
+        ]},
+
+    {"name":"PATRON", "lvl_size":88, "entries":[
+        ]},
+
+    {"name":"Keynotes", "lvl_size":200, "entries":[
+        ]},
+
+    {"name":"Invited Speakers", "lvl_size":200, "entries":[
+        ]}
+  ]
+}
+
+var skeleton = {    /* ready for the next year */
+  "levels": [
+    {"name":"DIAMOND", "lvl_size":180, "entries":[
+        ]},
+
+    {"name":"PLATINUM", "lvl_size":120, "entries":[
+        ]},
+
+    {"name":"GOLD", "lvl_size":100, "entries":[
+        ]},
+
+    {"name":"SILVER", "lvl_size":90, "entries":[
+        ]},
+
+    {"name":"HOSTS", "lvl_size":132, "entries":[
+        ]},
+
+    {"name":"PARTNERS", "lvl_size":132, "entries":[
+        ]},
+
+    {"name":"PATRON", "lvl_size":88, "entries":[
+        ]},
+
+    {"name":"Keynotes", "lvl_size":200, "entries":[
+        ]},
+
+    {"name":"Invited Speakers", "lvl_size":200, "entries":[
+        ]}
+  ]
+}
 
 document.body.onload = function() {myFunction()};
+
+/* marker */
 
 function myFunction()
     {
@@ -644,7 +723,14 @@ function myFunction()
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
     var pos4 = w_loc.search("event/21");     // GRCon23
-    if ((pos2 > 0) || (pos4 > 0))
+    var pos7 = -1;     // GRCon24   *TBD*
+    if ((pos2 > 0) || (pos7 > 0))
+        {
+        console.log ("GRCon 24");
+        /* always call "function sponsors22()" with data for current year */
+        sponsors22 (spons24);    // GRCon 24
+        }
+    else if (pos4 > 0)
         {
         console.log ("GRCon 23");
         sponsors22 (spons23);    // GRCon 23
@@ -680,12 +766,69 @@ function sponsors22 (myObj)
     var w_loc = window.location.href;
     var pos5 = w_loc.search("Test4");      // for testing the Sponsors page
     var pos6 = w_loc.search("Test5");      // for testing the Keynotes page
+
+    /* KEYNOTES */
+    if ((w_loc == ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) || (pos6 > 0))
+        {
+        // build Keynote page content
+        var i;
+        var j;
+        var pc = document.getElementsByClassName("page-content");    // page-content
+        pc[0].innerHTML = "";   // wipe out page content
+        for (let i = KEYNOTE; i <= SPEAKER; i++)
+            {
+            var _lel = myObj.levels[i].entries.length;  // how many entries
+            if (_lel > 0)
+                {
+                var _br = document.createElement("br");
+                pc[0].appendChild(_br);
+                var _hr = document.createElement("hr");
+                pc[0].appendChild(_hr);
+                var _h2 = document.createElement("h2");
+                _h2.setAttribute("class", "u_cent");
+                _h2.innerHTML = myObj.levels[i].name;
+                pc[0].appendChild(_h2);
+                var _hr = document.createElement("hr");
+                pc[0].appendChild(_hr);
+                var _br = document.createElement("br");
+                pc[0].appendChild(_br);
+                for (j in myObj.levels[i].entries) 
+                    {
+                    /* create table */
+                    var tbl = document.createElement("TABLE");
+                    tbl.setAttribute("class", "u_table2");
+                    /* create data row */
+                    var t_tr = document.createElement("TR");
+                    /* create data element */
+                    var t_td = document.createElement("TD");    // icon
+                    t_td.setAttribute("class", "u_tdl");
+                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
+                    var _td_h = 350 / aspect;
+                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
+                    "<img src=\"" + myObj.levels[i].entries[j].icon  +
+                    "\" style=\"width:350px;height:" + _td_h + "px;\"></a>";
+                    // console.log (anchor);
+                    t_td.innerHTML = anchor;
+                    t_tr.appendChild(t_td);
+                    var t_td = document.createElement("TD");    // blurb
+                    t_td.setAttribute("class", "u_tdr");
+                    t_td.innerHTML = myObj.levels[i].entries[j].blurb;
+                    t_tr.appendChild(t_td);
+                    /* attach row to table */
+                    tbl.appendChild(t_tr);
+                    /* attach table to content */
+                    pc[0].appendChild(tbl);
+                    }
+                }
+            }
+        }   // end Keynote page content
+
+    /* NOT SPONSORS */
     if ((w_loc != ("https://events.gnuradio.org/event/18/page/60-our-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/21/page/94-our-sponsors")) &&
-        (w_loc != ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) &&
-        (pos5 < 0) && (pos6 < 0))
-        {   // not Sponsors or Keynotes page
+        (pos5 < 0))
+        {   // not Sponsors page
         var _num_sponsors = 0;
         for (let i = DIAMOND; i <= SILVER; i++)
             {
@@ -693,12 +836,11 @@ function sponsors22 (myObj)
             }
         console.log ("num sponsors = ", _num_sponsors);
 
-/*  DIAMOND to SILVER */
-
         if (_num_sponsors > 0)
             {
             // build sponsor section of footer
             sa[0].innerHTML = '<hr><h2 class="u_cent">Our Sponsors</h2>';
+        /*  DIAMOND to SILVER */
             for (let i = DIAMOND; i <= SILVER; i++)
                 {
                 /* create table row */
@@ -749,8 +891,7 @@ function sponsors22 (myObj)
                 }       // end DIAMOND to SILVER
             }   // end if sponsors
 
-/*  HOSTS and PARTNERS */
-
+        /*  HOSTS and PARTNERS */
         var _num_sponsors = 0;
         for (let i = HOSTS; i < PATRON; i++)
             {
@@ -812,64 +953,10 @@ function sponsors22 (myObj)
             var _br = document.createElement("br");
             sa[0].appendChild(_br);
             }   // end HOSTS and PARTNERS
+        }   // end not Sponsors page
 
-        }   // end not Sponsors or Keynotes page
-    else if ((w_loc == ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) ||
-            (pos6 > 0))
-        {
-        // build Keynote page content
-        var i;
-        var j;
-        var pc = document.getElementsByClassName("page-content");    // page-content
-        pc[0].innerHTML = "";   // wipe out page content
-        for (let i = KEYNOTE; i <= SPEAKER; i++)
-            {
-            var _lel = myObj.levels[i].entries.length;  // how many entries
-            if (_lel > 0)
-                {
-                var _br = document.createElement("br");
-                pc[0].appendChild(_br);
-                var _hr = document.createElement("hr");
-                pc[0].appendChild(_hr);
-                var _h2 = document.createElement("h2");
-                _h2.setAttribute("class", "u_cent");
-                _h2.innerHTML = myObj.levels[i].name;
-                pc[0].appendChild(_h2);
-                var _hr = document.createElement("hr");
-                pc[0].appendChild(_hr);
-                var _br = document.createElement("br");
-                pc[0].appendChild(_br);
-                for (j in myObj.levels[i].entries) 
-                    {
-                    /* create table */
-                    var tbl = document.createElement("TABLE");
-                    tbl.setAttribute("class", "u_table2");
-                    /* create data row */
-                    var t_tr = document.createElement("TR");
-                    /* create data element */
-                    var t_td = document.createElement("TD");    // icon
-                    t_td.setAttribute("class", "u_tdl");
-                    var aspect = (myObj.levels[i].entries[j].icon_w / myObj.levels[i].entries[j].icon_h);
-                    var _td_h = 350 / aspect;
-                    var anchor = "<a href=\"" + myObj.levels[i].entries[j].url + "\">" +
-                    "<img src=\"" + myObj.levels[i].entries[j].icon  +
-                    "\" style=\"width:350px;height:" + _td_h + "px;\"></a>";
-                    // console.log (anchor);
-                    t_td.innerHTML = anchor;
-                    t_tr.appendChild(t_td);
-                    var t_td = document.createElement("TD");    // blurb
-                    t_td.setAttribute("class", "u_tdr");
-                    t_td.innerHTML = myObj.levels[i].entries[j].blurb;
-                    t_tr.appendChild(t_td);
-                    /* attach row to table */
-                    tbl.appendChild(t_tr);
-                    /* attach table to content */
-                    pc[0].appendChild(tbl);
-                    }
-                }
-            }
-        }   // end Keynote page content
     else
+        /* SPONSORS */
         {
         // build Sponsors page content
         var i;
@@ -941,9 +1028,9 @@ function sponsors22 (myObj)
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
     var pos4 = w_loc.search("event/21");     // GRCon23
-    if ((pos1 > 0) || (pos3 > 0))
+    if ((pos1 > 0) || (pos2 > 0) || (pos3 > 0))
         var t1 = document.createTextNode(" (UTC - 4)");
-    else if ((pos2 > 0) || (pos4 > 0))
+    else if (pos4 > 0)
         var t1 = document.createTextNode(" (UTC - 7)");
     tz[0].appendChild(t1);
     }   // end sponsors22()
