@@ -762,6 +762,9 @@ function sponsors22 (myObj)
     const SPEAKER = 8;
 
     var sa = document.getElementsByClassName("footer "); // footer section (yes, it has a trailing space)
+    var vers = document.getElementsByClassName("version");
+    var I_vers = vers[0].innerHTML
+    console.log ("Indico version:", I_vers);
     sa[0].innerHTML = "<br>";   // wipe out footer
     var w_loc = window.location.href;
     var pos5 = w_loc.search("Test4");      // for testing the Sponsors page
@@ -897,7 +900,7 @@ function sponsors22 (myObj)
             {
             _num_sponsors += myObj.levels[i].entries.length;  // how many entries
             }
-        console.log ("Hosts and Sponsors = ", _num_sponsors);
+        console.log ("Hosts and Partners = ", _num_sponsors);
         if (_num_sponsors > 0)
             {
             /* create table row */
@@ -1018,7 +1021,9 @@ function sponsors22 (myObj)
     sa[0].appendChild(ftr1);
 
     var ftr2 = document.createElement("DIV");
-    ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico v3.2.6";
+    ftr2.innerHTML = "<img src=\"https://events.gnuradio.org/images/indico_small.png\" style=\"width:100px;height:40px;\">Powered by Indico ";
+    var ftr3 = document.createTextNode(I_vers);  // Indico version
+    ftr2.appendChild(ftr3);
     sa[0].appendChild(ftr2);
 
     /* add timezone offset */
