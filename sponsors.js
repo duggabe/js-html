@@ -723,7 +723,7 @@ function myFunction()
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
     var pos4 = w_loc.search("event/21");     // GRCon23
-    var pos7 = -1;     // GRCon24   *TBD*
+    var pos7 = w_loc.search("event/24");     // GRCon24
     if ((pos2 > 0) || (pos7 > 0))
         {
         console.log ("GRCon 24");
@@ -771,7 +771,9 @@ function sponsors22 (myObj)
     var pos6 = w_loc.search("Test5");      // for testing the Keynotes page
 
     /* KEYNOTES */
-    if ((w_loc == ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) || (pos6 > 0))
+    if ((w_loc == ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) ||
+        (w_loc == ("https://events.gnuradio.org/event/24/page/147-keynote-speakers")) ||
+        (pos6 > 0))
         {
         // build Keynote page content
         var i;
@@ -830,6 +832,7 @@ function sponsors22 (myObj)
     if ((w_loc != ("https://events.gnuradio.org/event/18/page/60-our-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/21/page/94-our-sponsors")) &&
+        (w_loc != ("https://events.gnuradio.org/event/24/page/143-our-sponsors")) &&
         (pos5 < 0))
         {   // not Sponsors page
         var _num_sponsors = 0;
@@ -1033,7 +1036,8 @@ function sponsors22 (myObj)
     var pos2 = w_loc.search("Test");         // for testing
     var pos3 = w_loc.search("event/8");      // GRCon21
     var pos4 = w_loc.search("event/21");     // GRCon23
-    if ((pos1 > 0) || (pos2 > 0) || (pos3 > 0))
+    var pos5 = w_loc.search("event/24");     // GRCon24
+    if ((pos1 > 0) || (pos2 > 0) || (pos3 > 0) || (pos5 > 0))
         var t1 = document.createTextNode(" (UTC - 4)");
     else if (pos4 > 0)
         var t1 = document.createTextNode(" (UTC - 7)");
