@@ -10,6 +10,7 @@
 /* 26 Apr 2023  add HOSTS level */
 /* 11 Aug 2023  build Keynotes page */
 /* 18 Oct 2023  create spons24 */
+/* 21 Jan 2024  change 'Starts' time to 13:00 */
 
 "use strict"
 
@@ -717,7 +718,7 @@ document.body.onload = function() {myFunction()};
 
 function myFunction()
     {
-    console.log ("myFunction()");
+    // console.log ("myFunction()");
     var w_loc = window.location.href;
     var pos1 = w_loc.search("event/18");     // GRCon22
     var pos2 = w_loc.search("Test");         // for testing
@@ -972,6 +973,7 @@ function sponsors22 (myObj)
         for (let i = DIAMOND; i <= PATRON; i++)
             {
             var _lel = myObj.levels[i].entries.length;  // how many entries
+            // console.log ("Sponsors[i]", _lel);
             if (_lel > 0)
                 {
                 var _br = document.createElement("br");
@@ -1042,5 +1044,22 @@ function sponsors22 (myObj)
     else if (pos4 > 0)
         var t1 = document.createTextNode(" (UTC - 7)");
     tz[0].appendChild(t1);
+
+    /* adjust start time */
+    pos2 = w_loc.search("Test3");       // for testing
+    if ((pos2 > 0) || (w_loc == ("https://events.gnuradio.org/event/24/"))) // GRCon Overview
+        {
+        var ig = document.getElementsByClassName("infogrid");
+        var txt = ig[0].innerHTML;      // get the existing content
+        var pos6 = txt.indexOf("08:00");
+        if (pos6 > 0)
+            {
+            var txt2 = txt.replace("08:00","13:00");    // starts at 1PM
+            var txt3 = txt2.replace("US/Eastern","US/Eastern (UTC - 4)");
+            ig[0].innerHTML = txt3;
+            }
+        }
     }   // end sponsors22()
+
+
 

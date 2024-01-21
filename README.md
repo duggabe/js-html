@@ -28,6 +28,8 @@ git clone https://github.com/duggabe/js-html.git
 
 * Open `Test4.html` in your browser to see the Sponsor page format.
 
+* Open `Test5.html` in your browser to see the Keynote Speakers page format.
+
 ## References
 
 * [HTML JavaScript](https://www.w3schools.com/html/html_scripts.asp)
@@ -50,6 +52,7 @@ Since the same script must support multiple events, determination of individual 
     GRCon21 - https://events.gnuradio.org/event/8/page/5-sponsors  
     GRCon22 - https://events.gnuradio.org/event/18/page/60-our-sponsors  
     GRCon23 - https://events.gnuradio.org/event/21/page/94-our-sponsors  
+    GRCon24 - https://events.gnuradio.org/event/24/page/143-our-sponsors  
 
 ### Generate footer
 
