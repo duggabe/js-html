@@ -638,6 +638,14 @@ var spons23 = {
 var spons24 = {
   "levels": [
     {"name":"DIAMOND", "lvl_size":180, "entries":[
+
+        /* NI / Ettus Research 1001 */
+        {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
+        "icon_w":1042,
+        "icon_h":472,
+        "url":"https://www.ettus.com/",
+        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."}
+
         ]},
 
     {"name":"PLATINUM", "lvl_size":120, "entries":[
@@ -647,6 +655,14 @@ var spons24 = {
         ]},
 
     {"name":"SILVER", "lvl_size":90, "entries":[
+
+        /* Red Wire Technology 1002 */
+        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
+        "icon_w":636,
+        "icon_h":183,
+        "url":"https://www.redwiretechnology.com/",
+        "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."}
+
         ]},
 
     {"name":"HOSTS", "lvl_size":132, "entries":[
@@ -674,6 +690,14 @@ var spons24 = {
         ]},
 
     {"name":"Keynotes", "lvl_size":200, "entries":[
+
+        /* Jack Dongarra */
+        {"icon": "https://netlib.org/utk/people/JackDongarra/images/jack-2022-web2.jpg",
+        "icon_w":2141,
+        "icon_h":2060,
+        "url":"https://netlib.org/utk/people/JackDongarra/",
+        "blurb":"Jack Dongarra received a Bachelor of Science in Mathematics from Chicago State University in 1972 and a Master of Science in Computer Science from the Illinois Institute of Technology in 1973. He received his Ph.D. in Applied Mathematics from the University of New Mexico in 1980. He worked at the Argonne National Laboratory until 1989, becoming a senior scientist. He now holds an appointment as University Distinguished Professor of Computer Science in the Electrical Engineering and Computer Science Department at the University of Tennessee and holds the title of Distinguished Research Staff in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL); Turing Fellow at Manchester University; an Adjunct Professor in the Computer Science Department at Rice University. He is the director of the Innovative Computing Laboratory at the University of Tennessee. He is also the director of the Center for Information Technology Research at the University of Tennessee which coordinates and facilitates IT research efforts at the University."}
+
         ]},
 
     {"name":"Invited Speakers", "lvl_size":200, "entries":[
