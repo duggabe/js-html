@@ -652,6 +652,14 @@ var spons24 = {
         ]},
 
     {"name":"GOLD", "lvl_size":100, "entries":[
+
+        /* Epiq Solutions 1003 */
+        {"icon": "https://events.gnuradio.org/event/24/images/170-Primary_FullColor-_1_.png",
+        "icon_w":6177,
+        "icon_h":1324,
+        "url":"https://epiqsolutions.com/",
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
+
         ]},
 
     {"name":"SILVER", "lvl_size":90, "entries":[
@@ -696,7 +704,21 @@ var spons24 = {
         "icon_w":2141,
         "icon_h":2060,
         "url":"https://netlib.org/utk/people/JackDongarra/",
-        "blurb":"Jack Dongarra received a Bachelor of Science in Mathematics from Chicago State University in 1972 and a Master of Science in Computer Science from the Illinois Institute of Technology in 1973. He received his Ph.D. in Applied Mathematics from the University of New Mexico in 1980. He worked at the Argonne National Laboratory until 1989, becoming a senior scientist. He now holds an appointment as University Distinguished Professor of Computer Science in the Electrical Engineering and Computer Science Department at the University of Tennessee and holds the title of Distinguished Research Staff in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL); Turing Fellow at Manchester University; an Adjunct Professor in the Computer Science Department at Rice University. He is the director of the Innovative Computing Laboratory at the University of Tennessee. He is also the director of the Center for Information Technology Research at the University of Tennessee which coordinates and facilitates IT research efforts at the University."}
+        "blurb":"Jack Dongarra received a Bachelor of Science in Mathematics from Chicago State University in 1972 and a Master of Science in Computer Science from the Illinois Institute of Technology in 1973. He received his Ph.D. in Applied Mathematics from the University of New Mexico in 1980. He worked at the Argonne National Laboratory until 1989, becoming a senior scientist. He now holds an appointment as University Distinguished Professor of Computer Science in the Electrical Engineering and Computer Science Department at the University of Tennessee and holds the title of Distinguished Research Staff in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL); Turing Fellow at Manchester University; an Adjunct Professor in the Computer Science Department at Rice University. He is the director of the Innovative Computing Laboratory at the University of Tennessee. He is also the director of the Center for Information Technology Research at the University of Tennessee which coordinates and facilitates IT research efforts at the University."},
+
+        /* Shahriar Shahramian */
+        {"icon": "http://cwc.ucsd.edu/sites/cwc.ucsd.edu/files/2022-02/Shahriar%20Shahramian%20Picture.jpg",
+        "icon_w":314,
+        "icon_h":383,
+        "url":"http://cwc.ucsd.edu/people/shahriar-shahramian",
+        "blurb":"Shahriar Shahramian (SM ’06) received his Ph.D. degree from University of Toronto in 2010 where he focused on the design of mm-wave data converters and transceivers. Shahriar has been with the Bell Laboratories – Nokia since 2009 and is currently the Director of the Communication & Sensing ASICs Research Group. He is also the chair of the mm-Wave & THz subcommittee of IEEE BCICTS and member of the technical program committee of IEEE RFIC & ISSCC. He is also a guest Editor of the IEEE Journal of Solid-State Circuits (JSSC). His research focus includes the design of mm-wave wireless and wireline integrated circuits and systems. Shahriar is a Bell Labs Fellow and leads the design and architecture of several state-of-the-art ASICs for optical coherent and wireless backhaul products.<br><br>Shahriar has been the recipient of Ontario Graduate Scholarship, University of Toronto Fellowship and the best paper award at the CSICS Symposium in 2005, 2015 and RFIC Symposium in 2015, 2020 and ISSCC in 2018. He holds an Adjunct Associate Professor position at Columbia University, has received several teaching awards and is the founder and host of The Signal Path educational video series."},
+
+        /* Philip Erickson */
+        {"icon": "https://www.haystack.mit.edu/wp-content/uploads/2022/09/headshot_2022_erickson_phil_01-aspect-ratio-600-600-1200x1200-c-default.jpg",
+        "icon_w":1200,
+        "icon_h":1200,
+        "url":"https://www.haystack.mit.edu/researcher/philip-j-erickson/",
+        "blurb":"Philip Erickson is director of the MIT Haystack Observatory and Principal Research Scientist at MIT. He also leads Haystack’s Atmospheric and Geospace Sciences Group, conducting fundamental research on the near-Earth space environment through radio-based experiments and data analysis using a variety of remote sensing techniques involving ground- and space-based data. Phil also is a co-director of the education and public outreach efforts at MIT Haystack, spanning undergraduate research programs, graduate student interactions, K–12 classroom units and outreach, and public Observatory tours and lectures.<br><br>Phil is also the lead principal investigator for the community-oriented Millstone Hill Geospace Facility (MHGF), a prime North American space science observatory sponsored by the National Science Foundation for mid-latitude ionospheric remote sensing and scientific analysis."}
 
         ]},
 
