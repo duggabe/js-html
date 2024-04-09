@@ -658,7 +658,14 @@ var spons24 = {
         "icon_w":6177,
         "icon_h":1324,
         "url":"https://epiqsolutions.com/",
-        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."}
+        "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."},
+
+        /* Peraton Labs */
+        {"icon":"https://events.gnuradio.org/event/8/images/98-Peraton%20Labs%20logo-trimmed-extra.png",
+        "icon_w":1332,
+        "icon_h":303,
+        "url":"https://www.peratonlabs.com/",
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
 
         ]},
 
