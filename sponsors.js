@@ -665,7 +665,14 @@ var spons24 = {
         "icon_w":1332,
         "icon_h":303,
         "url":"https://www.peratonlabs.com/",
-        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"}
+        "blurb":"What matters to our customers, matters to us. ​We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
+
+        /* Deepwave Digital */
+        {"icon":"https://events.gnuradio.org/event/8/images/18-deepwave_trim.png",
+        "icon_w":1051,
+        "icon_h":810,
+        "url":"https://deepwavedigital.com/",
+        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for most AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."}
 
         ]},
 
