@@ -639,12 +639,19 @@ var spons24 = {
   "levels": [
     {"name":"DIAMOND", "lvl_size":180, "entries":[
 
-        /* NI / Ettus Research 1001 */
+        /* NI / Ettus Research */
         {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
         "icon_w":1042,
         "icon_h":472,
         "url":"https://www.ettus.com/",
-        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."}
+        "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."},
+
+        /* Aaronia */
+        {"icon":"https://events.gnuradio.org/event/24/images/172-Aaronia_Logo_rgb_300px.png",
+        "icon_w":300,
+        "icon_h":147,
+        "url":"https://aaronia.com/",
+        "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."}
 
         ]},
 
@@ -653,7 +660,7 @@ var spons24 = {
 
     {"name":"GOLD", "lvl_size":100, "entries":[
 
-        /* Epiq Solutions 1003 */
+        /* Epiq Solutions */
         {"icon": "https://events.gnuradio.org/event/24/images/170-Primary_FullColor-_1_.png",
         "icon_w":6177,
         "icon_h":1324,
@@ -678,7 +685,7 @@ var spons24 = {
 
     {"name":"SILVER", "lvl_size":90, "entries":[
 
-        /* Red Wire Technology 1002 */
+        /* Red Wire Technology */
         {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
         "icon_w":636,
         "icon_h":183,
@@ -709,6 +716,14 @@ var spons24 = {
         ]},
 
     {"name":"PATRON", "lvl_size":88, "entries":[
+
+        /* Qoherent */
+        {"icon": "https://events.gnuradio.org/event/24/images/171-Qoherent-logo-fullcolour-whitesquare.png",
+        "icon_w":1324,
+        "icon_h":1324,
+        "url":"https://www.qoherent.ai/",
+        "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defense sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."}
+
         ]},
 
     {"name":"Keynotes", "lvl_size":200, "entries":[
