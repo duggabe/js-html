@@ -655,7 +655,15 @@ var spons24 = {
 
         ]},
 
-    {"name":"PLATINUM", "lvl_size":120, "entries":[
+    {"name":"PLATINUM", "lvl_size":140, "entries":[
+
+        /* Oak Ridge National Labs */
+        {"icon":"https://events.gnuradio.org/event/18/images/99-ORNL%20Two-line_color.png",
+        "icon_w":2032,
+        "icon_h":489,
+        "url":"https://www.ornl.gov/",
+        "blurb":"ORNL uses artificial intelligence and machine learning to develop solutions in near real time that optimize communications in complex RF environments with no prior training knowledge. We also have teams working on protocol development and RF over fiber that provide a wide range of research opportunities. The Lab has recently installed a ground station for long-range and space-to-ground communication development solutions. Utilizing ORNL’s expertise as the home of the fastest supercomputer in the world, we are creating complex simulations of 5G environments on HPC supercomputers."}
+
         ]},
 
     {"name":"GOLD", "lvl_size":100, "entries":[
