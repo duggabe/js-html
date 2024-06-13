@@ -662,7 +662,14 @@ var spons24 = {
         "icon_w":2032,
         "icon_h":489,
         "url":"https://www.ornl.gov/",
-        "blurb":"ORNL uses artificial intelligence and machine learning to develop solutions in near real time that optimize communications in complex RF environments with no prior training knowledge. We also have teams working on protocol development and RF over fiber that provide a wide range of research opportunities. The Lab has recently installed a ground station for long-range and space-to-ground communication development solutions. Utilizing ORNL’s expertise as the home of the fastest supercomputer in the world, we are creating complex simulations of 5G environments on HPC supercomputers."}
+        "blurb":"ORNL uses artificial intelligence and machine learning to develop solutions in near real time that optimize communications in complex RF environments with no prior training knowledge. We also have teams working on protocol development and RF over fiber that provide a wide range of research opportunities. The Lab has recently installed a ground station for long-range and space-to-ground communication development solutions. Utilizing ORNL’s expertise as the home of the fastest supercomputer in the world, we are creating complex simulations of 5G environments on HPC supercomputers."},
+
+        /* Analog Devices */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/Analog_Devices_Logo.svg",
+        "icon_w":236,
+        "icon_h":95,
+        "url":"https://www.analog.com/",
+        "blurb":"Analog Devices Analog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret."}
 
         ]},
 
