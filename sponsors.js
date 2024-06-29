@@ -774,6 +774,15 @@ var spons24 = {
         ]},
 
     {"name":"Invited Speakers", "lvl_size":200, "entries":[
+
+        /* Dan Boschen */
+        {"icon": "https://events.gnuradio.org/event/24/images/175-Dan_Boschen.jpg",
+        "icon_w":320,
+        "icon_h":400,
+        "url":"#",
+        "url":"https://www.haystack.mit.edu/researcher/philip-j-erickson/",
+        "blurb":"Dan Boschen is a multi-disciplined engineering leader with a proven track record in design, management, and project leadership positions. Dan has an MS in Communications and Signal Processing from Northeastern University, with over 30 years of experience in system and hardware design for wireless communications and precision frequency sources, including transceiver/modem architecture, RF and mixed signal board design, high speed data conversion and digital signal processing (DSP) algorithms. He is currently at Microchip leading design efforts for advanced frequency and time solutions in the Beverly, Massachusetts facility. Prior to Microchip, he has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by ADI) designing and developing transceiver hardware from baseband to antenna for wireless communications systems. Dan is a contributor to dsprelated.com and Signal Processing Stack Exchange, and has taught courses on DSP to international audiences for over 20 years."}
+
         ]}
   ]
 }
