@@ -779,8 +779,8 @@ var spons24 = {
         {"icon": "https://events.gnuradio.org/event/24/images/175-Dan_Boschen.jpg",
         "icon_w":320,
         "icon_h":400,
-        "url":"https://www.linkedin.com/in/danboschen/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "blurb":"Dan Boschen is a multi-disciplined engineering leader with a proven track record in design, management, and project leadership positions. Dan has an MS in Communications and Signal Processing from Northeastern University, with over 30 years of experience in system and hardware design for wireless communications and precision frequency sources, including transceiver/modem architecture, RF and mixed signal board design, high speed data conversion and digital signal processing (DSP) algorithms. He is currently at Microchip leading design efforts for advanced frequency and time solutions in the Beverly, Massachusetts facility. Prior to Microchip, he has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by ADI) designing and developing transceiver hardware from baseband to antenna for wireless communications systems. Dan is a contributor to dsprelated.com and Signal Processing Stack Exchange, and has taught courses on DSP to international audiences for over 20 years."}
+        "url":"https://www.linkedin.com/in/danboschen/",
+        "blurb":"Dan Boschen has an MSEE degree in Communications and Signal Processing from Northeastern University, with over 25 years of experience in system and hardware design for radio transceivers and modems. He has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by Analog Devices) designing and developing transceiver hardware from baseband to antenna for wireless communications systems, and has taught popular courses on DSP for over 15 years. Dan is a contributor to <a href='https://dsprelated.com/'>DSPRelated.com</a> and <a href='https://dsp.stackexchange.com/'>Signal Processing Stack Exchange</a>, and is currently at Microchip leading design efforts for advanced frequency and time solutions."}
 
         ]}
   ]
@@ -1163,6 +1163,9 @@ function sponsors22 (myObj)
             var txt3 = txt2.replace("US/Eastern","US/Eastern (UTC - 4)");
             ig[0].innerHTML = txt3;
             }
+        var ml = document.getElementsByClassName("material-list");
+        // console.log (ml);
+        ml[0].style.display = 'none';   // hide material list
         }
     }   // end sponsors22()
 
