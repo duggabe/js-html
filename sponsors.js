@@ -712,9 +712,23 @@ var spons24 = {
         "icon_w":1250,
         "icon_h":1250,
         "url":"https://www.emona-tims.com/emona-product/tims-sdr-module/",
-        "blurb":"EMONA TIMS provides university level wireless teaching equipment worldwide, focusing on hands-on experimentation and learning-by-doing since 1988. The TIMS approach is to build communication systems with individual modular circuits which functionally replicate blocks in a block diagram. Operating at the physical and data link layers, modulation schemes from AM, FM, PSK up to OFDM, TCM, and UWB can be modeled in the lab (over 250 experiments currently). By introducing an SDR module powered by GNU Radio, and running on a bootable Linux USB stick, students can now easily build experiments incorporating SDR elements alongside traditional hardware elements. This opens up an entirely new range of educational opportunities as students can also make their own GR blocks to complement existing options."}
+        "blurb":"EMONA TIMS provides university level wireless teaching equipment worldwide, focusing on hands-on experimentation and learning-by-doing since 1988. The TIMS approach is to build communication systems with individual modular circuits which functionally replicate blocks in a block diagram. Operating at the physical and data link layers, modulation schemes from AM, FM, PSK up to OFDM, TCM, and UWB can be modeled in the lab (over 250 experiments currently). By introducing an SDR module powered by GNU Radio, and running on a bootable Linux USB stick, students can now easily build experiments incorporating SDR elements alongside traditional hardware elements. This opens up an entirely new range of educational opportunities as students can also make their own GR blocks to complement existing options."},
 
-        ]},
+         /* DeepSig */
+        {"icon":"https://events.gnuradio.org/event/8/images/20-deepsig_trim.png",
+        "icon_w":996,
+        "icon_h":735,
+        "url":"https://www.deepsig.ai/",
+        "blurb":"DeepSig is a pioneer in AI native wireless communications. Its transformative technology pushes the boundaries of spectrum sensing, wireless performance and network capabilities. Drawing on a unique blend of expertise in deep learning, wireless systems and signal processing, DeepSig’s AI/ML powered software enhances security, efficiency and capacity for tactical and commercial wireless communications in licensed or shared radio spectrum, and in existing 5G Open RAN or AI native next generation networks."},
+
+        /* BCubed */
+        {"icon":"https://events.gnuradio.org/event/18/images/117-BCubed_1.png",
+        "icon_w":624,
+        "icon_h":226,
+        "url":"https://bcubed-corp.com/",
+        "blurb":"BCubed Engineering Corporation is an advanced software and engineering company, focused on delivering innovative solutions to address rapidly evolving needs across the DoD, IC, and commercial sector. Our team's expertise in Digital Signals Processing, Machine Learning, and Cloud/On-Premises Computing, combined with cutting-edge GOTS / COTS technologies, allows us to deliver low-cost, reliable solutions that empower end users."}
+
+       ]},
 
     {"name":"HOSTS", "lvl_size":132, "entries":[
         ]},
@@ -780,7 +794,14 @@ var spons24 = {
         "icon_w":320,
         "icon_h":400,
         "url":"https://www.linkedin.com/in/danboschen/",
-        "blurb":"Dan Boschen has an MSEE degree in Communications and Signal Processing from Northeastern University, with over 25 years of experience in system and hardware design for radio transceivers and modems. He has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by Analog Devices) designing and developing transceiver hardware from baseband to antenna for wireless communications systems, and has taught popular courses on DSP for over 15 years. Dan is a contributor to <a href='https://dsprelated.com/'>DSPRelated.com</a> and <a href='https://dsp.stackexchange.com/'>Signal Processing Stack Exchange</a>, and is currently at Microchip leading design efforts for advanced frequency and time solutions."}
+        "blurb":"Dan Boschen has an MSEE degree in Communications and Signal Processing from Northeastern University, with over 25 years of experience in system and hardware design for radio transceivers and modems. He has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by Analog Devices) designing and developing transceiver hardware from baseband to antenna for wireless communications systems, and has taught popular courses on DSP for over 15 years. Dan is a contributor to <a href='https://dsprelated.com/'>DSPRelated.com</a> and <a href='https://dsp.stackexchange.com/'>Signal Processing Stack Exchange</a>, and is currently at Microchip leading design efforts for advanced frequency and time solutions."},
+
+        /* John Moss */
+        {"icon": "https://events.gnuradio.org/event/24/images/176-John_Moss.png",
+        "icon_w":260,
+        "icon_h":325,
+        "url":"https://www.ornl.gov/staff-profile/john-s-moss",
+        "blurb":"John Moss joined the Spallation Neutron Source at Oak Ridge National Laboratory as an electrical engineer supporting the Neutron Instruments in 2009. In 2012, he transitioned to the RF Group as a high-power RF engineer. He currently serves as the RF Systems WBS Manager (L2) for the Proton Power Upgrade and the RF Systems Group Leader for the Accelerator Systems section in the Research Accelerator Division. The RF Group oversees the reliable operation of all Linac RF systems including the Front End, the normal and superconducting high power RF systems, the Ring RF systems, and the Low-Level RF control systems."}
 
         ]}
   ]
@@ -1156,7 +1177,7 @@ function sponsors22 (myObj)
         {
         var ig = document.getElementsByClassName("infogrid");
         var txt = ig[0].innerHTML;      // get the existing content
-        var pos6 = txt.indexOf("08:00");
+        var pos6 = txt.indexOf("12:00");
         if (pos6 > 0)
             {
             var txt2 = txt.replace("08:00","13:00");    // starts at 1PM
