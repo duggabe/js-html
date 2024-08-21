@@ -694,7 +694,14 @@ var spons24 = {
         "icon_w":1051,
         "icon_h":810,
         "url":"https://deepwavedigital.com/",
-        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for most AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."}
+        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for most AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."},
+
+        /* ARDC */
+        {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
+        "icon_w":300,
+        "icon_h":144,
+        "url":"https://www.ampr.org/",
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."}
 
         ]},
 
@@ -758,7 +765,14 @@ var spons24 = {
         "icon_w":1324,
         "icon_h":1324,
         "url":"https://www.qoherent.ai/",
-        "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defense sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."}
+        "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defense sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."},
+
+        /* TMYTEK */
+        {"icon": "https://events.gnuradio.org/event/21/images/146-TMY-logo_C.png",
+        "icon_w":1773,
+        "icon_h":414,
+        "url":"https://tmytek.com/",
+        "blurb":"TMYTEK seamlessly integrates advanced mmWave technology with the finest OpenAirInterface (OAI) implementation to deliver a comprehensive 5G FR2 end-to-end testing network suitable for research and small-scale deployment. The mmW-OAI testbed combines millimeter-wave and SDR capabilities with OpenAirInterface (OAI), establishing a versatile testing environment for 5G FR2 networks. It supports gNB and UE emulation, mmWave beamforming, frequency conversion, and offers robust software tools for network monitoring and analysis."}
 
         ]},
 
