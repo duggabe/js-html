@@ -733,7 +733,14 @@ var spons24 = {
         "icon_w":624,
         "icon_h":226,
         "url":"https://bcubed-corp.com/",
-        "blurb":"BCubed Engineering Corporation is an advanced software and engineering company, focused on delivering innovative solutions to address rapidly evolving needs across the DoD, IC, and commercial sector. Our team's expertise in Digital Signals Processing, Machine Learning, and Cloud/On-Premises Computing, combined with cutting-edge GOTS / COTS technologies, allows us to deliver low-cost, reliable solutions that empower end users."}
+        "blurb":"BCubed Engineering Corporation is an advanced software and engineering company, focused on delivering innovative solutions to address rapidly evolving needs across the DoD, IC, and commercial sector. Our team's expertise in Digital Signals Processing, Machine Learning, and Cloud/On-Premises Computing, combined with cutting-edge GOTS / COTS technologies, allows us to deliver low-cost, reliable solutions that empower end users."},
+
+        /* Impulse Space */
+        {"icon":"https://events.gnuradio.org/event/24/images/178-impulse_space.png",
+        "icon_w":1200,
+        "icon_h":627,
+        "url":"https://www.impulsespace.com/",
+        "blurb":"Impulse Space is a pioneer of in-space transportation for payload delivery and hosting. Impulse was founded in 2021 by Tom Mueller, a founding member of SpaceX and the creator of Merlin, the most reliable rocket engine in history."}
 
        ]},
 
