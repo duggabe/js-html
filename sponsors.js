@@ -775,11 +775,11 @@ var spons24 = {
         "blurb":"Qoherent helps scientists and engineers explore applications of AI on software-defined radios. We strive to propel intelligent radio innovations through rapid prototyping and design automation tools that are tightly integrated with existing commercial technologies. Focused on the complex spectrum conditions inherent to the space, telecommunications, and defense sectors, we empower our customers to create AI-enabled solutions for more effective sensing and communications systems."},
 
         /* TMYTEK */
-        {"icon": "https://events.gnuradio.org/event/21/images/146-TMY-logo_C.png",
+        {"icon": "https://events.gnuradio.org/event/24/images/179-GRCON24-XG3PS-1-IMG_2544.jpeg",
         "icon_w":1773,
         "icon_h":414,
         "url":"https://tmytek.com/",
-        "blurb":"TMYTEK seamlessly integrates advanced mmWave technology with the finest OpenAirInterface (OAI) implementation to deliver a comprehensive 5G FR2 end-to-end testing network suitable for research and small-scale deployment. The mmW-OAI testbed combines millimeter-wave and SDR capabilities with OpenAirInterface (OAI), establishing a versatile testing environment for 5G FR2 networks. It supports gNB and UE emulation, mmWave beamforming, frequency conversion, and offers robust software tools for network monitoring and analysis."}
+        "blurb":"TMY Technology, Inc. (TMYTEK) delivers breakthrough mmWave solutions for 5G/B5G and satellite communication applications. As a leading technology developer, TMYTEK transforms mmWave RF frontends with innovative devices implementing phased arrays with modern Antenna-in-Package (AiP) technologies and redefining OTA testing methodologies. Together with our global partners, TMYTEK enables industrial innovation to reduce the time from prototyping to production of communication application for improved connectivity and the benefit of users."}
 
         ]},
 
