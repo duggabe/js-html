@@ -779,7 +779,14 @@ var spons24 = {
         "icon_w":1773,
         "icon_h":414,
         "url":"https://tmytek.com/",
-        "blurb":"TMY Technology, Inc. (TMYTEK) delivers breakthrough mmWave solutions for 5G/B5G and satellite communication applications. As a leading technology developer, TMYTEK transforms mmWave RF frontends with innovative devices implementing phased arrays with modern Antenna-in-Package (AiP) technologies and redefining OTA testing methodologies. Together with our global partners, TMYTEK enables industrial innovation to reduce the time from prototyping to production of communication application for improved connectivity and the benefit of users."}
+        "blurb":"TMY Technology, Inc. (TMYTEK) delivers breakthrough mmWave solutions for 5G/B5G and satellite communication applications. As a leading technology developer, TMYTEK transforms mmWave RF frontends with innovative devices implementing phased arrays with modern Antenna-in-Package (AiP) technologies and redefining OTA testing methodologies. Together with our global partners, TMYTEK enables industrial innovation to reduce the time from prototyping to production of communication application for improved connectivity and the benefit of users."},
+
+        /* ANDRO */
+        {"icon":"https://events.gnuradio.org/event/21/images/142-ANDRO_Logo.png",
+        "icon_w":2410,
+        "icon_h":609,
+        "url":"https://www.androcs.com/wp/",
+        "blurb":"For more than 30 years, ANDRO Computational Solutions, LLC has advanced state-of-the-art computing solutions for the most complex wireless communications and spectrum challenges that serve the military defense, national security, and commercial client needs. We have decades of experience delivering the most sophisticated enabling technologies powering today’s communications industry—fueled by AI. Our radio frequency machine learning (RFML) solutions enable intelligent spectrum awareness, policy-based dynamic spectrum sharing, cognitive mesh networking, IoT connectivity, and V2X autonomy. ANDRO empowers future growth markets in edge computing and intelligent wireless communications giving early adopters a first-mover advantage to gain market dominance."}
 
         ]},
 
