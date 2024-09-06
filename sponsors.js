@@ -786,7 +786,7 @@ var spons24 = {
         "icon_w":2410,
         "icon_h":609,
         "url":"https://www.androcs.com/wp/",
-        "blurb":"For more than 30 years, ANDRO Computational Solutions, LLC has advanced state-of-the-art computing solutions for the most complex wireless communications and spectrum challenges that serve the military defense, national security, and commercial client needs. We have decades of experience delivering the most sophisticated enabling technologies powering today’s communications industry—fueled by AI. Our radio frequency machine learning (RFML) solutions enable intelligent spectrum awareness, policy-based dynamic spectrum sharing, cognitive mesh networking, IoT connectivity, and V2X autonomy. ANDRO empowers future growth markets in edge computing and intelligent wireless communications giving early adopters a first-mover advantage to gain market dominance."}
+        "blurb":"ANDRO Computational Solutions, LLC, a privately-owned company established in 1994, is dedicated to research, development, and the application of advanced computer software for a variety of applications. ANDRO’s diverse portfolio includes: research and development in artificial intelligence and machine learning, waveform development, dynamic spectrum management, spectrum exploitation, cyber-secure wireless communications, cognitive radios and software defined networking, multi-sensor and multi-target tracking, advanced radar data fusion, and sensor resource management. Located in the Griffiss Business & Technology Park in Rome, NY, ANDRO provides research, engineering, and technical services to defense and commercial industries."}
 
         ]},
 
