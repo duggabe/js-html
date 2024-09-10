@@ -740,7 +740,14 @@ var spons24 = {
         "icon_w":1818,
         "icon_h":1028,
         "url":"https://www.impulsespace.com/",
-        "blurb":"Impulse Space, the in-space transportation company founded by Tom Mueller, is opening access beyond Low Earth Orbit (LEO) with its fleet of in-space transportation vehicles. The flight-proven Mira vehicle uses a nontoxic, high-impulse chemical propulsion system to offer orbital transport, constellation deployment, and precision reentry services to customers throughout LEO. The high-energy Helios vehicle unlocks orbits beyond LEO with its powerful Deneb engine, dropping off payloads in MEO, GEO, heliocentric, lunar, and other planetary orbits. Led by a team that delivered the most reliable rockets in history, Impulse provides economical and efficient in-space transportation by reliably and rapidly getting customers where they want to go. For more information, visit <a href= 'https://www.impulsespace.com/'>impulsespace.com</a>."}
+        "blurb":"Impulse Space, the in-space transportation company founded by Tom Mueller, is opening access beyond Low Earth Orbit (LEO) with its fleet of in-space transportation vehicles. The flight-proven Mira vehicle uses a nontoxic, high-impulse chemical propulsion system to offer orbital transport, constellation deployment, and precision reentry services to customers throughout LEO. The high-energy Helios vehicle unlocks orbits beyond LEO with its powerful Deneb engine, dropping off payloads in MEO, GEO, heliocentric, lunar, and other planetary orbits. Led by a team that delivered the most reliable rockets in history, Impulse provides economical and efficient in-space transportation by reliably and rapidly getting customers where they want to go. For more information, visit <a href= 'https://www.impulsespace.com/'>impulsespace.com</a>."},
+
+        /* RFNM */
+        {"icon":"https://events.gnuradio.org/event/21/images/145-RFNM.jpg",
+        "icon_w":400,
+        "icon_h":400,
+        "url":"https://rfnm.io/",
+        "blurb":"RFNM is a new concept for a modular innovation platform that uses brand new silicon to make previously inaccessible designs affordable to everyone."}
 
        ]},
 
