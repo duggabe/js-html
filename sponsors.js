@@ -747,7 +747,14 @@ var spons24 = {
         "icon_w":400,
         "icon_h":400,
         "url":"https://rfnm.io/",
-        "blurb":"RFNM is a new concept for a modular innovation platform that uses brand new silicon to make previously inaccessible designs affordable to everyone."}
+        "blurb":"RFNM is a new concept for a modular innovation platform that uses brand new silicon to make previously inaccessible designs affordable to everyone."},
+
+        /* AnySignal */
+        {"icon":"https://events.gnuradio.org/event/24/images/181-AnySignalLogo_Blue.png",
+        "icon_w":1530,
+        "icon_h":1256,
+        "url":"https://www.anysignal.com/",
+        "blurb":"AnySignal develops the next-generation of communications and RF intelligence solutions for aerospace and military customers, with current applications including spacecraft, advanced aircraft, military vehicles, and manpack radios. The team is founded by SpaceX veterans and those with deep ties into the GNURadio community. If you're interested in joining us for our mission, visit us at <a href='https://www.anysignal.com/'>AnySignal.com</a>"}
 
        ]},
 
