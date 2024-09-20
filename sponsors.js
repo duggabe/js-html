@@ -800,7 +800,14 @@ var spons24 = {
         "icon_w":2410,
         "icon_h":609,
         "url":"https://www.androcs.com/wp/",
-        "blurb":"ANDRO Computational Solutions, LLC, a privately-owned company established in 1994, is dedicated to research, development, and the application of advanced computer software for a variety of applications. ANDRO’s diverse portfolio includes: research and development in artificial intelligence and machine learning, waveform development, dynamic spectrum management, spectrum exploitation, cyber-secure wireless communications, cognitive radios and software defined networking, multi-sensor and multi-target tracking, advanced radar data fusion, and sensor resource management. Located in the Griffiss Business & Technology Park in Rome, NY, ANDRO provides research, engineering, and technical services to defense and commercial industries."}
+        "blurb":"ANDRO Computational Solutions, LLC, a privately-owned company established in 1994, is dedicated to research, development, and the application of advanced computer software for a variety of applications. ANDRO’s diverse portfolio includes: research and development in artificial intelligence and machine learning, waveform development, dynamic spectrum management, spectrum exploitation, cyber-secure wireless communications, cognitive radios and software defined networking, multi-sensor and multi-target tracking, advanced radar data fusion, and sensor resource management. Located in the Griffiss Business & Technology Park in Rome, NY, ANDRO provides research, engineering, and technical services to defense and commercial industries."},
+
+        /* Doug Forster */
+        {"icon":"https://events.gnuradio.org/event/24/images/182-gnucon24-hex-color-bg.png",
+        "icon_w":1175,
+        "icon_h":1357,
+        "url":"https://www.gnuradio.org/",
+        "blurb":"Doug Forster W6AXR/7 has made a generous donation to GNU Radio and sends his greetings to all in the community.<br><br>GNU Radio’s financial organization happens through the SETI Institute, which in the US is a 501(c)(3) charity (that means your donations might be tax deductible)."}
 
         ]},
 
