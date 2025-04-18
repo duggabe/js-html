@@ -11,6 +11,7 @@
 /* 11 Aug 2023  build Keynotes page */
 /* 18 Oct 2023  create spons24 */
 /* 21 Jan 2024  change 'Starts' time to 13:00 */
+/* 18 Apr 2025  create spons25 */
 
 "use strict"
 
@@ -863,6 +864,37 @@ var spons24 = {
   ]
 }
 
+var spons25 = {
+  "levels": [
+    {"name":"DIAMOND", "lvl_size":180, "entries":[
+        ]},
+
+    {"name":"PLATINUM", "lvl_size":120, "entries":[
+        ]},
+
+    {"name":"GOLD", "lvl_size":100, "entries":[
+        ]},
+
+    {"name":"SILVER", "lvl_size":90, "entries":[
+        ]},
+
+    {"name":"HOSTS", "lvl_size":132, "entries":[
+        ]},
+
+    {"name":"PARTNERS", "lvl_size":132, "entries":[
+        ]},
+
+    {"name":"PATRON", "lvl_size":88, "entries":[
+        ]},
+
+    {"name":"Keynotes", "lvl_size":200, "entries":[
+        ]},
+
+    {"name":"Invited Speakers", "lvl_size":200, "entries":[
+        ]}
+  ]
+}
+
 var skeleton = {    /* ready for the next year */
   "levels": [
     {"name":"DIAMOND", "lvl_size":180, "entries":[
@@ -907,10 +939,16 @@ function myFunction()
     var pos3 = w_loc.search("event/8");      // GRCon21
     var pos4 = w_loc.search("event/21");     // GRCon23
     var pos7 = w_loc.search("event/24");     // GRCon24
-    if ((pos2 > 0) || (pos7 > 0))
+    var pos8 = w_loc.search("event/26");     // GRCon25
+    if ((pos2 > 0) || (pos8 > 0))
+        {
+        console.log ("GRCon 25");
+        /* always call "function sponsors22()" with data for current year */
+        sponsors22 (spons25);    // GRCon 25
+        }
+    else if (pos7 > 0)
         {
         console.log ("GRCon 24");
-        /* always call "function sponsors22()" with data for current year */
         sponsors22 (spons24);    // GRCon 24
         }
     else if (pos4 > 0)
@@ -956,6 +994,7 @@ function sponsors22 (myObj)
     /* KEYNOTES */
     if ((w_loc == ("https://events.gnuradio.org/event/21/page/111-keynote-speakers")) ||
         (w_loc == ("https://events.gnuradio.org/event/24/page/147-keynote-speakers")) ||
+        (w_loc == ("https://events.gnuradio.org/event/26/page/194-keynote-speakers")) ||
         (pos6 > 0))
         {
         // build Keynote page content
@@ -1016,6 +1055,7 @@ function sponsors22 (myObj)
         (w_loc != ("https://events.gnuradio.org/event/8/page/5-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/21/page/94-our-sponsors")) &&
         (w_loc != ("https://events.gnuradio.org/event/24/page/143-our-sponsors")) &&
+        (w_loc != ("https://events.gnuradio.org/event/26/page/190-our-sponsors")) &&
         (pos5 < 0))
         {   // not Sponsors page
         var _num_sponsors = 0;
@@ -1221,9 +1261,10 @@ function sponsors22 (myObj)
     var pos3 = w_loc.search("event/8");      // GRCon21
     var pos4 = w_loc.search("event/21");     // GRCon23
     var pos5 = w_loc.search("event/24");     // GRCon24
-    if ((pos1 > 0) || (pos2 > 0) || (pos3 > 0) || (pos5 > 0))
+    var pos6 = w_loc.search("event/26");     // GRCon25
+    if ((pos1 > 0) || (pos3 > 0) || (pos5 > 0))
         var t1 = document.createTextNode(" (UTC - 4)");
-    else if (pos4 > 0)
+    else if ((pos2 > 0) || (pos4 > 0) || (pos6 > 0))
         var t1 = document.createTextNode(" (UTC - 7)");
     tz[0].appendChild(t1);
 
