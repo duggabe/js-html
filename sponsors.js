@@ -867,30 +867,107 @@ var spons24 = {
 var spons25 = {
   "levels": [
     {"name":"DIAMOND", "lvl_size":180, "entries":[
+
+        /* NI / Ettus Research */
+        // {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
+        //     "icon_w":1042,
+        //     "icon_h":472,
+        //     "url":"https://www.ettus.com/",
+        //     "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."},
+    
+        /* Aaronia */
+        {"icon":"https://events.gnuradio.org/event/24/images/172-Aaronia_Logo_rgb_300px.png",
+            "icon_w":300,
+            "icon_h":147,
+            "url":"https://aaronia.com/",
+            "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."}
+    
+            
         ]},
 
     {"name":"PLATINUM", "lvl_size":120, "entries":[
         ]},
 
     {"name":"GOLD", "lvl_size":100, "entries":[
+
+        /* Epiq Solutions 1003 */
+        {"icon": "https://www.gnuradio.org/grcon/grcon20/sponsors/epiq.png",
+            "icon_w":862,
+            "icon_h":564,
+            "url":"https://epiqsolutions.com/",
+            "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."},
+
+            
         ]},
 
     {"name":"SILVER", "lvl_size":90, "entries":[
+
+        /* Red Wire Technology */
+        {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
+            "icon_w":636,
+            "icon_h":183,
+            "url":"https://www.redwiretechnology.com/",
+            "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."},
+    
+        /* EMONA TIMS */
+        {"icon":"https://events.gnuradio.org/event/24/images/173-Emona-tims%20logo.jpg",
+            "icon_w":1250,
+            "icon_h":1250,
+            "url":"https://www.emona-tims.com/emona-product/tims-sdr-module/",
+            "blurb":"EMONA TIMS provides university level wireless teaching equipment worldwide, focusing on hands-on experimentation and learning-by-doing since 1988. The TIMS approach is to build communication systems with individual modular circuits which functionally replicate blocks in a block diagram. Operating at the physical and data link layers, modulation schemes from AM, FM, PSK up to OFDM, TCM, and UWB can be modeled in the lab (over 250 experiments currently). By introducing an SDR module powered by GNU Radio, and running on a bootable Linux USB stick, students can now easily build experiments incorporating SDR elements alongside traditional hardware elements. This opens up an entirely new range of educational opportunities as students can also make their own GR blocks to complement existing options."},
+    
+
         ]},
 
     {"name":"HOSTS", "lvl_size":132, "entries":[
         ]},
 
     {"name":"PARTNERS", "lvl_size":132, "entries":[
+
+
+        /* SETI Institute */
+        {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/seti_institute.png",
+            "icon_w":400,
+            "icon_h":243,
+            "url":"https://www.seti.org/",
+            "blurb":"Founded in 1984, the SETI Institute is a nonprofit, multidisciplinary research and education organization whose mission is to lead humanity’s quest to understand the origins and prevalence of life and intelligence in the universe and share that knowledge with the world. Research at the SETI Institute encompasses the physical and biological sciences and leverages expertise in data analytics, machine learning and advanced signal detection technologies. The SETI Institute is a distinguished research partner for industry, academia and government agencies, including NASA and NSF.<br><br>Three centers anchor work at the SETI Institute: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory.<br><br>As of 2020, the SETI Institute manages contracts, grants, and related administration for the GNU Radio project and engenders collaboration with the community around shared interests in science, engineering, and education."},
+    
+            /* BSRC */
+            {"icon":"https://www.gnuradio.org/grcon/grcon20/sponsors/bsrc_bl_logo.png",
+            "icon_w":750,
+            "icon_h":512,
+            "url":"https://seti.berkeley.edu/",
+            "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
+    
+
         ]},
 
     {"name":"PATRON", "lvl_size":88, "entries":[
         ]},
 
     {"name":"Keynotes", "lvl_size":200, "entries":[
+
+        
         ]},
 
     {"name":"Invited Speakers", "lvl_size":200, "entries":[
+
+        /* Paul Clark */
+        {"icon": "https://events.gnuradio.org/event/26/images/184-paul-clark.png",
+            "icon_w":600,
+            // "icon_h":400,
+            "url":"https://www.linkedin.com/in/paulgclark1/",
+            "blurb":"Paul Clark is the owner and chief engineer at Factoria Labs, an organization dedicated to the propagation of software defined radio. He has experience ranging from chip design to firmware development to RF reverse engineering. Paul teaches classes and workshops on SDR and is a 4-time presenter at Black Hat Arsenal Labs. He's also written four SDR books, the latest being \"Practical SDR\", published by No Starch Press and releasing May 2025."},
+    
+
+        /* Dan Boschen */
+        {"icon": "https://events.gnuradio.org/event/24/images/175-Dan_Boschen.jpg",
+            "icon_w":320,
+            "icon_h":400,
+            "url":"https://www.linkedin.com/in/danboschen/",
+            "blurb":"Dan Boschen has an MSEE degree in Communications and Signal Processing from Northeastern University, with over 25 years of experience in system and hardware design for radio transceivers and modems. He has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by Analog Devices) designing and developing transceiver hardware from baseband to antenna for wireless communications systems, and has taught popular courses on DSP for over 15 years. Dan is a contributor to <a href='https://dsprelated.com/'>DSPRelated.com</a> and <a href='https://dsp.stackexchange.com/'>Signal Processing Stack Exchange</a>, and is currently at Microchip leading design efforts for advanced frequency and time solutions."},
+    
+
         ]}
   ]
 }
