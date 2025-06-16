@@ -880,7 +880,14 @@ var spons25 = {
             "icon_w":300,
             "icon_h":147,
             "url":"https://aaronia.com/",
-            "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."}
+            "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."},
+
+        {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
+            "icon_w":1042,
+            "icon_h":472,
+            "url":"https://www.ettus.com/",
+            "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."},
+
     
             
         ]},
@@ -906,16 +913,22 @@ var spons25 = {
         {"icon":"https://events.gnuradio.org/event/8/images/84-RedWireTechnologies.png",
             "icon_w":636,
             "icon_h":183,
-            "url":"https://www.redwiretechnology.com/",
+            "url":"https://redwiretechnologies.us//",
             "blurb":"Red Wire Technologies is a customer focused systems engineering company that is passionate about developing innovative solutions to meet complex challenges. Our expertise and experience covers the entire R&D process chain from concept to finished product.  Red Wire produces fully embedded high-performance software defined radios, available on our website.  RWT offers design services - hardware and RF design, embedded software design, and digital signal processing solutions for both turn-key and developer focused applications."},
-    
+
         /* EMONA TIMS */
         {"icon":"https://events.gnuradio.org/event/24/images/173-Emona-tims%20logo.jpg",
             "icon_w":1250,
             "icon_h":1250,
             "url":"https://www.emona-tims.com/emona-product/tims-sdr-module/",
             "blurb":"EMONA TIMS provides university level wireless teaching equipment worldwide, focusing on hands-on experimentation and learning-by-doing since 1988. The TIMS approach is to build communication systems with individual modular circuits which functionally replicate blocks in a block diagram. Operating at the physical and data link layers, modulation schemes from AM, FM, PSK up to OFDM, TCM, and UWB can be modeled in the lab (over 250 experiments currently). By introducing an SDR module powered by GNU Radio, and running on a bootable Linux USB stick, students can now easily build experiments incorporating SDR elements alongside traditional hardware elements. This opens up an entirely new range of educational opportunities as students can also make their own GR blocks to complement existing options."},
-    
+        /* 3dB Labs */
+        {"icon":"https://events.gnuradio.org/event/26/images/185-3dB_FinalLogo-02.png",
+            // "icon_w":636,
+            // "icon_h":183,
+            "url":"https://3db-labs.com/",
+            "blurb":"3dB Labs delivers powerful, customizable, digital signal processing solutions capable of real-time and offline spectrum and temporal analysis, signal detection and demodulation."},
+
 
         ]},
 
@@ -947,7 +960,7 @@ var spons25 = {
 
     {"name":"Keynotes", "lvl_size":200, "entries":[
 
-        
+
         ]},
 
     {"name":"Invited Speakers", "lvl_size":200, "entries":[
