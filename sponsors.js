@@ -882,9 +882,9 @@ var spons25 = {
             "url":"https://aaronia.com/",
             "blurb":"Aaronia is an internationally-renowned high-tech company headquartered in Strickscheid, Germany. Since 2003, we specialize in measuring, tracking and monitoring technology. Our experience, products and patents enable us to provide comprehensive and intelligent drone detection and defense systems with an extremely high range, precision and reliability."},
 
-        {"icon":"https://events.gnuradio.org/event/8/images/26-Ettus_NI_Lockup_COLOR_trim.jpg",
-            "icon_w":1042,
-            "icon_h":472,
+        {"icon":"https://events.gnuradio.org/event/26/images/189-RGB_TEMPORARY_EMR_NI_Logos_Color.png",
+            "icon_w":600,
+
             "url":"https://www.ettus.com/",
             "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."},
 
@@ -960,8 +960,22 @@ var spons25 = {
 
     {"name":"Keynotes", "lvl_size":200, "entries":[
 
+        /* Joshua Smith */
+        {"icon": "https://events.gnuradio.org/event/26/images/187-joshua-smith.jpg",
+            "icon_w":600,
+            // "icon_h":400,
+            "url":"https://www.cs.washington.edu/people/faculty/joshua-r-smith/",
+            "blurb":"Joshua R. Smith is the Milton and Delia Zeutschel Professor, jointly appointed in the Allen School of Computer Science, and in the Department of Electrical and Computer Engineering at the University of Washington, where he leads the UW+Amazon Science Hub and the Sensor Systems Laboratory. His research focuses on inventing new sensor systems, devising new ways to power and communicate with them, and developing algorithms for using them. The research has applications in the domains of ubiquitous computing, robotics, medical devices and HCI. He is a co-founder with colleagues and former students of Jeeva Wireless, Wibotic, and Proprio. He is a Fellow of the IEEE and a Fellow of the National Academy of Inventors.  </br></br>Smith was formerly a Principal Engineer at Intel Research Seattle, where he led projects in robotics, wireless power and wireless sensing. At Intel, he founded the Wireless Resonant Energy Link (WERL) project, which demonstrated wireless transfer of tens of watts of power. He also began the Wireless Identification and Sensing Platform (WISP) project, which is a battery-free platform for sensing and computation. He completed his M.S. in 1995 and his Ph.D. in 1999 at the MIT Media Lab under Neil Gershenfeld. He earned his M.A. and B.A. with Honors in Physics and Theoretical Physics from the University of Cambridge and his B.A. in Computer Science and Philosophy from Williams College."},
 
-        ]},
+        /* Jesse Alexander */
+        {"icon": "https://events.gnuradio.org/event/26/images/188-WB2IFS-in_shack_big.png",
+            "icon_w":600,
+            // "icon_h":400,
+            "url":"https://www.linkedin.com/in/jessealexander/",
+            "blurb":"Jesse Alexander—Jesse has over 40 years of experience in informal STEM education, technical training, knowledge management, information architecture, technical content development, project management, wireless system design, secure knowledge systems management, and telecommunications systems design. He has designed curricula, documentation, user guides, embedded systems, and processes. He is a senior member of the Institute of Electrical and Electronic Engineers (IEEE), Radio Club of America Inc, American Radio Relay League, and the OMIK Amateur Radio Association. </br></br> An award-winning poet, maker, hacker, tinkerer, and volunteer emergency communicator (amateur radio call sign, WB2IFS). Mr. Alexander graduated Cum Laude and Tau Beta Pi with Bachelor of Science and Master of Engineering degrees in Electrical Engineering from Howard University, Washington, DC."},
+        ]},        
+
+
 
     {"name":"Invited Speakers", "lvl_size":200, "entries":[
 
