@@ -888,7 +888,12 @@ var spons25 = {
             "url":"https://www.ettus.com/",
             "blurb":"Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life."},
 
-    
+        {"icon":"https://events.gnuradio.org/event/26/images/198-AnySignal_LogoLockup_Large_Blue%20(2).png",
+            "icon_w":600,
+
+            "url":"https://anysignal.com/",
+            "blurb":"AnySignal develops the next-generation of communications and RF intelligence solutions for aerospace and military customers, with current applications including spacecraft, advanced aircraft, military vehicles, and manpack radios. The team is founded by SpaceX veterans and those with deep ties into the GNURadio community. If you're interested in joining us for our mission, visit us at <a href='https://www.anysignal.com/'>AnySignal.com</a>"},
+
             
         ]},
 
@@ -903,6 +908,18 @@ var spons25 = {
             "icon_h":317,
             "url":"https://epiqsolutions.com/",
             "blurb":"Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider."},
+        /* CX2 */
+        {"icon": "https://events.gnuradio.org/event/26/images/194-cx2%20logo%20-%20black%20small.png",
+            // "icon_w":1485,
+            "icon_h":317,
+            "url":"https://cx2.com/",
+            "blurb":"CX2 is a next-generation defense technology company delivering spectrum dominance for the United States and its allies. We build AI-enabled hardware and software platforms that detect, disrupt, and defend the electromagnetic spectrum across air, land, sea, and space. From autonomous SIGINT drones to resilient communications and electronic warfare operating systems, our integrated solutions give warfighters the tools to find, fix, and finish RF threats. Backed by a16z, 8VC, and p72, CX2 is headquartered in El Segundo, California"},
+        /* Peraton Labs */
+        {"icon":"https://events.gnuradio.org/event/8/images/98-Peraton%20Labs%20logo-trimmed-extra.png",
+        "icon_w":1332,
+        "icon_h":303,
+        "url":"https://www.peratonlabs.com/",
+        "blurb":"What matters to our customers, matters to us.  We create new technologies, advance emerging technologies and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and life sciences.​"},
 
             
         ]},
@@ -928,7 +945,40 @@ var spons25 = {
             // "icon_h":183,
             "url":"https://3db-labs.com/",
             "blurb":"3dB Labs delivers powerful, customizable, digital signal processing solutions capable of real-time and offline spectrum and temporal analysis, signal detection and demodulation."},
-
+         /* DeepSig */
+        {"icon":"https://events.gnuradio.org/event/26/images/190-deepsig.png",
+        "icon_w":996,
+        // "icon_h":735,
+        "url":"https://www.deepsig.ai/",
+        "blurb":"DeepSig is a pioneer in AI native wireless communications. Its transformative technology pushes the boundaries of spectrum sensing, wireless performance and network capabilities. Drawing on a unique blend of expertise in deep learning, wireless systems and signal processing, DeepSig’s AI/ML powered software enhances security, efficiency and capacity for tactical and commercial wireless communications in licensed or shared radio spectrum, and in existing 5G Open RAN or AI native next generation networks."},
+        /* ARDC */
+        {"icon":"https://events.gnuradio.org/event/8/images/29-ARDC_trim.png",
+        "icon_w":300,
+        "icon_h":144,
+        "url":"https://www.ampr.org/",
+        "blurb":"Amateur Radio Digital Communications (ARDC) supports and promotes amateur radio, scientific research, education, experimentation, development, open access, and innovation in information and communications technology. Visit our website or email giving@ardc.net <mailto:giving@ardc.net> to learn how we can help make your idea real."},
+        /* HydraSDR */
+        {"icon":"https://events.gnuradio.org/event/26/images/193-HydraSDR_Logo_BlueTransparent_HiRes-scaled.png",
+        "icon_w":300,
+        // "icon_h":144,
+        "url":"https://hydrasdr.com",
+        "blurb":"HydraSDR develops professional-grade, open-source software-defined radio hardware designed to bridge the gap between basic SDR dongles and expensive laboratory equipment.  Founded by Benjamin VERNOUX (creator of AirSpy Mini/R2), HydraSDR combines European RF engineering expertise with American manufacturing excellence.  Our flagship HydraSDR RFOne delivers laboratory-grade performance with 24 MHz to 1.8 GHz coverage, 12-bit ADC resolution, and full GNU Radio ecosystem integration through gr-osmosdr.  With complete open-source firmware and software stack, the platform enables researchers, educators, and professionals to develop advanced SDR applications with industrial reliability.  HydraSDR is committed to advancing the GNU Radio community by providing accessible, professional-grade hardware that supports the full spectrum of software-defined radio research and development."},
+        /* Deepwave Digital */
+        {"icon":"https://events.gnuradio.org/event/8/images/18-deepwave_trim.png",
+        "icon_w":1051,
+        "icon_h":810,
+        "url":"https://deepwavedigital.com/",
+        "blurb":"Deepwave is an innovative startup that supplies AI-enabled hardware and software solutions for a wide range of radio frequency (RF) applications at the edge. Our software defined radios (SDRs) tightly couple GPU, CPU, and FPGA processors, and include the software tools expected by a modern software engineer. This includes native support for most AI frameworks, signal processing toolboxes, container environments, and parallel computing tools. By incorporating AI functionality, customers are able to improve performance of many signal processing applications including signal classification and cognitive radio."},
+        {"icon": "https://events.gnuradio.org/event/26/images/202-TMYTEK%20logo%20Big%20T.png",
+        "icon_w":1773,
+        // "icon_h":414,
+        "url":"https://tmytek.com/",
+        "blurb":"TMY Technology, Inc. (TMYTEK) delivers breakthrough mmWave solutions for 5G/B5G and satellite communication applications. As a leading technology developer, TMYTEK transforms mmWave RF frontends with innovative devices implementing phased arrays with modern Antenna-in-Package (AiP) technologies and redefining OTA testing methodologies. Together with our global partners, TMYTEK enables industrial innovation to reduce the time from prototyping to production of communication application for improved connectivity and the benefit of users."},
+        {"icon": "https://events.gnuradio.org/event/26/images/201-durandal.png",
+        "icon_w":1773,
+        // "icon_h":414,
+        "url":"https://durandal.us",
+        "blurb":"Durandal delivers cutting-edge solutions at the convergence of RF systems, electronic warfare, artificial intelligence, and advanced modeling and simulation. Our expertise spans the entire mission lifecycle, from conceptual design and digital twin development     to real-time spectrum operations and adaptive EW execution. Leveraging AI/ML-driven algorithms, cognitive signal processing, and high-fidelity simulation environments, we enable operators to visualize, predict, and control the electromagnetic battlespace with     unmatched precision. By integrating live RF assets with virtualized threat models, Durandal transforms complex spectrum challenges into decisive mission advantages for defense and national security customers."},
 
         ]},
 
@@ -950,7 +1000,13 @@ var spons25 = {
             "icon_w":750,
             "icon_h":512,
             "url":"https://seti.berkeley.edu/",
-            "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."}
+            "blurb":"Berkeley SETI Research Center is a world-leader in the search for extraterrestrial intelligence – the quest for a scientific answer to one of humanity’s oldest questions: Are we alone in the Universe? Housed in the Astronomy Department at the University of California, Berkeley, the team at BSRC leads the science program for the $100-million Breakthrough Listen project. Listen uses cutting-edge instrumentation at the world’s most powerful telescopes, gathering, analyzing, and archiving many petabytes of data per year in the search for artificial signals from beyond Earth. BSRC’s director, Dr. Andrew Siemion, is also Chair of SETI Research at the SETI Institute, and several members of the Berkeley science and engineering team are Visiting Scholars at the SETI Institute. A particular focus of these collaborations is the development of new capabilities on the Allen Telescope Array, including deeper integrations with GNU Radio."},
+            /* BSRC */
+            {"icon":"https://events.gnuradio.org/event/26/images/195-zero-retries.png",
+            "icon_w":750,
+            // "icon_h":512,
+            "url":"https://www.zeroretries.org/p/conference",
+            "blurb":"The inaugural Zero Retries Digital Conference (ZRDC) 2025 will be held in Everett, Washington, USA on Saturday, September 13, 2025. ZRDC 2025 is sponsored by the Zero Retries newsletter. ZRDC 2025 will showcase technological innovation in Amateur Radio as discussed in the Zero Retries newsletter. ZRDC 2025 builds on the rich history of significant Amateur Radio conferences in the Seattle, Washington metropolitan area that also showcased technological innovation in Amateur Radio, including Comm Academy, MicroHAMS Digital Conference, Valley Camp Summer Gathering, and the 1996 and 2013 TAPR Digital Communications Conferences (both of which are the first and second best attended DCCs).  ZRDC 2025 will be held in the same venue as the GNU Radio Conference 2025 - the Edward D. Hansen Conference Center in downtown Everett. GRCon 2025 will be held Monday September 8th through Friday, September 12th, 2025. While GRCon 2025 and ZRDC 2025 are being held consecutively, and at the same venue, the two events are independent of each other.  The manager of the Zero Retries Digital Conference is Tina Stroh KD7WSF."}
     
 
         ]},
@@ -965,14 +1021,37 @@ var spons25 = {
             "icon_w":600,
             // "icon_h":400,
             "url":"https://www.cs.washington.edu/people/faculty/joshua-r-smith/",
-            "blurb":"Joshua R. Smith is the Milton and Delia Zeutschel Professor, jointly appointed in the Allen School of Computer Science, and in the Department of Electrical and Computer Engineering at the University of Washington, where he leads the UW+Amazon Science Hub and the Sensor Systems Laboratory. His research focuses on inventing new sensor systems, devising new ways to power and communicate with them, and developing algorithms for using them. The research has applications in the domains of ubiquitous computing, robotics, medical devices and HCI. He is a co-founder with colleagues and former students of Jeeva Wireless, Wibotic, and Proprio. He is a Fellow of the IEEE and a Fellow of the National Academy of Inventors.  </br></br>Smith was formerly a Principal Engineer at Intel Research Seattle, where he led projects in robotics, wireless power and wireless sensing. At Intel, he founded the Wireless Resonant Energy Link (WERL) project, which demonstrated wireless transfer of tens of watts of power. He also began the Wireless Identification and Sensing Platform (WISP) project, which is a battery-free platform for sensing and computation. He completed his M.S. in 1995 and his Ph.D. in 1999 at the MIT Media Lab under Neil Gershenfeld. He earned his M.A. and B.A. with Honors in Physics and Theoretical Physics from the University of Cambridge and his B.A. in Computer Science and Philosophy from Williams College."},
+            "blurb":"<b>Tuesday, 9 September:</b> </br></br><b>Joshua R. Smith</b> is the Milton and Delia Zeutschel Professor, jointly appointed in the Allen School of Computer Science, and in the Department of Electrical and Computer Engineering at the University of Washington, where he leads the UW+Amazon Science Hub and the Sensor Systems Laboratory. His research focuses on inventing new sensor systems, devising new ways to power and communicate with them, and developing algorithms for using them. The research has applications in the domains of ubiquitous computing, robotics, medical devices and HCI. He is a co-founder with colleagues and former students of Jeeva Wireless, Wibotic, and Proprio. He is a Fellow of the IEEE and a Fellow of the National Academy of Inventors.  </br></br>Smith was formerly a Principal Engineer at Intel Research Seattle, where he led projects in robotics, wireless power and wireless sensing. At Intel, he founded the Wireless Resonant Energy Link (WERL) project, which demonstrated wireless transfer of tens of watts of power. He also began the Wireless Identification and Sensing Platform (WISP) project, which is a battery-free platform for sensing and computation. He completed his M.S. in 1995 and his Ph.D. in 1999 at the MIT Media Lab under Neil Gershenfeld. He earned his M.A. and B.A. with Honors in Physics and Theoretical Physics from the University of Cambridge and his B.A. in Computer Science and Philosophy from Williams College."},
+
+        /* Adam Anderson */
+        {"icon": "https://events.gnuradio.org/event/26/images/199-portrait.jpg",
+            "icon_w":600,
+            // "icon_h":400,
+            "url":"https://www.iarpa.gov/who-we-are/program-managers?pm=true&keyword=Anderson",
+            "blurb":"<b>Tuesday, 9 September:</b> </br></br><b>Adam L. Anderson</b> received the B.S. and M.S. degrees from Brigham Young University, Utah, USA, in 2002 and 2004, respectively, and the Ph.D. degree from the University of California at San Diego, California, USA, in 2008. Dr. Anderson worked in academia for almost a decade producing 50+ publications including in journals, conferences, and disclosures. He is the inventor of Deepmod, was previously a SETA at the Defense Advanced Research Projects Agency (DARPA) and is currently program manager for the Endless Generative Waveforms (End-Gen) program at the Intelligence Advanced Research Projects Activity (IARPA). Dr. Anderson was the winner of the 2014 DARPA Spectrum Challenge, recipient of the 2014 Leighton E. Sissom Award for Creativity and Innovation, and was awarded as a prize-winning Finalist in the 2019 DARPA Spectrum Collaboration Challenge. Dr. Anderson is married with eight children."},
+
+        /* Thomas Rondeau */
+        {"icon": "https://events.gnuradio.org/event/26/images/191-Rondeau_Thomas.jpg",
+            "icon_w":600,
+            // "icon_h":400,
+            "url":"https://www.defense.gov/About/Biographies/Biography/Article/3309927/principal-director-for-futureg/",
+            "blurb":"<b>Wednesday 10 September:</b> </br></br><b>Dr. Tom Rondeau</b> is the Principal Director for the FutureG Office for the US Department of Defense, serving in the Office of the Undersecretary of Defense for Research and Engineering (OUSD(R&E)). In this role, Dr. Rondeau is responsible for the research, funding, and execution of programs to advance warfighting capabilities using future-generation wireless technologies. Before assuming his role as Principal Director of the FutureG Office, Dr. Rondeau spent more than six years as a Defense Advanced Research Project Agency (DARPA) program manager, where he led efforts that challenged and advanced studies in a variety of warfighting domains, earning him the Distinguished Public Service Medal. Prior to joining DARPA, Dr. Rondeau led the GNU Radio project, consulted on wireless communications problem sets, and worked as a visiting researcher with the University of Pennsylvania and as an Adjunct with the IDA Center for Communications Research in Princeton, NJ. Dr. Rondeau holds a Ph.D. in electrical engineering from Virginia Tech, where his dissertation won the Council of Graduate Schools’ 2007 Outstanding Dissertation Award in math, science, and engineering."},
+
+
+        /* Bradley M. Kuhn */
+        {"icon": "https://events.gnuradio.org/event/26/images/196-bkuhn-photo-2017.jpg",
+            "icon_w":600,
+            // "icon_h":400,
+            "url":"https://www.defense.gov/About/Biographies/Biography/Article/3309927/principal-director-for-futureg/",
+            "blurb":"<b>Thursday 11 September:</b> </br></br><b>Bradley M. Kuhn</b> is the Policy Fellow and Hacker-in-Residence at Software Freedom Conservancy (SFC). Kuhn began his work in the software freedom movement as a volunteer in 1992, as an early adopter of Linux-based systems and contributor to various FOSS projects, including Perl. He worked during the 1990s as a system administrator and software developer for various companies, and taught AP Computer Science at Walnut Hills High School in Cincinnati. Kuhn’s non-profit career began in 2000, when he was hired by the Free Software Foundation (FSF). As FSF’s Executive Director from 2001–2005, Kuhn led FSF’s GPL enforcement, launched its Associate Member program, and invented the Affero GPL. Kuhn began as SFC’s primary volunteer from 2006–2010, and became its first staff person in 2011. Kuhn's work at SFC focuses on enforcement of the GPL agreements, FOSS licensing policy, and non-profit infrastructural solutions for FOSS. Kuhn holds a summa cum laude B.S. in Computer Science from from Loyola University in Maryland, and an M.S. in Computer Science from the University of Cincinnati. Kuhn’s Master’s thesis discussed methods for dynamic interoperability of Free Software programming languages. Kuhn received the Open Source Award in 2012, and the Award for the Advancement of Free Software in 2021 — both in recognition for his lifelong policy work on copyleft licensing and its enforcement."},
+
 
         /* Jesse Alexander */
         {"icon": "https://events.gnuradio.org/event/26/images/188-WB2IFS-in_shack_big.png",
             "icon_w":600,
             // "icon_h":400,
             "url":"https://www.linkedin.com/in/jessealexander/",
-            "blurb":"Jesse Alexander—Jesse has over 40 years of experience in informal STEM education, technical training, knowledge management, information architecture, technical content development, project management, wireless system design, secure knowledge systems management, and telecommunications systems design. He has designed curricula, documentation, user guides, embedded systems, and processes. He is a senior member of the Institute of Electrical and Electronic Engineers (IEEE), Radio Club of America Inc, American Radio Relay League, and the OMIK Amateur Radio Association. </br></br> An award-winning poet, maker, hacker, tinkerer, and volunteer emergency communicator (amateur radio call sign, WB2IFS). Mr. Alexander graduated Cum Laude and Tau Beta Pi with Bachelor of Science and Master of Engineering degrees in Electrical Engineering from Howard University, Washington, DC."},
+            "blurb":"<b>Friday, 12 September:</b> </br></br><b>Jesse Alexander</b> — Jesse has over 40 years of experience in informal STEM education, technical training, knowledge management, information architecture, technical content development, project management, wireless system design, secure knowledge systems management, and telecommunications systems design. He has designed curricula, documentation, user guides, embedded systems, and processes. He is a senior member of the Institute of Electrical and Electronic Engineers (IEEE), Radio Club of America Inc, American Radio Relay League, and the OMIK Amateur Radio Association. </br></br> An award-winning poet, maker, hacker, tinkerer, and volunteer emergency communicator (amateur radio call sign, WB2IFS). Mr. Alexander graduated Cum Laude and Tau Beta Pi with Bachelor of Science and Master of Engineering degrees in Electrical Engineering from Howard University, Washington, DC."},
         ]},        
 
 
@@ -984,7 +1063,7 @@ var spons25 = {
             "icon_w":600,
             // "icon_h":400,
             "url":"https://www.linkedin.com/in/paulgclark1/",
-            "blurb":"Paul Clark is the owner and chief engineer at Factoria Labs, an organization dedicated to the propagation of software defined radio. He has experience ranging from chip design to firmware development to RF reverse engineering. Paul teaches classes and workshops on SDR and is a 4-time presenter at Black Hat Arsenal Labs. He's also written four SDR books, the latest being \"Practical SDR\", published by No Starch Press and releasing May 2025."},
+            "blurb":"<b>Paul Clark</b> is the owner and chief engineer at Factoria Labs, an organization dedicated to the propagation of software defined radio. He has experience ranging from chip design to firmware development to RF reverse engineering. Paul teaches classes and workshops on SDR and is a 4-time presenter at Black Hat Arsenal Labs. He's also written four SDR books, the latest being \"Practical SDR\", published by No Starch Press and releasing May 2025."},
     
 
         /* Dan Boschen */
@@ -992,7 +1071,7 @@ var spons25 = {
             "icon_w":320,
             "icon_h":400,
             "url":"https://www.linkedin.com/in/danboschen/",
-            "blurb":"Dan Boschen has an MSEE degree in Communications and Signal Processing from Northeastern University, with over 25 years of experience in system and hardware design for radio transceivers and modems. He has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by Analog Devices) designing and developing transceiver hardware from baseband to antenna for wireless communications systems, and has taught popular courses on DSP for over 15 years. Dan is a contributor to <a href='https://dsprelated.com/'>DSPRelated.com</a> and <a href='https://dsp.stackexchange.com/'>Signal Processing Stack Exchange</a>, and is currently at Microchip leading design efforts for advanced frequency and time solutions."},
+            "blurb":"<b>Dan Boschen</b> has an MSEE degree in Communications and Signal Processing from Northeastern University, with over 25 years of experience in system and hardware design for radio transceivers and modems. He has held various positions at Signal Technologies (acquired by Crane), MITRE, Airvana (acquired by CommScope) and Hittite Microwave (acquired by Analog Devices) designing and developing transceiver hardware from baseband to antenna for wireless communications systems, and has taught popular courses on DSP for over 15 years. Dan is a contributor to <a href='https://dsprelated.com/'>DSPRelated.com</a> and <a href='https://dsp.stackexchange.com/'>Signal Processing Stack Exchange</a>, and is currently at Microchip leading design efforts for advanced frequency and time solutions."},
     
 
         ]}
